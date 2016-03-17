@@ -1,0 +1,7141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE TEI SYSTEM 'http://www.v-alexeev.ru/scat.dtd' [ <!ENTITY yer-overline '<g ref="#yer-overline"/>' >
+<!ENTITY i8-overline '<g ref="#i8-overline"/>' >
+<!ENTITY i10-overline '<g ref="#i10-overline"/>' >
+<!ENTITY omega-overline '<g ref="#omega-overline"/>' >
+<!ENTITY yeri-overline '<g ref="#yeri-overline"/>' >
+<!ENTITY ou-overline '<g ref="#ou-overline"/>' >
+<!ENTITY u-overline '<g ref="#u-overline"/>' >]>
+
+<TEI>
+	<teiHeader type='text'>
+		<fileDesc>
+			<titleStmt>
+				<title>Житие преподобного Дионисия Глушицкого</title> 
+				<respStmt>
+					<resp>составитель</resp> 
+					<name>И. В. Азарова</name> 
+				</respStmt>
+				<respStmt>
+					<resp>составитель</resp> 
+					<name>Е. Л. Алексеева</name> 
+				</respStmt>
+				<respStmt>
+					<resp>составитель</resp> 
+					<name>Л. А. Захарова</name> 
+				</respStmt>
+				<respStmt>
+					<resp>составитель</resp> 
+					<name>К. Н. Лемешев</name> 
+				</respStmt>
+				<respStmt>
+					<resp>конвертирование в формат XML-TEI, валидация</resp> 
+					<name>А. С. Гребеньков</name> 
+				</respStmt>
+			</titleStmt>
+
+			<publicationStmt>
+				<publisher>Издательство С.-Петербургского университета</publisher> 
+				<pubPlace>СПб</pubPlace> 
+				<date>2003</date> 
+				<idno type="ISBN">5-288-03308-0</idno> 
+				<availability><p>Copyright 2003, И. В. Азарова, Е. Л. Алексеева, Л. А. Захарова, К. Н. Лемешев</p></availability>
+				<!-- <p>Жития Димитрия Прилуцкого, Дионисия Глущицкого и Григория Пельшемского</p> -->
+			</publicationStmt>
+
+
+			<seriesStmt>
+				<title level="s">Памятники русской агиографической литературы</title> 
+				<respStmt>
+					<resp>редактор</resp> 
+					<name>А. С. Герд</name> 
+				</respStmt>
+				<respStmt>
+					<resp>составитель</resp> 
+					<name>И. В. Азарова</name> 
+				</respStmt>
+				<respStmt>
+					<resp>составитель</resp> 
+					<name>Е. Л. Алексеева</name> 
+				</respStmt>
+				<respStmt>
+					<resp>составитель</resp> 
+					<name>Л. А. Захарова</name> 
+				</respStmt>
+				<respStmt>
+					<resp>составитель</resp> 
+					<name>К. Н. Лемешев</name> 
+				</respStmt>
+			</seriesStmt>
+
+			
+			<sourceDesc>
+				<bibl>РНБ, Софийское собрание, N438, XVI в.</bibl> 
+			</sourceDesc>
+		</fileDesc>
+		
+		<encodingDesc>
+				<charDecl>
+					<char xml:id="i10-overline">
+						<charName>COMBINING CYRILLIC LETTER YI</charName>
+						<charProp>
+							<unicodeName>general-category</unicodeName>
+							<value>Mn</value>
+						</charProp>
+						<charProp>
+							<unicodeName>directional-category</unicodeName>
+							<value>NSM</value>
+						</charProp>
+						<charProp>
+							<unicodeName>canonical-combining-class</unicodeName>
+							<value>230</value>
+						</charProp>
+						<charProp>
+							<localName>entity</localName>
+							<value>i10-overline</value>
+						</charProp>
+						<mapping type="simplified">̏</mapping>
+						<mapping type="PUA">U+E050</mapping>
+					</char>
+					<char xml:id="i8-overline">
+						<charName>COMBINING CYRILLIC LETTER I</charName>
+						<charProp>
+							<unicodeName>general-category</unicodeName>
+							<value>Mn</value>
+						</charProp>
+						<charProp>
+							<unicodeName>directional-category</unicodeName>
+							<value>NSM</value>
+						</charProp>
+						<charProp>
+							<unicodeName>canonical-combining-class</unicodeName>
+							<value>230</value>
+						</charProp>
+						<charProp>
+							<localName>entity</localName>
+							<value>i8-overline</value>
+						</charProp>
+						<mapping type="simplified">̏</mapping>
+						<mapping type="PUA">U+E042</mapping>
+					</char>
+					<char xml:id="omega-overline">
+						<charName>COMBINING CYRILLIC LETTER OMEGA</charName>
+						<charProp>
+							<unicodeName>general-category</unicodeName>
+							<value>Mn</value>
+						</charProp>
+						<charProp>
+							<unicodeName>directional-category</unicodeName>
+							<value>NSM</value>
+						</charProp>
+						<charProp>
+							<unicodeName>canonical-combining-class</unicodeName>
+							<value>230</value>
+						</charProp>
+						<charProp>
+							<localName>entity</localName>
+							<value>omega-overline</value>
+						</charProp>
+						<mapping type="simplified">ⷪ</mapping>
+						<mapping type="PUA">U+E052</mapping>
+					</char>
+					<char xml:id="yeri-overline">
+						<charName>COMBINING CYRILLIC LETTER YERU</charName>
+						<charProp>
+							<unicodeName>general-category</unicodeName>
+							<value>Mn</value>
+						</charProp>
+						<charProp>
+							<unicodeName>directional-category</unicodeName>
+							<value>NSM</value>
+						</charProp>
+						<charProp>
+							<unicodeName>canonical-combining-class</unicodeName>
+							<value>230</value>
+						</charProp>
+						<charProp>
+							<localName>entity</localName>
+							<value>yeri-overline</value>
+						</charProp>
+						<mapping type="PUA">U+E04D</mapping>
+					</char>
+					<char xml:id="yer-overline">
+						<charName>COMBINING CYRILLIC LETTER SOFT SIGN</charName>
+						<charProp>
+							<unicodeName>general-category</unicodeName>
+							<value>Mn</value>
+						</charProp>
+						<charProp>
+							<unicodeName>directional-category</unicodeName>
+							<value>NSM</value>
+						</charProp>
+						<charProp>
+							<unicodeName>canonical-combining-class</unicodeName>
+							<value>230</value>
+						</charProp>
+						<charProp>
+							<localName>entity</localName>
+							<value>yer-overline</value>
+						</charProp>
+						<mapping type="PUA">U+E051</mapping>
+					</char>
+					<char xml:id="u-overline">
+						<charName>COMBINING CYRILLIC LETTER U</charName>
+						<charProp>
+							<unicodeName>general-category</unicodeName>
+							<value>Mn</value>
+						</charProp>
+						<charProp>
+							<unicodeName>directional-category</unicodeName>
+							<value>NSM</value>
+						</charProp>
+						<charProp>
+							<unicodeName>canonical-combining-class</unicodeName>
+							<value>230</value>
+						</charProp>
+						<charProp>
+							<localName>entity</localName>
+							<value>u-overline</value>
+						</charProp>
+						<mapping type="PUA">U+E049</mapping>
+					</char>
+					<char xml:id="ou-overline">
+						<charName>COMBINING CYRILLIC LETTER UK</charName>
+						<charProp>
+							<unicodeName>general-category</unicodeName>
+							<value>Mn</value>
+						</charProp>
+						<charProp>
+							<unicodeName>directional-category</unicodeName>
+							<value>NSM</value>
+						</charProp>
+						<charProp>
+							<unicodeName>canonical-combining-class</unicodeName>
+							<value>230</value>
+						</charProp>
+						<charProp>
+							<localName>entity</localName>
+							<value>ou-overline</value>
+						</charProp>
+						<mapping type="PUA">U+E04A</mapping>
+					</char>
+				</charDecl>
+			</encodingDesc>
+
+
+	</teiHeader>
+
+<text>
+		  <div1 type='part' n='1'>
+			<div2 type='page' n='1'>
+				<div3 type='front'>
+					<div4 type='col' n='1'>
+						<l n='1'>
+						  </l>
+					</div4>
+				</div3>
+			</div2>
+			<div2 type='page' n='63'>
+				<div3 type='front'>
+					<div4 type='col' n='1'>
+						<l n='1'>
+<w xml:id='DGlush.1'>
+	<orig>слово</orig>
+	<reg>СЛОВО</reg>
+	<src>СЛОВО</src>
+</w>
+<w xml:id='DGlush.2'>
+	<orig>похвално</orig>
+	<reg>ПОХВАЛНО</reg>
+	<src>ПОХВАЛНО</src>
+</w>
+<w xml:id='DGlush.3'>
+	<orig>прпⷣбномꙋ</orig>
+	<reg>ПРП(Д)БНОМУ</reg>
+	<src>ПРП(Д)БНОМD</src>
+</w>
+<w xml:id='DGlush.4'>
+	<orig>оц҃ѫ</orig>
+	<reg>ОЦУ#</reg>
+	<src>ОЦG#</src>
+</w>
+<w xml:id='DGlush.5'>
+	<orig>на<lb/>шемѹ</orig>
+	<reg>НАШЕМУ</reg>
+	<src>НА&amp;ШЕМU</src>
+</w>
+						  </l>
+						<l n='2'>
+<name>
+<w xml:id='DGlush.6'>
+	<orig>дvонисїю</orig>
+	<reg>*ДVОНИСИЮ</reg>
+	<src>*ДVОНИСIЮ</src>
+</w>
+</name>
+<c type='punctuation' xml:id='DGlush.7'>,</c>
+<w xml:id='DGlush.8'>
+	<orig>бл҇ⷭви</orig>
+	<reg>БЛ(с)ВИ</reg>
+	<src>БЛ(с)ВИ</src>
+</w>
+<w xml:id='DGlush.9'>
+	<orig>ѡ҇ⷱ</orig>
+	<reg>О(ч)</reg>
+	<src>W(ч)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.10'>:</c>
+						  </l>
+						<l n='3'>
+<w xml:id='DGlush.11'>
+	<orig>молю</orig>
+	<reg>МОЛЮ</reg>
+	<src>МОЛЮ</src>
+</w>
+<w xml:id='DGlush.12'>
+	<orig>же</orig>
+	<reg>ЖЕ</reg>
+	<src>ЖЕ</src>
+</w>
+<w xml:id='DGlush.13'>
+	<orig>ѹбѡ</orig>
+	<reg>УБО</reg>
+	<src>UБW</src>
+</w>
+<w xml:id='DGlush.14'>
+	<orig>нн҃ѣ</orig>
+	<reg>НН+#</reg>
+	<src>НН+#</src>
+</w>
+<w xml:id='DGlush.15'>
+	<orig>ѡц҃ы</orig>
+	<reg>ОЦЫ#</reg>
+	<src>WЦЫ#</src>
+</w>
+<w xml:id='DGlush.16'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.17'>
+	<orig>бра҇ⷮа</orig>
+	<reg>БРА(т)А</reg>
+	<src>БРА(т)А</src>
+</w>
+<w xml:id='DGlush.18'>
+	<orig>цр҃квнаа</orig>
+	<reg>ЦРКВНАА#</reg>
+	<src>ЦРКВНАА#</src>
+</w>
+						  </l>
+						<l n='4'>
+<w xml:id='DGlush.19'>
+	<orig>чѧда</orig>
+	<reg>ЧЯДА</reg>
+	<src>ЧRДА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.20'>.</c>
+<w xml:id='DGlush.21'>
+	<orig>почитающаа</orig>
+	<reg>ПОЧИТАЮЩАА</reg>
+	<src>ПОЧИТАЮЩАА</src>
+</w>
+<w xml:id='DGlush.22'>
+	<orig>слаⷣцѣ</orig>
+	<reg>СЛА(Д)Ц+</reg>
+	<src>СЛА(Д)Ц+</src>
+</w>
+<w xml:id='DGlush.23'>
+	<orig>послꙋша<lb/>ти</orig>
+	<reg>ПОСЛУШАТИ</reg>
+	<src>ПОСЛDША&amp;ТИ</src>
+</w>
+						  </l>
+						<l n='5'>
+<c type='punctuation' xml:id='DGlush.24'>,</c>
+<w xml:id='DGlush.25'>
+	<orig>вси</orig>
+	<reg>ВСИ</reg>
+	<src>ВСИ</src>
+</w>
+<w xml:id='DGlush.26'>
+	<orig>с</orig>
+	<reg>С</reg>
+	<src>С</src>
+</w>
+<w xml:id='DGlush.27'>
+	<orig>раⷣⷪстїю</orig>
+	<reg>РА(ДО)СТИЮ</reg>
+	<src>РА(ДО)СТIЮ</src>
+</w>
+<w xml:id='DGlush.28'>
+	<orig>притецеⷨ</orig>
+	<reg>ПРИТЕЦЕ(М)</reg>
+	<src>ПРИТЕЦЕ(М)</src>
+</w>
+<w xml:id='DGlush.29'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.30'>
+	<orig>к</orig>
+	<reg>К</reg>
+	<src>К</src>
+</w>
+<w xml:id='DGlush.31'>
+	<orig>торь<lb/>жⷣьствѹ</orig>
+	<reg>ТОРЬЖ(Д)ЬСТВУ</reg>
+	<src>ТОРЬ&amp;Ж(Д)ЬСТВU</src>
+</w>
+						  </l>
+						<l n='6'>
+<w xml:id='DGlush.32'>
+	<orig>дх҃овномѹ</orig>
+	<reg>ДХОВНОМУ#</reg>
+	<src>ДХОВНОМU#</src>
+</w>
+<w xml:id='DGlush.33'>
+	<orig>веселїю</orig>
+	<reg>ВЕСЕЛИЮ</reg>
+	<src>ВЕСЕЛIЮ</src>
+</w>
+<w xml:id='DGlush.34'>
+	<orig>нн҃ѣ</orig>
+	<reg>НН+#</reg>
+	<src>НН+#</src>
+</w>
+<w xml:id='DGlush.35'>
+	<orig>съ<lb/>звавшѹ</orig>
+	<reg>СЪЗВАВШУ</reg>
+	<src>СЪ&amp;ЗВАВШU</src>
+</w>
+						  </l>
+						<l n='7'>
+<c type='punctuation' xml:id='DGlush.36'>.</c>
+<w xml:id='DGlush.37'>
+	<orig>ꙗкѡ</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКW</src>
+</w>
+<w xml:id='DGlush.38'>
+	<orig>поⷣⷪбнѫ</orig>
+	<reg>ПО(ДО)БНУ</reg>
+	<src>ПО(ДО)БНG</src>
+</w>
+<w xml:id='DGlush.39'>
+	<orig>преⷣложиⷯ</orig>
+	<reg>ПРЕ(Д)ЛОЖИ(Х)</reg>
+	<src>ПРЕ(Д)ЛОЖИ(Х)</src>
+</w>
+<w xml:id='DGlush.40'>
+	<orig>трапе<lb/>зѹ</orig>
+	<reg>ТРАПЕЗУ</reg>
+	<src>ТРАПЕ&amp;ЗU</src>
+</w>
+						  </l>
+						<l n='8'>
+<w xml:id='DGlush.41'>
+	<orig>полнѹ</orig>
+	<reg>ПОЛНУ</reg>
+	<src>ПОЛНU</src>
+</w>
+<w xml:id='DGlush.42'>
+	<orig>сꙋщꙋ</orig>
+	<reg>СУЩУ</reg>
+	<src>СDЩD</src>
+</w>
+<w xml:id='DGlush.43'>
+	<orig>аггл҇ⷭкыѧ</orig>
+	<reg>АГГЛ(с)КЫЯ</reg>
+	<src>АГГЛ(с)КЫR</src>
+</w>
+<w xml:id='DGlush.44'>
+	<orig>пища</orig>
+	<reg>ПИЩА</reg>
+	<src>ПИЩА</src>
+</w>
+<w xml:id='DGlush.45'>
+	<orig>въ</orig>
+	<reg>ВЪ</reg>
+	<src>ВЪ</src>
+</w>
+<w xml:id='DGlush.46'>
+	<orig>свѣ<lb/>тлѣи</orig>
+	<reg>СВ+ТЛ+И</reg>
+	<src>СВ+&amp;ТЛ+И</src>
+</w>
+						  </l>
+						<l n='9'>
+<w xml:id='DGlush.47'>
+	<orig>се&i8-overline;</orig>
+	<reg>СЕ(И)</reg>
+	<src>СЕ(И)</src>
+</w>
+<w xml:id='DGlush.48'>
+	<orig>цр҃кви</orig>
+	<reg>ЦРКВИ#</reg>
+	<src>ЦРКВИ#</src>
+</w>
+<w xml:id='DGlush.49'>
+	<orig>раⷣⷪстно</orig>
+	<reg>РА(ДО)СТНО</reg>
+	<src>РА(ДО)СТНО</src>
+</w>
+<w xml:id='DGlush.50'>
+	<orig>прїемлюще</orig>
+	<reg>ПРИЕМЛЮЩЕ</reg>
+	<src>ПРIЕМЛЮЩЕ</src>
+</w>
+<w xml:id='DGlush.51'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.52'>
+	<orig>лю<lb/>бовїю</orig>
+	<reg>ЛЮБОВИЮ</reg>
+	<src>ЛЮ&amp;БОВIЮ</src>
+</w>
+						  </l>
+						<l n='10'>
+<w xml:id='DGlush.53'>
+	<orig>веселѧще҇ⷭ</orig>
+	<reg>ВЕСЕЛЯЩЕ(с)</reg>
+	<src>ВЕСЕЛRЩЕ(с)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.54'>.</c>
+<w xml:id='DGlush.55'>
+	<orig>се</orig>
+	<reg>СЕ</reg>
+	<src>СЕ</src>
+</w>
+<w xml:id='DGlush.56'>
+	<orig>хлѣби</orig>
+	<reg>ХЛ+БИ</reg>
+	<src>ХЛ+БИ</src>
+</w>
+<w xml:id='DGlush.57'>
+	<orig>неистощи<lb/>мыа</orig>
+	<reg>НЕИСТОЩИМЫА</reg>
+	<src>НЕИСТОЩИ&amp;МЫА</src>
+</w>
+						  </l>
+						<l n='11'>
+<w xml:id='DGlush.58'>
+	<orig>пища</orig>
+	<reg>ПИЩА</reg>
+	<src>ПИЩА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.59'>.</c>
+<w xml:id='DGlush.60'>
+	<orig>се</orig>
+	<reg>СЕ</reg>
+	<src>СЕ</src>
+</w>
+<w xml:id='DGlush.61'>
+	<orig>цѣломⷣренаа</orig>
+	<reg>Ц+ЛОМ(Д)РЕНАА</reg>
+	<src>Ц+ЛОМ(Д)РЕНАА</src>
+</w>
+<w xml:id='DGlush.62'>
+	<orig>пшеница</orig>
+	<reg>ПШЕНИЦА</reg>
+	<src>ПШЕНИЦА</src>
+</w>
+						  </l>
+						<l n='12'>
+<w xml:id='DGlush.63'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.64'>
+	<orig>вино</orig>
+	<reg>ВИНО</reg>
+	<src>ВИНО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.65'>.</c>
+<w xml:id='DGlush.66'>
+	<orig>дш҃а</orig>
+	<reg>ДША#</reg>
+	<src>ДША#</src>
+</w>
+<w xml:id='DGlush.67'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.68'>
+	<orig>телеса</orig>
+	<reg>ТЕЛЕСА</reg>
+	<src>ТЕЛЕСА</src>
+</w>
+<w xml:id='DGlush.69'>
+	<orig>веселѧще</orig>
+	<reg>ВЕСЕЛЯЩЕ</reg>
+	<src>ВЕСЕЛRЩЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.70'>.</c>
+<w xml:id='DGlush.71'>
+	<orig>се</orig>
+	<reg>СЕ</reg>
+	<src>СЕ</src>
+</w>
+<w xml:id='DGlush.72'>
+	<orig>ѹ<lb/>бѡ</orig>
+	<reg>УБО</reg>
+	<src>U&amp;БW</src>
+</w>
+						  </l>
+						<l n='13'>
+<w xml:id='DGlush.73'>
+	<orig>нн҃ѣ</orig>
+	<reg>НН+#</reg>
+	<src>НН+#</src>
+</w>
+<w xml:id='DGlush.74'>
+	<orig>прпⷣбнаго</orig>
+	<reg>ПРП(Д)БНАГО</reg>
+	<src>ПРП(Д)БНАГО</src>
+</w>
+<w xml:id='DGlush.75'>
+	<orig>оц҃а</orig>
+	<reg>ОЦА#</reg>
+	<src>ОЦА#</src>
+</w>
+<w xml:id='DGlush.76'>
+	<orig>ново</orig>
+	<reg>НОВО</reg>
+	<src>НОВО</src>
+</w>
+<w xml:id='DGlush.77'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.78'>
+	<orig>нашиⷯ</orig>
+	<reg>НАШИ(Х)</reg>
+	<src>НАШИ(Х)</src>
+</w>
+<w xml:id='DGlush.79'>
+	<orig>родѣⷯ</orig>
+	<reg>РОД+(Х)</reg>
+	<src>РОД+(Х)</src>
+</w>
+						  </l>
+						<l n='14'>
+<w xml:id='DGlush.80'>
+	<orig>просїавшего</orig>
+	<reg>ПРОСИАВШЕГО</reg>
+	<src>ПРОСIАВШЕГО</src>
+</w>
+<w xml:id='DGlush.81'>
+	<orig>сказати</orig>
+	<reg>СКАЗАТИ</reg>
+	<src>СКАЗАТИ</src>
+</w>
+<w xml:id='DGlush.82'>
+	<orig>возможеⷨ</orig>
+	<reg>ВОЗМОЖЕ(М)</reg>
+	<src>ВОЗМОЖЕ(М)</src>
+</w>
+<w xml:id='DGlush.83'>
+	<orig>бодре<lb/>но</orig>
+	<reg>БОДРЕНО</reg>
+	<src>БОДРЕ&amp;НО</src>
+</w>
+						  </l>
+						<l n='15'>
+<c type='punctuation' xml:id='DGlush.84'>.</c>
+<w xml:id='DGlush.85'>
+	<orig>тѣмже</orig>
+	<reg>Т+МЖЕ</reg>
+	<src>Т+МЖЕ</src>
+</w>
+<w xml:id='DGlush.86'>
+	<orig>прїидѣте</orig>
+	<reg>ПРИИД+ТЕ</reg>
+	<src>ПРIИД+ТЕ</src>
+</w>
+<w xml:id='DGlush.87'>
+	<orig>ꙗко</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКО</src>
+</w>
+<w xml:id='DGlush.88'>
+	<orig>да</orig>
+	<reg>ДА</reg>
+	<src>ДА</src>
+</w>
+<w xml:id='DGlush.89'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.90'>
+	<orig>наслаⷣ&i8-overline;<lb/>мсѧ</orig>
+	<reg>НАСЛА(ДИ)МСЯ</reg>
+	<src>НАСЛА(ДИ)&amp;МСR</src>
+</w>
+						  </l>
+						<l n='16'>
+<w xml:id='DGlush.91'>
+	<orig>добраго</orig>
+	<reg>ДОБРАГО</reg>
+	<src>ДОБРАГО</src>
+</w>
+<w xml:id='DGlush.92'>
+	<orig>нн҃ѣшнѧго</orig>
+	<reg>НН+ШНЯГО#</reg>
+	<src>НН+ШНRГО#</src>
+</w>
+<w xml:id='DGlush.93'>
+	<orig>торжⷣьства</orig>
+	<reg>ТОРЖ(Д)ЬСТВА</reg>
+	<src>ТОРЖ(Д)ЬСТВА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.94'>.</c>
+						  </l>
+						<l n='17'>
+<w xml:id='DGlush.95'>
+	<orig>ѹч҃ници</orig>
+	<reg>УЧНИЦИ#</reg>
+	<src>UЧНИЦИ#</src>
+</w>
+<w xml:id='DGlush.96'>
+	<orig>ꙗко</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКО</src>
+</w>
+<w xml:id='DGlush.97'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.98'>
+	<orig>ѹч҃тлю</orig>
+	<reg>УЧТЛЮ#</reg>
+	<src>UЧТЛЮ#</src>
+</w>
+<w xml:id='DGlush.99'>
+	<orig>достоинѹю</orig>
+	<reg>ДОСТОИНУЮ</reg>
+	<src>ДОСТОИНUЮ</src>
+</w>
+						  </l>
+						<l n='18'>
+<w xml:id='DGlush.100'>
+	<orig>честь</orig>
+	<reg>ЧЕСТЬ</reg>
+	<src>ЧЕСТЬ</src>
+</w>
+<w xml:id='DGlush.101'>
+	<orig>възⷣающе</orig>
+	<reg>ВЪЗ(Д)АЮЩЕ</reg>
+	<src>ВЪЗ(Д)АЮЩЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.102'>.</c>
+<w xml:id='DGlush.103'>
+	<orig>чѧда</orig>
+	<reg>ЧЯДА</reg>
+	<src>ЧRДА</src>
+</w>
+<w xml:id='DGlush.104'>
+	<orig>ꙗко</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКО</src>
+</w>
+<w xml:id='DGlush.105'>
+	<orig>ѡц҃а</orig>
+	<reg>ОЦА#</reg>
+	<src>WЦА#</src>
+</w>
+<w xml:id='DGlush.106'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.107'>
+	<orig>съ<lb/>ставльше</orig>
+	<reg>СЪСТАВЛЬШЕ</reg>
+	<src>СЪ&amp;СТАВЛЬШЕ</src>
+</w>
+						  </l>
+						<l n='19'>
+<w xml:id='DGlush.108'>
+	<orig>празⷣникъ</orig>
+	<reg>ПРАЗ(Д)НИКЪ</reg>
+	<src>ПРАЗ(Д)НИКЪ</src>
+</w>
+<w xml:id='DGlush.109'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.110'>
+	<orig>торжⷣьство</orig>
+	<reg>ТОРЖ(Д)ЬСТВО</reg>
+	<src>ТОРЖ(Д)ЬСТВО</src>
+</w>
+						  </l>
+						<l n='20'>
+<w xml:id='DGlush.111'>
+	<orig>свѣтло</orig>
+	<reg>СВ+ТЛО</reg>
+	<src>СВ+ТЛО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.112'>.</c>
+<w xml:id='DGlush.113'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.114'>
+	<orig>ꙗко</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКО</src>
+</w>
+<w xml:id='DGlush.115'>
+	<orig>оного</orig>
+	<reg>ОНОГО</reg>
+	<src>ОНОГО</src>
+</w>
+<w xml:id='DGlush.116'>
+	<orig>имꙋще</orig>
+	<reg>ИМУЩЕ</reg>
+	<src>ИМDЩЕ</src>
+</w>
+<w xml:id='DGlush.117'>
+	<orig>похвали<pb/>ти</orig>
+	<reg>ПОХВАЛИТИ</reg>
+	<src>ПОХВАЛИZ -63 ТИ</src>
+</w>
+						  </l>
+					</div4>
+				</div3>
+			</div2>
+			<div2 type='page' n='63'>
+				<div3 type='back'>
+					<div4 type='col' n='1'>
+						<l n='1'>
+<c type='punctuation' xml:id='DGlush.118'>.</c>
+<w xml:id='DGlush.119'>
+	<orig>похвала</orig>
+	<reg>ПОХВАЛА</reg>
+	<src>ПОХВАЛА</src>
+</w>
+<w xml:id='DGlush.120'>
+	<orig>бо</orig>
+	<reg>БО</reg>
+	<src>БО</src>
+</w>
+<w xml:id='DGlush.121'>
+	<orig>правеⷣникꙋ</orig>
+	<reg>ПРАВЕ(Д)НИКУ</reg>
+	<src>ПРАВЕ(Д)НИКD</src>
+</w>
+<w xml:id='DGlush.122'>
+	<orig>ѿ</orig>
+	<reg>О(Т)</reg>
+	<src>W(Т)</src>
+</w>
+<w xml:id='DGlush.123'>
+	<orig>га҃</orig>
+	<reg>ГА#</reg>
+	<src>ГА#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.124'>.</c>
+<w xml:id='DGlush.125'>
+	<orig>но</orig>
+	<reg>НО</reg>
+	<src>НО</src>
+</w>
+<w xml:id='DGlush.126'>
+	<orig>дре<lb/>вниⷯ</orig>
+	<reg>ДРЕВНИ(Х)</reg>
+	<src>ДРЕ&amp;ВНИ(Х)</src>
+</w>
+						  </l>
+						<l n='2'>
+<w xml:id='DGlush.127'>
+	<orig>изрѧⷣныⷯ</orig>
+	<reg>ИЗРЯ(Д)НЫ(Х)</reg>
+	<src>ИЗРR(Д)НЫ(Х)</src>
+</w>
+<w xml:id='DGlush.128'>
+	<orig>мѹжїи</orig>
+	<reg>МУЖИИ</reg>
+	<src>МUЖIИ</src>
+</w>
+<w xml:id='DGlush.129'>
+	<orig>житїа</orig>
+	<reg>ЖИТИА</reg>
+	<src>ЖИТIА</src>
+</w>
+<w xml:id='DGlush.130'>
+	<orig>потребно</orig>
+	<reg>ПОТРЕБНО</reg>
+	<src>ПОТРЕБНО</src>
+</w>
+						  </l>
+						<l n='3'>
+<w xml:id='DGlush.131'>
+	<orig>бѧхѹ</orig>
+	<reg>БЯХУ</reg>
+	<src>БRХU</src>
+</w>
+<w xml:id='DGlush.132'>
+	<orig>писати</orig>
+	<reg>ПИСАТИ</reg>
+	<src>ПИСАТИ</src>
+</w>
+<w xml:id='DGlush.133'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.134'>
+	<orig>ѕѣло</orig>
+	<reg>З+ЛО</reg>
+	<src>S+ЛО</src>
+</w>
+<w xml:id='DGlush.135'>
+	<orig>желаннѡ</orig>
+	<reg>ЖЕЛАННО</reg>
+	<src>ЖЕЛАННW</src>
+</w>
+<c type='punctuation' xml:id='DGlush.136'>.</c>
+<w xml:id='DGlush.137'>
+	<orig>житїа</orig>
+	<reg>ЖИТИА</reg>
+	<src>ЖИТIА</src>
+</w>
+						  </l>
+						<l n='4'>
+<w xml:id='DGlush.138'>
+	<orig>ихъ</orig>
+	<reg>ИХЪ</reg>
+	<src>ИХЪ</src>
+</w>
+<w xml:id='DGlush.139'>
+	<orig>зрѣти</orig>
+	<reg>ЗР+ТИ</reg>
+	<src>ЗР+ТИ</src>
+</w>
+<w xml:id='DGlush.140'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.141'>
+	<orig>прочитати</orig>
+	<reg>ПРОЧИТАТИ</reg>
+	<src>ПРОЧИТАТИ</src>
+</w>
+<w xml:id='DGlush.142'>
+	<orig>чл҃кѡⷨ</orig>
+	<reg>ЧЛКО(М)#</reg>
+	<src>ЧЛКW(М)#</src>
+</w>
+<w xml:id='DGlush.143'>
+	<orig>ползы</orig>
+	<reg>ПОЛЗЫ</reg>
+	<src>ПОЛЗЫ</src>
+</w>
+						  </l>
+						<l n='5'>
+<w xml:id='DGlush.144'>
+	<orig>раⷣ&i8-overline;</orig>
+	<reg>РА(ДИ)</reg>
+	<src>РА(ДИ)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.145'>.</c>
+<w xml:id='DGlush.146'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.147'>
+	<orig>себѣ</orig>
+	<reg>СЕБ+</reg>
+	<src>СЕБ+</src>
+</w>
+<w xml:id='DGlush.148'>
+	<orig>зазриⷨ</orig>
+	<reg>ЗАЗРИ(М)</reg>
+	<src>ЗАЗРИ(М)</src>
+</w>
+<w xml:id='DGlush.149'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.150'>
+	<orig>съвѣстїю</orig>
+	<reg>СЪВ+СТИЮ</reg>
+	<src>СЪВ+СТIЮ</src>
+</w>
+<w xml:id='DGlush.151'>
+	<orig>осꙋдимсѧ</orig>
+	<reg>ОСУДИМСЯ</reg>
+	<src>ОСDДИМСR</src>
+</w>
+<c type='punctuation' xml:id='DGlush.152'>.</c>
+						  </l>
+						<l n='6'>
+<w xml:id='DGlush.153'>
+	<orig>да</orig>
+	<reg>ДА</reg>
+	<src>ДА</src>
+</w>
+<w xml:id='DGlush.154'>
+	<orig>възможе҇ⷮ</orig>
+	<reg>ВЪЗМОЖЕ(т)</reg>
+	<src>ВЪЗМОЖЕ(т)</src>
+</w>
+<w xml:id='DGlush.155'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.156'>
+	<orig>невѣжⷣа</orig>
+	<reg>НЕВ+Ж(Д)А</reg>
+	<src>НЕВ+Ж(Д)А</src>
+</w>
+<w xml:id='DGlush.157'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.158'>
+	<orig>ненавыкыи</orig>
+	<reg>НЕНАВЫКЫИ</reg>
+	<src>НЕНАВЫКЫИ</src>
+</w>
+<w xml:id='DGlush.159'>
+	<orig>кни<lb/>гамъ</orig>
+	<reg>КНИГАМЪ</reg>
+	<src>КНИ&amp;ГАМЪ</src>
+</w>
+						  </l>
+						<l n='7'>
+<w xml:id='DGlush.160'>
+	<orig>о</orig>
+	<reg>О</reg>
+	<src>О</src>
+</w>
+<w xml:id='DGlush.161'>
+	<orig>гл҃емыⷯ</orig>
+	<reg>ГЛЕМЫ(Х)#</reg>
+	<src>ГЛЕМЫ(Х)#</src>
+</w>
+<w xml:id='DGlush.162'>
+	<orig>ползѫ</orig>
+	<reg>ПОЛЗУ</reg>
+	<src>ПОЛЗG</src>
+</w>
+<w xml:id='DGlush.163'>
+	<orig>прїати</orig>
+	<reg>ПРИАТИ</reg>
+	<src>ПРIАТИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.164'>.</c>
+<w xml:id='DGlush.165'>
+	<orig>прїидѣте</orig>
+	<reg>ПРИИД+ТЕ</reg>
+	<src>ПРIИД+ТЕ</src>
+</w>
+						  </l>
+						<l n='8'>
+<w xml:id='DGlush.166'>
+	<orig>бг҃олюбци</orig>
+	<reg>БГОЛЮБЦИ#</reg>
+	<src>БГОЛЮБЦИ#</src>
+</w>
+<w xml:id='DGlush.167'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.168'>
+	<orig>слышите</orig>
+	<reg>СЛЫШИТЕ</reg>
+	<src>СЛЫШИТЕ</src>
+</w>
+<w xml:id='DGlush.169'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.170'>
+	<orig>разѫмѣите</orig>
+	<reg>РАЗУМ+ИТЕ</reg>
+	<src>РАЗGМ+ИТЕ</src>
+</w>
+<w xml:id='DGlush.171'>
+	<orig>гл҃е<lb/>маа</orig>
+	<reg>ГЛЕМАА#</reg>
+	<src>ГЛЕ&amp;МАА#</src>
+</w>
+						  </l>
+						<l n='9'>
+<c type='punctuation' xml:id='DGlush.172'>.</c>
+<w xml:id='DGlush.173'>
+	<orig>се&i8-overline;</orig>
+	<reg>СЕ(И)</reg>
+	<src>СЕ(И)</src>
+</w>
+<w xml:id='DGlush.174'>
+	<orig>ѹбо</orig>
+	<reg>УБО</reg>
+	<src>UБО</src>
+</w>
+<w xml:id='DGlush.175'>
+	<orig>иже</orig>
+	<reg>ИЖЕ</reg>
+	<src>ИЖЕ</src>
+</w>
+<w xml:id='DGlush.176'>
+	<orig>ра҃вноаггельскыⷨ</orig>
+	<reg>РАВНОАГГЕЛЬСКЫ(М)#</reg>
+	<src>РАВНОАГГЕЛЬСКЫ(М)#</src>
+</w>
+<w xml:id='DGlush.177'>
+	<orig>житї<lb/>еⷨ</orig>
+	<reg>ЖИТИЕ(М)</reg>
+	<src>ЖИТI&amp;Е(М)</src>
+</w>
+						  </l>
+						<l n='10'>
+<w xml:id='DGlush.178'>
+	<orig>землю</orig>
+	<reg>ЗЕМЛЮ</reg>
+	<src>ЗЕМЛЮ</src>
+</w>
+<w xml:id='DGlush.179'>
+	<orig>же</orig>
+	<reg>ЖЕ</reg>
+	<src>ЖЕ</src>
+</w>
+<w xml:id='DGlush.180'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.181'>
+	<orig>самыи</orig>
+	<reg>САМЫИ</reg>
+	<src>САМЫИ</src>
+</w>
+<w xml:id='DGlush.182'>
+	<orig>възⷣѫхъ</orig>
+	<reg>ВЪЗ(Д)УХЪ</reg>
+	<src>ВЪЗ(Д)GХЪ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.183'>.</c>
+<w xml:id='DGlush.184'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.185'>
+	<orig>всѣмъ</orig>
+	<reg>ВС+МЪ</reg>
+	<src>ВС+МЪ</src>
+</w>
+						  </l>
+						<l n='11'>
+<w xml:id='DGlush.186'>
+	<orig>обще</orig>
+	<reg>ОБЩЕ</reg>
+	<src>ОБЩЕ</src>
+</w>
+<w xml:id='DGlush.187'>
+	<orig>веселїе</orig>
+	<reg>ВЕСЕЛИЕ</reg>
+	<src>ВЕСЕЛIЕ</src>
+</w>
+<w xml:id='DGlush.188'>
+	<orig>съдѣѧсѧ</orig>
+	<reg>СЪД+ЯСЯ</reg>
+	<src>СЪД+RСR</src>
+</w>
+<w xml:id='DGlush.189'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.190'>
+	<orig>памѧти</orig>
+	<reg>ПАМЯТИ</reg>
+	<src>ПАМRТИ</src>
+</w>
+<w xml:id='DGlush.191'>
+	<orig>прпоⷣⷪ<lb/>бнаго</orig>
+	<reg>ПРПО(ДО)БНАГО</reg>
+	<src>ПРПО(ДО)&amp;БНАГО</src>
+</w>
+						  </l>
+						<l n='12'>
+<w xml:id='DGlush.192'>
+	<orig>оц҃а</orig>
+	<reg>ОЦА#</reg>
+	<src>ОЦА#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.193'>;</c>
+<w xml:id='DGlush.194'>
+	<orig>аг҃глѡⷨ</orig>
+	<reg>АГГЛО(М)#</reg>
+	<src>АГГЛW(М)#</src>
+</w>
+<w xml:id='DGlush.195'>
+	<orig>с</orig>
+	<reg>С</reg>
+	<src>С</src>
+</w>
+<w xml:id='DGlush.196'>
+	<orig>нами</orig>
+	<reg>НАМИ</reg>
+	<src>НАМИ</src>
+</w>
+<w xml:id='DGlush.197'>
+	<orig>празⷣновати</orig>
+	<reg>ПРАЗ(Д)НОВАТИ</reg>
+	<src>ПРАЗ(Д)НОВАТИ</src>
+</w>
+						  </l>
+						<l n='13'>
+<w xml:id='DGlush.198'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.199'>
+	<orig>нарочитѣмъ</orig>
+	<reg>НАРОЧИТ+МЪ</reg>
+	<src>НАРОЧИТ+МЪ</src>
+</w>
+<w xml:id='DGlush.200'>
+	<orig>празⷣницѣ</orig>
+	<reg>ПРАЗ(Д)НИЦ+</reg>
+	<src>ПРАЗ(Д)НИЦ+</src>
+</w>
+<c type='punctuation' xml:id='DGlush.201'>.</c>
+<w xml:id='DGlush.202'>
+	<orig>се</orig>
+	<reg>СЕ</reg>
+	<src>СЕ</src>
+</w>
+<w xml:id='DGlush.203'>
+	<orig>ѹбо</orig>
+	<reg>УБО</reg>
+	<src>UБО</src>
+</w>
+<w xml:id='DGlush.204'>
+	<orig>рѫс҇ⷭкы<lb/>ѧ</orig>
+	<reg>РУС(с)КЫЯ</reg>
+	<src>РGС(с)КЫ&amp;R</src>
+</w>
+						  </l>
+						<l n='14'>
+<w xml:id='DGlush.205'>
+	<orig>землѧ</orig>
+	<reg>ЗЕМЛЯ</reg>
+	<src>ЗЕМЛR</src>
+</w>
+<w xml:id='DGlush.206'>
+	<orig>паче</orig>
+	<reg>ПАЧЕ</reg>
+	<src>ПАЧЕ</src>
+</w>
+<w xml:id='DGlush.207'>
+	<orig>же</orig>
+	<reg>ЖЕ</reg>
+	<src>ЖЕ</src>
+</w>
+<w xml:id='DGlush.208'>
+	<orig>вселенныа</orig>
+	<reg>ВСЕЛЕННЫА</reg>
+	<src>ВСЕЛЕННЫА</src>
+</w>
+<w xml:id='DGlush.209'>
+	<orig>похвала</orig>
+	<reg>ПОХВАЛА</reg>
+	<src>ПОХВАЛА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.210'>.</c>
+<w xml:id='DGlush.211'>
+	<orig>въ<lb/>се</orig>
+	<reg>ВЪСЕ</reg>
+	<src>ВЪ&amp;СЕ</src>
+</w>
+						  </l>
+						<l n='15'>
+<w xml:id='DGlush.212'>
+	<orig>же</orig>
+	<reg>ЖЕ</reg>
+	<src>ЖЕ</src>
+</w>
+<w xml:id='DGlush.213'>
+	<orig>ч҇ⷭтное</orig>
+	<reg>Ч(с)ТНОЕ</reg>
+	<src>Ч(с)ТНОЕ</src>
+</w>
+<w xml:id='DGlush.214'>
+	<orig>земныⷯ</orig>
+	<reg>ЗЕМНЫ(Х)</reg>
+	<src>ЗЕМНЫ(Х)</src>
+</w>
+<w xml:id='DGlush.215'>
+	<orig>вещеи</orig>
+	<reg>ВЕЩЕИ</reg>
+	<src>ВЕЩЕИ</src>
+</w>
+<w xml:id='DGlush.216'>
+	<orig>недостоино</orig>
+	<reg>НЕДОСТОИНО</reg>
+	<src>НЕДОСТОИНО</src>
+</w>
+						  </l>
+						<l n='16'>
+<w xml:id='DGlush.217'>
+	<orig>е҇ⷭ</orig>
+	<reg>Е(с)</reg>
+	<src>Е(с)</src>
+</w>
+<w xml:id='DGlush.218'>
+	<orig>семꙋ</orig>
+	<reg>СЕМУ</reg>
+	<src>СЕМD</src>
+</w>
+<w xml:id='DGlush.219'>
+	<orig>празⷣньствѹ</orig>
+	<reg>ПРАЗ(Д)НЬСТВУ</reg>
+	<src>ПРАЗ(Д)НЬСТВU</src>
+</w>
+<c type='punctuation' xml:id='DGlush.220'>.</c>
+<w xml:id='DGlush.221'>
+	<orig>о</orig>
+	<reg>О</reg>
+	<src>О</src>
+</w>
+<w xml:id='DGlush.222'>
+	<orig>ниⷯже</orig>
+	<reg>НИ(Х)ЖЕ</reg>
+	<src>НИ(Х)ЖЕ</src>
+</w>
+<w xml:id='DGlush.223'>
+	<orig>ре҇ⷱ</orig>
+	<reg>РЕ(ч)</reg>
+	<src>РЕ(ч)</src>
+</w>
+<w xml:id='DGlush.224'>
+	<orig>ап҇ⷭлъ</orig>
+	<reg>АП(с)ЛЪ</reg>
+	<src>АП(с)ЛЪ</src>
+</w>
+<w xml:id='DGlush.225'>
+	<orig>съ<lb/>сѫⷣ</orig>
+	<reg>СЪСУ(Д)</reg>
+	<src>СЪ&amp;СG(Д)</src>
+</w>
+						  </l>
+						<l n='17'>
+<w xml:id='DGlush.226'>
+	<orig>избранныи</orig>
+	<reg>ИЗБРАННЫИ</reg>
+	<src>ИЗБРАННЫИ</src>
+</w>
+<w xml:id='DGlush.227'>
+	<orig>ꙗко</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКО</src>
+</w>
+<w xml:id='DGlush.228'>
+	<orig>ходиша</orig>
+	<reg>ХОДИША</reg>
+	<src>ХОДИША</src>
+</w>
+<w xml:id='DGlush.229'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.230'>
+	<orig>милоте҇ⷯ</orig>
+	<reg>МИЛОТЕ(х)</reg>
+	<src>МИЛОТЕ(х)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.231'>.</c>
+						  </l>
+						<l n='18'>
+<w xml:id='DGlush.232'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.233'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.234'>
+	<orig>козїахъ</orig>
+	<reg>КОЗИАХЪ</reg>
+	<src>КОЗIАХЪ</src>
+</w>
+<w xml:id='DGlush.235'>
+	<orig>кожаⷯ</orig>
+	<reg>КОЖА(Х)</reg>
+	<src>КОЖА(Х)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.236'>,</c>
+<w xml:id='DGlush.237'>
+	<orig>лишени</orig>
+	<reg>ЛИШЕНИ</reg>
+	<src>ЛИШЕНИ</src>
+</w>
+<w xml:id='DGlush.238'>
+	<orig>скорбѧщеи</orig>
+	<reg>СКОРБЯЩЕИ</reg>
+	<src>СКОРБRЩЕИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.239'>.</c>
+						  </l>
+						<l n='19'>
+<w xml:id='DGlush.240'>
+	<orig>оѕлоблени</orig>
+	<reg>ОЗЛОБЛЕНИ</reg>
+	<src>ОSЛОБЛЕНИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.241'>,</c>
+<w xml:id='DGlush.242'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.243'>
+	<orig>пѫстынѧⷯ</orig>
+	<reg>ПУСТЫНЯ(Х)</reg>
+	<src>ПGСТЫНR(Х)</src>
+</w>
+<w xml:id='DGlush.244'>
+	<orig>скытающесѧ</orig>
+	<reg>СКЫТАЮЩЕСЯ</reg>
+	<src>СКЫТАЮЩЕСR</src>
+</w>
+<c type='punctuation' xml:id='DGlush.245'>.</c>
+						  </l>
+						<l n='20'>
+<w xml:id='DGlush.246'>
+	<orig>имже</orig>
+	<reg>ИМЖЕ</reg>
+	<src>ИМЖЕ</src>
+</w>
+<w xml:id='DGlush.247'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.248'>
+	<orig>бѣ</orig>
+	<reg>Б+</reg>
+	<src>Б+</src>
+</w>
+<w xml:id='DGlush.249'>
+	<orig>достоинъ</orig>
+	<reg>ДОСТОИНЪ</reg>
+	<src>ДОСТОИНЪ</src>
+</w>
+<w xml:id='DGlush.250'>
+	<orig>ве҇ⷭ</orig>
+	<reg>ВЕ(с)</reg>
+	<src>ВЕ(с)</src>
+</w>
+<w xml:id='DGlush.251'>
+	<orig>миръ</orig>
+	<reg>МИРЪ</reg>
+	<src>МИРЪ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.252'>.</c>
+<w xml:id='DGlush.253'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.254'>
+	<orig>по</orig>
+	<reg>ПО</reg>
+	<src>ПО</src>
+</w>
+						  </l>
+					</div4>
+				</div3>
+			</div2>
+			<div2 type='page' n='64'>
+				<div3 type='front'>
+					<div4 type='col' n='1'>
+						<l n='1'>
+<w xml:id='DGlush.255'>
+	<orig>бѕ҃ѣ</orig>
+	<reg>БЗ+#</reg>
+	<src>БS+#</src>
+</w>
+<w xml:id='DGlush.256'>
+	<orig>лѹчшаа</orig>
+	<reg>ЛУЧШАА</reg>
+	<src>ЛUЧШАА</src>
+</w>
+<w xml:id='DGlush.257'>
+	<orig>прїаша</orig>
+	<reg>ПРИАША</reg>
+	<src>ПРIАША</src>
+</w>
+<w xml:id='DGlush.258'>
+	<orig>исправленїа</orig>
+	<reg>ИСПРАВЛЕНИА</reg>
+	<src>ИСПРАВЛЕНIА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.259'>,</c>
+<w xml:id='DGlush.260'>
+	<orig>всѣⷯ</orig>
+	<reg>ВС+(Х)</reg>
+	<src>ВС+(Х)</src>
+</w>
+						  </l>
+						<l n='2'>
+<w xml:id='DGlush.261'>
+	<orig>ѹбо</orig>
+	<reg>УБО</reg>
+	<src>UБО</src>
+</w>
+<w xml:id='DGlush.262'>
+	<orig>земныⷯ</orig>
+	<reg>ЗЕМНЫ(Х)</reg>
+	<src>ЗЕМНЫ(Х)</src>
+</w>
+<w xml:id='DGlush.263'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.264'>
+	<orig>мимоходѧщиⷯ</orig>
+	<reg>МИМОХОДЯЩИ(Х)</reg>
+	<src>МИМОХОДRЩИ(Х)</src>
+</w>
+<w xml:id='DGlush.265'>
+	<orig>себе</orig>
+	<reg>СЕБЕ</reg>
+	<src>СЕБЕ</src>
+</w>
+<w xml:id='DGlush.266'>
+	<orig>обна<lb/>жиша</orig>
+	<reg>ОБНАЖИША</reg>
+	<src>ОБНА&amp;ЖИША</src>
+</w>
+						  </l>
+						<l n='3'>
+<c type='punctuation' xml:id='DGlush.267'>.</c>
+<w xml:id='DGlush.268'>
+	<orig>ревнѫющиⷯ</orig>
+	<reg>РЕВНУЮЩИ(Х)</reg>
+	<src>РЕВНGЮЩИ(Х)</src>
+</w>
+<w xml:id='DGlush.269'>
+	<orig>бесплотныⷯ</orig>
+	<reg>БЕСПЛОТНЫ(Х)</reg>
+	<src>БЕСПЛОТНЫ(Х)</src>
+</w>
+<w xml:id='DGlush.270'>
+	<orig>житїю</orig>
+	<reg>ЖИТИЮ</reg>
+	<src>ЖИТIЮ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.271'>.</c>
+						  </l>
+						<l n='4'>
+<w xml:id='DGlush.272'>
+	<orig>въ</orig>
+	<reg>ВЪ</reg>
+	<src>ВЪ</src>
+</w>
+<w xml:id='DGlush.273'>
+	<orig>плоти</orig>
+	<reg>ПЛОТИ</reg>
+	<src>ПЛОТИ</src>
+</w>
+<w xml:id='DGlush.274'>
+	<orig>кротостїю</orig>
+	<reg>КРОТОСТИЮ</reg>
+	<src>КРОТОСТIЮ</src>
+</w>
+<w xml:id='DGlush.275'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.276'>
+	<orig>безгнѣвїемъ</orig>
+	<reg>БЕЗГН+ВИЕМЪ</reg>
+	<src>БЕЗГН+ВIЕМЪ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.277'>.</c>
+						  </l>
+						<l n='5'>
+<w xml:id='DGlush.278'>
+	<orig>тѣмже</orig>
+	<reg>Т+МЖЕ</reg>
+	<src>Т+МЖЕ</src>
+</w>
+<w xml:id='DGlush.279'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.280'>
+	<orig>равнѹ</orig>
+	<reg>РАВНУ</reg>
+	<src>РАВНU</src>
+</w>
+<w xml:id='DGlush.281'>
+	<orig>обрѣтоста</orig>
+	<reg>ОБР+ТОСТА</reg>
+	<src>ОБР+ТОСТА</src>
+</w>
+<w xml:id='DGlush.282'>
+	<orig>свѣтлость</orig>
+	<reg>СВ+ТЛОСТЬ</reg>
+	<src>СВ+ТЛОСТЬ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.283'>.</c>
+						  </l>
+						<l n='6'>
+<w xml:id='DGlush.284'>
+	<orig>с</orig>
+	<reg>С</reg>
+	<src>С</src>
+</w>
+<w xml:id='DGlush.285'>
+	<orig>нимиже</orig>
+	<reg>НИМИЖЕ</reg>
+	<src>НИМИЖЕ</src>
+</w>
+<w xml:id='DGlush.286'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.287'>
+	<orig>раⷣующесѧ</orig>
+	<reg>РА(Д)УЮЩЕСЯ</reg>
+	<src>РА(Д)УЮЩЕСR</src>
+</w>
+<w xml:id='DGlush.288'>
+	<orig>всегда</orig>
+	<reg>ВСЕГДА</reg>
+	<src>ВСЕГДА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.289'>.</c>
+<w xml:id='DGlush.290'>
+	<orig>бѣ</orig>
+	<reg>Б+</reg>
+	<src>Б+</src>
+</w>
+<w xml:id='DGlush.291'>
+	<orig>бо</orig>
+	<reg>БО</reg>
+	<src>БО</src>
+</w>
+<w xml:id='DGlush.292'>
+	<orig>ꙗко</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКО</src>
+</w>
+						  </l>
+						<l n='7'>
+<w xml:id='DGlush.293'>
+	<orig>въистинѹ</orig>
+	<reg>ВЪИСТИНУ</reg>
+	<src>ВЪИСТИНU</src>
+</w>
+<w xml:id='DGlush.294'>
+	<orig>възⷣержателнаго</orig>
+	<reg>ВЪЗ(Д)ЕРЖАТЕЛНАГО</reg>
+	<src>ВЪЗ(Д)ЕРЖАТЕЛНАГО</src>
+</w>
+<w xml:id='DGlush.295'>
+	<orig>оц҃а</orig>
+	<reg>ОЦА#</reg>
+	<src>ОЦА#</src>
+</w>
+<w xml:id='DGlush.296'>
+	<orig>нш҃е<lb/>го</orig>
+	<reg>НШЕГО#</reg>
+	<src>НШЕ&amp;ГО#</src>
+</w>
+						  </l>
+						<l n='8'>
+<name>
+<w xml:id='DGlush.297'>
+	<orig>дїонисїа</orig>
+	<reg>*ДИОНИСИА</reg>
+	<src>*ДIОНИСIА</src>
+</w>
+</name>
+<c type='punctuation' xml:id='DGlush.298'>.</c>
+<w xml:id='DGlush.299'>
+	<orig>житїю</orig>
+	<reg>ЖИТИЮ</reg>
+	<src>ЖИТIЮ</src>
+</w>
+<w xml:id='DGlush.300'>
+	<orig>по</orig>
+	<reg>ПО</reg>
+	<src>ПО</src>
+</w>
+<w xml:id='DGlush.301'>
+	<orig>пѡⷣⷪбїю</orig>
+	<reg>ПО(ДО)БИЮ</reg>
+	<src>ПW(ДО)БIЮ</src>
+</w>
+<w xml:id='DGlush.302'>
+	<orig>великыⷯ</orig>
+	<reg>ВЕЛИКЫ(Х)</reg>
+	<src>ВЕЛИКЫ(Х)</src>
+</w>
+						  </l>
+						<l n='9'>
+<w xml:id='DGlush.303'>
+	<orig>оц҃ъ</orig>
+	<reg>ОЦЪ#</reg>
+	<src>ОЦЪ#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.304'>,</c>
+<name>
+<w xml:id='DGlush.305'>
+	<orig>антонїа</orig>
+	<reg>*АНТОНИА</reg>
+	<src>*АНТОНIА</src>
+</w>
+</name>
+<c type='punctuation' xml:id='DGlush.306'>.</c>
+<w xml:id='DGlush.307'>
+	<orig>ї</orig>
+	<reg>И</reg>
+	<src>I</src>
+</w>
+<name>
+<w xml:id='DGlush.308'>
+	<orig>еvѳимїа</orig>
+	<reg>*ЕVФИМИА</reg>
+	<src>*ЕVFИМIА</src>
+</w>
+</name>
+<c type='punctuation' xml:id='DGlush.309'>.*САВЫ</c>
+<w xml:id='DGlush.310'>
+	<orig>пѫ<lb/>стынныⷯ</orig>
+	<reg>ПУСТЫННЫ(Х)</reg>
+	<src>ПG&amp;СТЫННЫ(Х)</src>
+</w>
+						  </l>
+						<l n='10'>
+<w xml:id='DGlush.311'>
+	<orig>жите҇ⷧ</orig>
+	<reg>ЖИТЕ(л)</reg>
+	<src>ЖИТЕ(л)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.312'>.</c>
+<w xml:id='DGlush.313'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.314'>
+	<orig>нб҇ⷭныⷯ</orig>
+	<reg>НБ(с)НЫ(Х)</reg>
+	<src>НБ(с)НЫ(Х)</src>
+</w>
+<w xml:id='DGlush.315'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.316'>
+	<orig>вѣчныⷯ</orig>
+	<reg>В+ЧНЫ(Х)</reg>
+	<src>В+ЧНЫ(Х)</src>
+</w>
+<w xml:id='DGlush.317'>
+	<orig>бл҃гъ</orig>
+	<reg>БЛГЪ#</reg>
+	<src>БЛГЪ#</src>
+</w>
+						  </l>
+						<l n='11'>
+<w xml:id='DGlush.318'>
+	<orig>рачите҇ⷧ</orig>
+	<reg>РАЧИТЕ(л)</reg>
+	<src>РАЧИТЕ(л)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.319'>.</c>
+<w xml:id='DGlush.320'>
+	<orig>тѣмже</orig>
+	<reg>Т+МЖЕ</reg>
+	<src>Т+МЖЕ</src>
+</w>
+<w xml:id='DGlush.321'>
+	<orig>свѣтоносныи</orig>
+	<reg>СВ+ТОНОСНЫИ</reg>
+	<src>СВ+ТОНОСНЫИ</src>
+</w>
+<w xml:id='DGlush.322'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.323'>
+	<orig>радо<lb/>стныи</orig>
+	<reg>РАДОСТНЫИ</reg>
+	<src>РАДО&amp;СТНЫИ</src>
+</w>
+						  </l>
+						<l n='12'>
+<w xml:id='DGlush.324'>
+	<orig>наста</orig>
+	<reg>НАСТА</reg>
+	<src>НАСТА</src>
+</w>
+<w xml:id='DGlush.325'>
+	<orig>дн҃ь</orig>
+	<reg>ДНЬ#</reg>
+	<src>ДНЬ#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.326'>,</c>
+<w xml:id='DGlush.327'>
+	<orig>исполнь</orig>
+	<reg>ИСПОЛНЬ</reg>
+	<src>ИСПОЛНЬ</src>
+</w>
+<w xml:id='DGlush.328'>
+	<orig>веселїа</orig>
+	<reg>ВЕСЕЛИА</reg>
+	<src>ВЕСЕЛIА</src>
+</w>
+<w xml:id='DGlush.329'>
+	<orig>дх҃о<lb/>внаго</orig>
+	<reg>ДХОВНАГО#</reg>
+	<src>ДХО&amp;ВНАГО#</src>
+</w>
+						  </l>
+						<l n='13'>
+<c type='punctuation' xml:id='DGlush.330'>.</c>
+<w xml:id='DGlush.331'>
+	<orig>исполнь</orig>
+	<reg>ИСПОЛНЬ</reg>
+	<src>ИСПОЛНЬ</src>
+</w>
+<w xml:id='DGlush.332'>
+	<orig>бл҃гоѹханїа</orig>
+	<reg>БЛГОУХАНИА#</reg>
+	<src>БЛГОUХАНIА#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.333'>.</c>
+<w xml:id='DGlush.334'>
+	<orig>сегѡ</orig>
+	<reg>СЕГО</reg>
+	<src>СЕГW</src>
+</w>
+<w xml:id='DGlush.335'>
+	<orig>ѹ<lb/>бѡ</orig>
+	<reg>УБО</reg>
+	<src>U&amp;БW</src>
+</w>
+						  </l>
+						<l n='14'>
+<w xml:id='DGlush.336'>
+	<orig>достоино</orig>
+	<reg>ДОСТОИНО</reg>
+	<src>ДОСТОИНО</src>
+</w>
+<w xml:id='DGlush.337'>
+	<orig>есть</orig>
+	<reg>ЕСТЬ</reg>
+	<src>ЕСТЬ</src>
+</w>
+<w xml:id='DGlush.338'>
+	<orig>похвалити</orig>
+	<reg>ПОХВАЛИТИ</reg>
+	<src>ПОХВАЛИТИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.339'>,</c>
+<w xml:id='DGlush.340'>
+	<orig>ꙗкѡ</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКW</src>
+</w>
+						  </l>
+						<l n='15'>
+<w xml:id='DGlush.341'>
+	<orig>постникѡⷨ</orig>
+	<reg>ПОСТНИКО(М)</reg>
+	<src>ПОСТНИКW(М)</src>
+</w>
+<w xml:id='DGlush.342'>
+	<orig>ѹдобренїе</orig>
+	<reg>УДОБРЕНИЕ</reg>
+	<src>UДОБРЕНIЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.343'>.</c>
+<w xml:id='DGlush.344'>
+	<orig>постивъ</orig>
+	<reg>ПОСТИВЪ</reg>
+	<src>ПОСТИВЪ</src>
+</w>
+<w xml:id='DGlush.345'>
+	<orig>бо</orig>
+	<reg>БО</reg>
+	<src>БО</src>
+</w>
+<w xml:id='DGlush.346'>
+	<orig>сѧ</orig>
+	<reg>СЯ</reg>
+	<src>СR</src>
+</w>
+						  </l>
+						<l n='16'>
+<w xml:id='DGlush.347'>
+	<orig>въистиннѹ</orig>
+	<reg>ВЪИСТИННУ</reg>
+	<src>ВЪИСТИННU</src>
+</w>
+<w xml:id='DGlush.348'>
+	<orig>ꙗкѡⷤ</orig>
+	<reg>ЯКО(Ж)</reg>
+	<src>ЯКW(Ж)</src>
+</w>
+<w xml:id='DGlush.349'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.350'>
+	<orig>великыи</orig>
+	<reg>ВЕЛИКЫИ</reg>
+	<src>ВЕЛИКЫИ</src>
+</w>
+<name>
+<w xml:id='DGlush.351'>
+	<orig>антонї<lb/>е</orig>
+	<reg>*АНТОНИЕ</reg>
+	<src>*АНТОНI&amp;Е</src>
+</w>
+</name>
+						  </l>
+						<l n='17'>
+<c type='punctuation' xml:id='DGlush.352'>.</c>
+<w xml:id='DGlush.353'>
+	<orig>безмѣрно</orig>
+	<reg>БЕЗМ+РНО</reg>
+	<src>БЕЗМ+РНО</src>
+</w>
+<w xml:id='DGlush.354'>
+	<orig>смиренїе</orig>
+	<reg>СМИРЕНИЕ</reg>
+	<src>СМИРЕНIЕ</src>
+</w>
+<w xml:id='DGlush.355'>
+	<orig>показа</orig>
+	<reg>ПОКАЗА</reg>
+	<src>ПОКАЗА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.356'>.</c>
+<w xml:id='DGlush.357'>
+	<orig>пре<lb/>тръпѣлъ</orig>
+	<reg>ПРЕТРЪП+ЛЪ</reg>
+	<src>ПРЕ&amp;ТРЪП+ЛЪ</src>
+</w>
+						  </l>
+						<l n='18'>
+<w xml:id='DGlush.358'>
+	<orig>е҇ⷭ</orig>
+	<reg>Е(с)</reg>
+	<src>Е(с)</src>
+</w>
+<w xml:id='DGlush.359'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.360'>
+	<orig>пѫстынѣ</orig>
+	<reg>ПУСТЫН+</reg>
+	<src>ПGСТЫН+</src>
+</w>
+<c type='punctuation' xml:id='DGlush.361'>,</c>
+<w xml:id='DGlush.362'>
+	<orig>оѕлобленїе</orig>
+	<reg>ОЗЛОБЛЕНИЕ</reg>
+	<src>ОSЛОБЛЕНIЕ</src>
+</w>
+						  </l>
+						<l n='19'>
+<w xml:id='DGlush.363'>
+	<orig>ѹсерьдно</orig>
+	<reg>УСЕРЬДНО</reg>
+	<src>UСЕРЬДНО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.364'>.</c>
+<w xml:id='DGlush.365'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.366'>
+	<orig>посрамилъ</orig>
+	<reg>ПОСРАМИЛЪ</reg>
+	<src>ПОСРАМИЛЪ</src>
+</w>
+<w xml:id='DGlush.367'>
+	<orig>е҇ⷭ</orig>
+	<reg>Е(с)</reg>
+	<src>Е(с)</src>
+</w>
+<w xml:id='DGlush.368'>
+	<orig>ѕѣло</orig>
+	<reg>З+ЛО</reg>
+	<src>S+ЛО</src>
+</w>
+<w xml:id='DGlush.369'>
+	<orig>съпро<lb/>тивнаго</orig>
+	<reg>СЪПРОТИВНАГО</reg>
+	<src>СЪПРО&amp;ТИВНАГО</src>
+</w>
+						  </l>
+						<l n='20'>
+<w xml:id='DGlush.370'>
+	<orig>врага</orig>
+	<reg>ВРАГА</reg>
+	<src>ВРАГА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.371'>,</c>
+<w xml:id='DGlush.372'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.373'>
+	<orig>всю</orig>
+	<reg>ВСЮ</reg>
+	<src>ВСЮ</src>
+</w>
+<w xml:id='DGlush.374'>
+	<orig>его</orig>
+	<reg>ЕГО</reg>
+	<src>ЕГО</src>
+</w>
+<w xml:id='DGlush.375'>
+	<orig>гръдыню</orig>
+	<reg>ГРЪДЫНЮ</reg>
+	<src>ГРЪДЫНЮ</src>
+</w>
+						  </l>
+					</div4>
+				</div3>
+			</div2>
+			<div2 type='page' n='64'>
+				<div3 type='back'>
+					<div4 type='col' n='1'>
+						<l n='1'>
+<w xml:id='DGlush.376'>
+	<orig>ѿринѹ</orig>
+	<reg>О(Т)РИНУ</reg>
+	<src>W(Т)РИНU</src>
+</w>
+<c type='punctuation' xml:id='DGlush.377'>.</c>
+<w xml:id='DGlush.378'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.379'>
+	<orig>мечтанїа</orig>
+	<reg>МЕЧТАНИА</reg>
+	<src>МЕЧТАНIА</src>
+</w>
+<w xml:id='DGlush.380'>
+	<orig>враговъ</orig>
+	<reg>ВРАГОВЪ</reg>
+	<src>ВРАГОВЪ</src>
+</w>
+<w xml:id='DGlush.381'>
+	<orig>обличи҇ⷧ</orig>
+	<reg>ОБЛИЧИ(л)</reg>
+	<src>ОБЛИЧИ(л)</src>
+</w>
+						  </l>
+						<l n='2'>
+<w xml:id='DGlush.382'>
+	<orig>е҇ⷭ</orig>
+	<reg>Е(с)</reg>
+	<src>Е(с)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.383'>.</c>
+<w xml:id='DGlush.384'>
+	<orig>тѣмже</orig>
+	<reg>Т+МЖЕ</reg>
+	<src>Т+МЖЕ</src>
+</w>
+<w xml:id='DGlush.385'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<name>
+<w xml:id='DGlush.386'>
+	<orig>хс҃</orig>
+	<reg>*ХС#</reg>
+	<src>*ХС#</src>
+</w>
+</name>
+<w xml:id='DGlush.387'>
+	<orig>бл҃года҇ⷮ</orig>
+	<reg>БЛГОДА(т)#</reg>
+	<src>БЛГОДА(т)#</src>
+</w>
+<w xml:id='DGlush.388'>
+	<orig>на</orig>
+	<reg>НА</reg>
+	<src>НА</src>
+</w>
+<w xml:id='DGlush.389'>
+	<orig>недѫѕѣⷯ</orig>
+	<reg>НЕДУЗ+(Х)</reg>
+	<src>НЕДGS+(Х)</src>
+</w>
+<w xml:id='DGlush.390'>
+	<orig>раѕь<lb/>личныⷯ</orig>
+	<reg>РАЗЬЛИЧНЫ(Х)</reg>
+	<src>РАSЬ&amp;ЛИЧНЫ(Х)</src>
+</w>
+						  </l>
+						<l n='3'>
+<w xml:id='DGlush.391'>
+	<orig>дарова</orig>
+	<reg>ДАРОВА</reg>
+	<src>ДАРОВА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.392'>.</c>
+<w xml:id='DGlush.393'>
+	<orig>прослави</orig>
+	<reg>ПРОСЛАВИ</reg>
+	<src>ПРОСЛАВИ</src>
+</w>
+<w xml:id='DGlush.394'>
+	<orig>бо</orig>
+	<reg>БО</reg>
+	<src>БО</src>
+</w>
+<w xml:id='DGlush.395'>
+	<orig>гь҃</orig>
+	<reg>ГЬ#</reg>
+	<src>ГЬ#</src>
+</w>
+<w xml:id='DGlush.396'>
+	<orig>по</orig>
+	<reg>ПО</reg>
+	<src>ПО</src>
+</w>
+<w xml:id='DGlush.397'>
+	<orig>всеи</orig>
+	<reg>ВСЕИ</reg>
+	<src>ВСЕИ</src>
+</w>
+<w xml:id='DGlush.398'>
+	<orig>зе<lb/>мли</orig>
+	<reg>ЗЕМЛИ</reg>
+	<src>ЗЕ&amp;МЛИ</src>
+</w>
+						  </l>
+						<l n='4'>
+<c type='punctuation' xml:id='DGlush.399'>.</c>
+<w xml:id='DGlush.400'>
+	<orig>понеже</orig>
+	<reg>ПОНЕЖЕ</reg>
+	<src>ПОНЕЖЕ</src>
+</w>
+<w xml:id='DGlush.401'>
+	<orig>съхрани</orig>
+	<reg>СЪХРАНИ</reg>
+	<src>СЪХРАНИ</src>
+</w>
+<w xml:id='DGlush.402'>
+	<orig>заповѣди</orig>
+	<reg>ЗАПОВ+ДИ</reg>
+	<src>ЗАПОВ+ДИ</src>
+</w>
+<w xml:id='DGlush.403'>
+	<orig>егѡ</orig>
+	<reg>ЕГО</reg>
+	<src>ЕГW</src>
+</w>
+<c type='punctuation' xml:id='DGlush.404'>.</c>
+						  </l>
+						<l n='5'>
+<w xml:id='DGlush.405'>
+	<orig>прїидем</orig>
+	<reg>ПРИИДЕМ</reg>
+	<src>ПРIИДЕМ</src>
+</w>
+<w xml:id='DGlush.406'>
+	<orig>же</orig>
+	<reg>ЖЕ</reg>
+	<src>ЖЕ</src>
+</w>
+<w xml:id='DGlush.407'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.408'>
+	<orig>дароносиви</orig>
+	<reg>ДАРОНОСИВИ</reg>
+	<src>ДАРОНОСИВИ</src>
+</w>
+<w xml:id='DGlush.409'>
+	<orig>бѫдеⷨ</orig>
+	<reg>БУДЕ(М)</reg>
+	<src>БGДЕ(М)</src>
+</w>
+<w xml:id='DGlush.410'>
+	<orig>ѹсръ<lb/>дїемь</orig>
+	<reg>УСРЪДИЕМЬ</reg>
+	<src>UСРЪ&amp;ДIЕМЬ</src>
+</w>
+						  </l>
+						<l n='6'>
+<c type='punctuation' xml:id='DGlush.411'>.</c>
+<w xml:id='DGlush.412'>
+	<orig>никтѡⷤ</orig>
+	<reg>НИКТО(Ж)</reg>
+	<src>НИКТW(Ж)</src>
+</w>
+<w xml:id='DGlush.413'>
+	<orig>лѣностїю</orig>
+	<reg>Л+НОСТИЮ</reg>
+	<src>Л+НОСТIЮ</src>
+</w>
+<w xml:id='DGlush.414'>
+	<orig>тѡщь</orig>
+	<reg>ТОЩЬ</reg>
+	<src>ТWЩЬ</src>
+</w>
+<w xml:id='DGlush.415'>
+	<orig>да</orig>
+	<reg>ДА</reg>
+	<src>ДА</src>
+</w>
+						  </l>
+						<l n='7'>
+<w xml:id='DGlush.416'>
+	<orig>приходитъ</orig>
+	<reg>ПРИХОДИТЪ</reg>
+	<src>ПРИХОДИТЪ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.417'>,</c>
+<w xml:id='DGlush.418'>
+	<orig>иⷤ</orig>
+	<reg>И(Ж)</reg>
+	<src>И(Ж)</src>
+</w>
+<w xml:id='DGlush.419'>
+	<orig>ѿ</orig>
+	<reg>О(Т)</reg>
+	<src>W(Т)</src>
+</w>
+<w xml:id='DGlush.420'>
+	<orig>оц҃а</orig>
+	<reg>ОЦА#</reg>
+	<src>ОЦА#</src>
+</w>
+<w xml:id='DGlush.421'>
+	<orig>нш҃его</orig>
+	<reg>НШЕГО#</reg>
+	<src>НШЕГО#</src>
+</w>
+<w xml:id='DGlush.422'>
+	<orig>блгⷣти</orig>
+	<reg>БЛГ(Д)ТИ</reg>
+	<src>БЛГ(Д)ТИ</src>
+</w>
+<w xml:id='DGlush.423'>
+	<orig>на<lb/>слажⷣьше҇ⷭ</orig>
+	<reg>НАСЛАЖ(Д)ЬШЕ(с)</reg>
+	<src>НА&amp;СЛАЖ(Д)ЬШЕ(с)</src>
+</w>
+						  </l>
+						<l n='8'>
+<c type='punctuation' xml:id='DGlush.424'>,</c>
+<w xml:id='DGlush.425'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.426'>
+	<orig>нн҃ѣ</orig>
+	<reg>НН+#</reg>
+	<src>НН+#</src>
+</w>
+<w xml:id='DGlush.427'>
+	<orig>наслажⷣающе҇ⷭ</orig>
+	<reg>НАСЛАЖ(Д)АЮЩЕ(с)</reg>
+	<src>НАСЛАЖ(Д)АЮЩЕ(с)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.428'>.</c>
+<w xml:id='DGlush.429'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.430'>
+	<orig>пакы</orig>
+	<reg>ПАКЫ</reg>
+	<src>ПАКЫ</src>
+</w>
+						  </l>
+						<l n='9'>
+<w xml:id='DGlush.431'>
+	<orig>наслаⷣ&i8-overline;мьсѧ</orig>
+	<reg>НАСЛА(ДИ)МЬСЯ</reg>
+	<src>НАСЛА(ДИ)МЬСR</src>
+</w>
+<c type='punctuation' xml:id='DGlush.432'>.</c>
+<w xml:id='DGlush.433'>
+	<orig>принесемь</orig>
+	<reg>ПРИНЕСЕМЬ</reg>
+	<src>ПРИНЕСЕМЬ</src>
+</w>
+<w xml:id='DGlush.434'>
+	<orig>ѹбѡ</orig>
+	<reg>УБО</reg>
+	<src>UБW</src>
+</w>
+<w xml:id='DGlush.435'>
+	<orig>по</orig>
+	<reg>ПО</reg>
+	<src>ПО</src>
+</w>
+<w xml:id='DGlush.436'>
+	<orig>своемꙋ</orig>
+	<reg>СВОЕМУ</reg>
+	<src>СВОЕМD</src>
+</w>
+						  </l>
+						<l n='10'>
+<w xml:id='DGlush.437'>
+	<orig>достоиньствѹ</orig>
+	<reg>ДОСТОИНЬСТВУ</reg>
+	<src>ДОСТОИНЬСТВU</src>
+</w>
+<c type='punctuation' xml:id='DGlush.438'>,</c>
+<w xml:id='DGlush.439'>
+	<orig>кожⷣо</orig>
+	<reg>КОЖ(Д)О</reg>
+	<src>КОЖ(Д)О</src>
+</w>
+<w xml:id='DGlush.440'>
+	<orig>на҇ⷭ</orig>
+	<reg>НА(с)</reg>
+	<src>НА(с)</src>
+</w>
+<w xml:id='DGlush.441'>
+	<orig>дары</orig>
+	<reg>ДАРЫ</reg>
+	<src>ДАРЫ</src>
+</w>
+<w xml:id='DGlush.442'>
+	<orig>дш҃евь<lb/>нѣ</orig>
+	<reg>ДШЕВЬН+#</reg>
+	<src>ДШЕВЬ&amp;Н+#</src>
+</w>
+						  </l>
+						<l n='11'>
+<w xml:id='DGlush.443'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.444'>
+	<orig>телеснѣ</orig>
+	<reg>ТЕЛЕСН+</reg>
+	<src>ТЕЛЕСН+</src>
+</w>
+<c type='punctuation' xml:id='DGlush.445'>.</c>
+<w xml:id='DGlush.446'>
+	<orig>томꙋ</orig>
+	<reg>ТОМУ</reg>
+	<src>ТОМD</src>
+</w>
+<w xml:id='DGlush.447'>
+	<orig>самомѹ</orig>
+	<reg>САМОМУ</reg>
+	<src>САМОМU</src>
+</w>
+<name>
+<w xml:id='DGlush.448'>
+	<orig>х҇ⷭѫ</orig>
+	<reg>*Х(с)У</reg>
+	<src>*Х(с)G</src>
+</w>
+</name>
+<w xml:id='DGlush.449'>
+	<orig>прїа<lb/>тна</orig>
+	<reg>ПРИАТНА</reg>
+	<src>ПРIА&amp;ТНА</src>
+</w>
+						  </l>
+						<l n='12'>
+<c type='punctuation' xml:id='DGlush.450'>.</c>
+<w xml:id='DGlush.451'>
+	<orig>въ</orig>
+	<reg>ВЪ</reg>
+	<src>ВЪ</src>
+</w>
+<w xml:id='DGlush.452'>
+	<orig>пѣнїих</orig>
+	<reg>П+НИИХ</reg>
+	<src>П+НIИХ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.453'>.</c>
+<w xml:id='DGlush.454'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.455'>
+	<orig>въ</orig>
+	<reg>ВЪ</reg>
+	<src>ВЪ</src>
+</w>
+<w xml:id='DGlush.456'>
+	<orig>мл҃тваⷯ</orig>
+	<reg>МЛТВА(Х)#</reg>
+	<src>МЛТВА(Х)#</src>
+</w>
+<w xml:id='DGlush.457'>
+	<orig>нелѣностно</orig>
+	<reg>НЕЛ+НОСТНО</reg>
+	<src>НЕЛ+НОСТНО</src>
+</w>
+						  </l>
+						<l n='13'>
+<w xml:id='DGlush.458'>
+	<orig>претръпѣвающе</orig>
+	<reg>ПРЕТРЪП+ВАЮЩЕ</reg>
+	<src>ПРЕТРЪП+ВАЮЩЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.459'>.</c>
+<w xml:id='DGlush.460'>
+	<orig>дш҃и</orig>
+	<reg>ДШИ#</reg>
+	<src>ДШИ#</src>
+</w>
+<w xml:id='DGlush.461'>
+	<orig>ѹмиленїе</orig>
+	<reg>УМИЛЕНИЕ</reg>
+	<src>UМИЛЕНIЕ</src>
+</w>
+<w xml:id='DGlush.462'>
+	<orig>да</orig>
+	<reg>ДА</reg>
+	<src>ДА</src>
+</w>
+						  </l>
+						<l n='14'>
+<w xml:id='DGlush.463'>
+	<orig>стѧжиⷨ</orig>
+	<reg>СТЯЖИ(М)</reg>
+	<src>СТRЖИ(М)</src>
+</w>
+<w xml:id='DGlush.464'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.465'>
+	<orig>себѣ</orig>
+	<reg>СЕБ+</reg>
+	<src>СЕБ+</src>
+</w>
+<w xml:id='DGlush.466'>
+	<orig>да</orig>
+	<reg>ДА</reg>
+	<src>ДА</src>
+</w>
+<w xml:id='DGlush.467'>
+	<orig>заѕриⷨ</orig>
+	<reg>ЗАЗРИ(М)</reg>
+	<src>ЗАSРИ(М)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.468'>.</c>
+<w xml:id='DGlush.469'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.470'>
+	<orig>великаго</orig>
+	<reg>ВЕЛИКАГО</reg>
+	<src>ВЕЛИКАГО</src>
+</w>
+<w xml:id='DGlush.471'>
+	<orig>се҇ⷢ</orig>
+	<reg>СЕ(г)</reg>
+	<src>СЕ(г)</src>
+</w>
+						  </l>
+						<l n='15'>
+<w xml:id='DGlush.472'>
+	<orig>по</orig>
+	<reg>ПО</reg>
+	<src>ПО</src>
+</w>
+<w xml:id='DGlush.473'>
+	<orig>бѕ҃ѣ</orig>
+	<reg>БЗ+#</reg>
+	<src>БS+#</src>
+</w>
+<w xml:id='DGlush.474'>
+	<orig>шествїа</orig>
+	<reg>ШЕСТВИА</reg>
+	<src>ШЕСТВIА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.475'>.</c>
+<w xml:id='DGlush.476'>
+	<orig>изрѧⷣное</orig>
+	<reg>ИЗРЯ(Д)НОЕ</reg>
+	<src>ИЗРR(Д)НОЕ</src>
+</w>
+<w xml:id='DGlush.477'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.478'>
+	<orig>пѫсты<lb/>нѣ</orig>
+	<reg>ПУСТЫН+</reg>
+	<src>ПGСТЫ&amp;Н+</src>
+</w>
+						  </l>
+						<l n='16'>
+<w xml:id='DGlush.479'>
+	<orig>житїе</orig>
+	<reg>ЖИТИЕ</reg>
+	<src>ЖИТIЕ</src>
+</w>
+<w xml:id='DGlush.480'>
+	<orig>поⷣщимсѧ</orig>
+	<reg>ПО(Д)ЩИМСЯ</reg>
+	<src>ПО(Д)ЩИМСR</src>
+</w>
+<w xml:id='DGlush.481'>
+	<orig>постигнѫти</orig>
+	<reg>ПОСТИГНУТИ</reg>
+	<src>ПОСТИГНGТИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.482'>.</c>
+<w xml:id='DGlush.483'>
+	<orig>а</orig>
+	<reg>А</reg>
+	<src>А</src>
+</w>
+						  </l>
+						<l n='17'>
+<w xml:id='DGlush.484'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.485'>
+	<orig>ѿчаѧнїемь</orig>
+	<reg>О(Т)ЧАЯНИЕМЬ</reg>
+	<src>W(Т)ЧАRНIЕМЬ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.486'>,</c>
+<w xml:id='DGlush.487'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.488'>
+	<orig>ѹнынїемь</orig>
+	<reg>УНЫНИЕМЬ</reg>
+	<src>UНЫНIЕМЬ</src>
+</w>
+<w xml:id='DGlush.489'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.490'>
+	<orig>дости<lb/>жѫще</orig>
+	<reg>ДОСТИЖУЩЕ</reg>
+	<src>ДОСТИ&amp;ЖGЩЕ</src>
+</w>
+						  </l>
+						<l n='18'>
+<w xml:id='DGlush.491'>
+	<orig>облѣнѧще҇ⷭ</orig>
+	<reg>ОБЛ+НЯЩЕ(с)</reg>
+	<src>ОБЛ+НRЩЕ(с)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.492'>.</c>
+<w xml:id='DGlush.493'>
+	<orig>вси</orig>
+	<reg>ВСИ</reg>
+	<src>ВСИ</src>
+</w>
+<w xml:id='DGlush.494'>
+	<orig>вѣрѹ</orig>
+	<reg>В+РУ</reg>
+	<src>В+РU</src>
+</w>
+<w xml:id='DGlush.495'>
+	<orig>к</orig>
+	<reg>К</reg>
+	<src>К</src>
+</w>
+<w xml:id='DGlush.496'>
+	<orig>немѹ</orig>
+	<reg>НЕМУ</reg>
+	<src>НЕМU</src>
+</w>
+						  </l>
+						<l n='19'>
+<w xml:id='DGlush.497'>
+	<orig>имѫще</orig>
+	<reg>ИМУЩЕ</reg>
+	<src>ИМGЩЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.498'>,</c>
+<w xml:id='DGlush.499'>
+	<orig>празⷣнолюбно</orig>
+	<reg>ПРАЗ(Д)НОЛЮБНО</reg>
+	<src>ПРАЗ(Д)НОЛЮБНО</src>
+</w>
+<w xml:id='DGlush.500'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.501'>
+	<orig>сїи</orig>
+	<reg>СИИ</reg>
+	<src>СIИ</src>
+</w>
+<w xml:id='DGlush.502'>
+	<orig>дн҃ь</orig>
+	<reg>ДНЬ#</reg>
+	<src>ДНЬ#</src>
+</w>
+<w xml:id='DGlush.503'>
+	<orig>ѱ҇ⷭлмь<lb/>скы</orig>
+	<reg>П(с)ЛМЬСКЫ</reg>
+	<src>Q(с)ЛМЬ&amp;СКЫ</src>
+</w>
+						  </l>
+						<l n='20'>
+<w xml:id='DGlush.504'>
+	<orig>рекꙋ</orig>
+	<reg>РЕКУ</reg>
+	<src>РЕКD</src>
+</w>
+<c type='punctuation' xml:id='DGlush.505'>.</c>
+<w xml:id='DGlush.506'>
+	<orig>прїидѣте</orig>
+	<reg>ПРИИД+ТЕ</reg>
+	<src>ПРIИД+ТЕ</src>
+</w>
+<w xml:id='DGlush.507'>
+	<orig>възраⷣуемсѧ</orig>
+	<reg>ВЪЗРА(Д)УЕМСЯ</reg>
+	<src>ВЪЗРА(Д)УЕМСR</src>
+</w>
+<w xml:id='DGlush.508'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.509'>
+	<orig>па<pb/>мѧти</orig>
+	<reg>ПАМЯТИ</reg>
+	<src>ПАZ 65 МRТИ</src>
+</w>
+						  </l>
+					</div4>
+				</div3>
+			</div2>
+			<div2 type='page' n='65'>
+				<div3 type='front'>
+					<div4 type='col' n='1'>
+						<l n='1'>
+<w xml:id='DGlush.510'>
+	<orig>прпⷣбнаго</orig>
+	<reg>ПРП(Д)БНАГО</reg>
+	<src>ПРП(Д)БНАГО</src>
+</w>
+<w xml:id='DGlush.511'>
+	<orig>ѿ҃ца</orig>
+	<reg>О(Т)ЦА#</reg>
+	<src>W(Т)ЦА#</src>
+</w>
+<w xml:id='DGlush.512'>
+	<orig>нш҃его</orig>
+	<reg>НШЕГО#</reg>
+	<src>НШЕГО#</src>
+</w>
+<name>
+<w xml:id='DGlush.513'>
+	<orig>дїонисїа</orig>
+	<reg>*ДИОНИСИА</reg>
+	<src>*ДIОНИСIА</src>
+</w>
+</name>
+<c type='punctuation' xml:id='DGlush.514'>.</c>
+						  </l>
+						<l n='2'>
+<w xml:id='DGlush.515'>
+	<orig>ѿ</orig>
+	<reg>О(Т)</reg>
+	<src>W(Т)</src>
+</w>
+<w xml:id='DGlush.516'>
+	<orig>многоѡбразнаго</orig>
+	<reg>МНОГООБРАЗНАГО</reg>
+	<src>МНОГОWБРАЗНАГО</src>
+</w>
+<w xml:id='DGlush.517'>
+	<orig>иѕрѧⷣнаго</orig>
+	<reg>ИЗРЯ(Д)НАГО</reg>
+	<src>ИSРR(Д)НАГО</src>
+</w>
+<w xml:id='DGlush.518'>
+	<orig>житїа</orig>
+	<reg>ЖИТИА</reg>
+	<src>ЖИТIА</src>
+</w>
+						  </l>
+						<l n='3'>
+<w xml:id='DGlush.519'>
+	<orig>къ</orig>
+	<reg>КЪ</reg>
+	<src>КЪ</src>
+</w>
+<w xml:id='DGlush.520'>
+	<orig>бѫ҃</orig>
+	<reg>БУ#</reg>
+	<src>БG#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.521'>,</c>
+<w xml:id='DGlush.522'>
+	<orig>ꙗко</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКО</src>
+</w>
+<w xml:id='DGlush.523'>
+	<orig>ѿ</orig>
+	<reg>О(Т)</reg>
+	<src>W(Т)</src>
+</w>
+<w xml:id='DGlush.524'>
+	<orig>различныⷯ</orig>
+	<reg>РАЗЛИЧНЫ(Х)</reg>
+	<src>РАЗЛИЧНЫ(Х)</src>
+</w>
+<w xml:id='DGlush.525'>
+	<orig>бл҃гоѹханныⷯ</orig>
+	<reg>БЛГОУХАННЫ(Х)#</reg>
+	<src>БЛГОUХАННЫ(Х)#</src>
+</w>
+						  </l>
+						<l n='4'>
+<w xml:id='DGlush.526'>
+	<orig>цвѣтовъ</orig>
+	<reg>ЦВ+ТОВЪ</reg>
+	<src>ЦВ+ТОВЪ</src>
+</w>
+<w xml:id='DGlush.527'>
+	<orig>вѣнца</orig>
+	<reg>В+НЦА</reg>
+	<src>В+НЦА</src>
+</w>
+<w xml:id='DGlush.528'>
+	<orig>томѹ</orig>
+	<reg>ТОМУ</reg>
+	<src>ТОМU</src>
+</w>
+<w xml:id='DGlush.529'>
+	<orig>плетѹще</orig>
+	<reg>ПЛЕТУЩЕ</reg>
+	<src>ПЛЕТUЩЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.530'>.</c>
+<w xml:id='DGlush.531'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+						  </l>
+						<l n='5'>
+<w xml:id='DGlush.532'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.533'>
+	<orig>ѹ</orig>
+	<reg>У</reg>
+	<src>U</src>
+</w>
+<c type='punctuation' xml:id='DGlush.534'>,</c>
+<w xml:id='DGlush.535'>
+	<orig>по</orig>
+	<reg>ПО</reg>
+	<src>ПО</src>
+</w>
+<w xml:id='DGlush.536'>
+	<orig>ⷣⷪстоанїю</orig>
+	<reg>(ДО)СТОАНИЮ</reg>
+	<src>(ДО)СТОАНIЮ</src>
+</w>
+<w xml:id='DGlush.537'>
+	<orig>достоиньства</orig>
+	<reg>ДОСТОИНЬСТВА</reg>
+	<src>ДОСТОИНЬСТВА</src>
+</w>
+<w xml:id='DGlush.538'>
+	<orig>до<lb/>стоино</orig>
+	<reg>ДОСТОИНО</reg>
+	<src>ДО&amp;СТОИНО</src>
+</w>
+						  </l>
+						<l n='6'>
+<w xml:id='DGlush.539'>
+	<orig>постигохѡⷨ</orig>
+	<reg>ПОСТИГОХО(М)</reg>
+	<src>ПОСТИГОХW(М)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.540'>.</c>
+<w xml:id='DGlush.541'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.542'>
+	<orig>ѹбо</orig>
+	<reg>УБО</reg>
+	<src>UБО</src>
+</w>
+<w xml:id='DGlush.543'>
+	<orig>к</orig>
+	<reg>К</reg>
+	<src>К</src>
+</w>
+<w xml:id='DGlush.544'>
+	<orig>сиⷨ</orig>
+	<reg>СИ(М)</reg>
+	<src>СИ(М)</src>
+</w>
+<name>
+<w xml:id='DGlush.545'>
+	<orig>дв҃да</orig>
+	<reg>*ДВДА#</reg>
+	<src>*ДВДА#</src>
+</w>
+</name>
+						  </l>
+						<l n='7'>
+<w xml:id='DGlush.546'>
+	<orig>на</orig>
+	<reg>НА</reg>
+	<src>НА</src>
+</w>
+<w xml:id='DGlush.547'>
+	<orig>помѡщь</orig>
+	<reg>ПОМОЩЬ</reg>
+	<src>ПОМWЩЬ</src>
+</w>
+<w xml:id='DGlush.548'>
+	<orig>прїимше</orig>
+	<reg>ПРИИМШЕ</reg>
+	<src>ПРIИМШЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.549'>,</c>
+<w xml:id='DGlush.550'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.551'>
+	<orig>с</orig>
+	<reg>С</reg>
+	<src>С</src>
+</w>
+<w xml:id='DGlush.552'>
+	<orig>ниⷨ</orig>
+	<reg>НИ(М)</reg>
+	<src>НИ(М)</src>
+</w>
+<w xml:id='DGlush.553'>
+	<orig>к</orig>
+	<reg>К</reg>
+	<src>К</src>
+</w>
+<w xml:id='DGlush.554'>
+	<orig>немѹ</orig>
+	<reg>НЕМУ</reg>
+	<src>НЕМU</src>
+</w>
+<w xml:id='DGlush.555'>
+	<orig>ре<lb/>чеⷨ</orig>
+	<reg>РЕЧЕ(М)</reg>
+	<src>РЕ&amp;ЧЕ(М)</src>
+</w>
+						  </l>
+						<l n='8'>
+<c type='punctuation' xml:id='DGlush.556'>,</c>
+<w xml:id='DGlush.557'>
+	<orig>раⷣуитесѧ</orig>
+	<reg>РА(Д)УИТЕСЯ</reg>
+	<src>РА(Д)УИТЕСR</src>
+</w>
+<w xml:id='DGlush.558'>
+	<orig>правеⷣнїи</orig>
+	<reg>ПРАВЕ(Д)НИИ</reg>
+	<src>ПРАВЕ(Д)НIИ</src>
+</w>
+<w xml:id='DGlush.559'>
+	<orig>ги҃</orig>
+	<reg>ГИ#</reg>
+	<src>ГИ#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.560'>,</c>
+<w xml:id='DGlush.561'>
+	<orig>ваⷨ</orig>
+	<reg>ВА(М)</reg>
+	<src>ВА(М)</src>
+</w>
+<w xml:id='DGlush.562'>
+	<orig>бо</orig>
+	<reg>БО</reg>
+	<src>БО</src>
+</w>
+<w xml:id='DGlush.563'>
+	<orig>поⷣⷪба<lb/>еть</orig>
+	<reg>ПО(ДО)БАЕТЬ</reg>
+	<src>ПО(ДО)БА&amp;ЕТЬ</src>
+</w>
+						  </l>
+						<l n='9'>
+<w xml:id='DGlush.564'>
+	<orig>похвала</orig>
+	<reg>ПОХВАЛА</reg>
+	<src>ПОХВАЛА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.565'>.</c>
+<w xml:id='DGlush.566'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.567'>
+	<orig>пакы</orig>
+	<reg>ПАКЫ</reg>
+	<src>ПАКЫ</src>
+</w>
+<w xml:id='DGlush.568'>
+	<orig>ре҇ⷱ</orig>
+	<reg>РЕ(ч)</reg>
+	<src>РЕ(ч)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.569'>,</c>
+<w xml:id='DGlush.570'>
+	<orig>ч҇ⷭтна</orig>
+	<reg>Ч(с)ТНА</reg>
+	<src>Ч(с)ТНА</src>
+</w>
+<w xml:id='DGlush.571'>
+	<orig>преⷣ</orig>
+	<reg>ПРЕ(Д)</reg>
+	<src>ПРЕ(Д)</src>
+</w>
+<w xml:id='DGlush.572'>
+	<orig>г҇ⷭмь</orig>
+	<reg>Г(с)МЬ</reg>
+	<src>Г(с)МЬ</src>
+</w>
+						  </l>
+						<l n='10'>
+<w xml:id='DGlush.573'>
+	<orig>смерть</orig>
+	<reg>СМЕРТЬ</reg>
+	<src>СМЕРТЬ</src>
+</w>
+<w xml:id='DGlush.574'>
+	<orig>прпⷣбныⷯ</orig>
+	<reg>ПРП(Д)БНЫ(Х)</reg>
+	<src>ПРП(Д)БНЫ(Х)</src>
+</w>
+<w xml:id='DGlush.575'>
+	<orig>его</orig>
+	<reg>ЕГО</reg>
+	<src>ЕГО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.576'>.</c>
+<w xml:id='DGlush.577'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.578'>
+	<orig>животѣ</orig>
+	<reg>ЖИВОТ+</reg>
+	<src>ЖИВОТ+</src>
+</w>
+<w xml:id='DGlush.579'>
+	<orig>бѡ</orig>
+	<reg>БО</reg>
+	<src>БW</src>
+</w>
+						  </l>
+						<l n='11'>
+<w xml:id='DGlush.580'>
+	<orig>своеⷨ</orig>
+	<reg>СВОЕ(М)</reg>
+	<src>СВОЕ(М)</src>
+</w>
+<w xml:id='DGlush.581'>
+	<orig>почелъ</orig>
+	<reg>ПОЧЕЛЪ</reg>
+	<src>ПОЧЕЛЪ</src>
+</w>
+<w xml:id='DGlush.582'>
+	<orig>е҇ⷭ</orig>
+	<reg>Е(с)</reg>
+	<src>Е(с)</src>
+</w>
+<w xml:id='DGlush.583'>
+	<orig>того</orig>
+	<reg>ТОГО</reg>
+	<src>ТОГО</src>
+</w>
+<w xml:id='DGlush.584'>
+	<orig>заповѣди</orig>
+	<reg>ЗАПОВ+ДИ</reg>
+	<src>ЗАПОВ+ДИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.585'>.</c>
+<w xml:id='DGlush.586'>
+	<orig>правда</orig>
+	<reg>ПРАВДА</reg>
+	<src>ПРАВДА</src>
+</w>
+						  </l>
+						<l n='12'>
+<w xml:id='DGlush.587'>
+	<orig>твоа</orig>
+	<reg>ТВОА</reg>
+	<src>ТВОА</src>
+</w>
+<w xml:id='DGlush.588'>
+	<orig>ꙗко</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКО</src>
+</w>
+<w xml:id='DGlush.589'>
+	<orig>достоина</orig>
+	<reg>ДОСТОИНА</reg>
+	<src>ДОСТОИНА</src>
+</w>
+<w xml:id='DGlush.590'>
+	<orig>въ</orig>
+	<reg>ВЪ</reg>
+	<src>ВЪ</src>
+</w>
+<w xml:id='DGlush.591'>
+	<orig>вѣкы</orig>
+	<reg>В+КЫ</reg>
+	<src>В+КЫ</src>
+</w>
+<w xml:id='DGlush.592'>
+	<orig>пребы<lb/>вае҇ⷮ</orig>
+	<reg>ПРЕБЫВАЕ(т)</reg>
+	<src>ПРЕБЫ&amp;ВАЕ(т)</src>
+</w>
+						  </l>
+						<l n='13'>
+<c type='punctuation' xml:id='DGlush.593'>.</c>
+<w xml:id='DGlush.594'>
+	<orig>памѧ҇ⷮ</orig>
+	<reg>ПАМЯ(т)</reg>
+	<src>ПАМR(т)</src>
+</w>
+<w xml:id='DGlush.595'>
+	<orig>правеⷣникѹ</orig>
+	<reg>ПРАВЕ(Д)НИКУ</reg>
+	<src>ПРАВЕ(Д)НИКU</src>
+</w>
+<w xml:id='DGlush.596'>
+	<orig>веселїе</orig>
+	<reg>ВЕСЕЛИЕ</reg>
+	<src>ВЕСЕЛIЕ</src>
+</w>
+<w xml:id='DGlush.597'>
+	<orig>людеⷨ</orig>
+	<reg>ЛЮДЕ(М)</reg>
+	<src>ЛЮДЕ(М)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.598'>.</c>
+						  </l>
+						<l n='14'>
+<w xml:id='DGlush.599'>
+	<orig>бе҃смртна</orig>
+	<reg>БЕСМРТНА#</reg>
+	<src>БЕСМРТНА#</src>
+</w>
+<w xml:id='DGlush.600'>
+	<orig>же</orig>
+	<reg>ЖЕ</reg>
+	<src>ЖЕ</src>
+</w>
+<w xml:id='DGlush.601'>
+	<orig>памѧ҇ⷮ</orig>
+	<reg>ПАМЯ(т)</reg>
+	<src>ПАМR(т)</src>
+</w>
+<w xml:id='DGlush.602'>
+	<orig>првеⷣнаго</orig>
+	<reg>ПРВЕ(Д)НАГО</reg>
+	<src>ПРВЕ(Д)НАГО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.603'>.</c>
+<w xml:id='DGlush.604'>
+	<orig>зане</orig>
+	<reg>ЗАНЕ</reg>
+	<src>ЗАНЕ</src>
+</w>
+						  </l>
+						<l n='15'>
+<w xml:id='DGlush.605'>
+	<orig>ѹгодна</orig>
+	<reg>УГОДНА</reg>
+	<src>UГОДНА</src>
+</w>
+<w xml:id='DGlush.606'>
+	<orig>бы҇ⷭ</orig>
+	<reg>БЫ(с)</reg>
+	<src>БЫ(с)</src>
+</w>
+<w xml:id='DGlush.607'>
+	<orig>гв҃ѣ</orig>
+	<reg>ГВ+#</reg>
+	<src>ГВ+#</src>
+</w>
+<w xml:id='DGlush.608'>
+	<orig>дш҃а</orig>
+	<reg>ДША#</reg>
+	<src>ДША#</src>
+</w>
+<w xml:id='DGlush.609'>
+	<orig>его</orig>
+	<reg>ЕГО</reg>
+	<src>ЕГО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.610'>.</c>
+<w xml:id='DGlush.611'>
+	<orig>првеⷣникъ</orig>
+	<reg>ПРВЕ(Д)НИКЪ</reg>
+	<src>ПРВЕ(Д)НИКЪ</src>
+</w>
+						  </l>
+						<l n='16'>
+<w xml:id='DGlush.612'>
+	<orig>аще</orig>
+	<reg>АЩЕ</reg>
+	<src>АЩЕ</src>
+</w>
+<w xml:id='DGlush.613'>
+	<orig>постигне҇ⷮ</orig>
+	<reg>ПОСТИГНЕ(т)</reg>
+	<src>ПОСТИГНЕ(т)</src>
+</w>
+<w xml:id='DGlush.614'>
+	<orig>скончѧтисѧ</orig>
+	<reg>СКОНЧЯТИСЯ</reg>
+	<src>СКОНЧRТИСR</src>
+</w>
+<w xml:id='DGlush.615'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.616'>
+	<orig>покои</orig>
+	<reg>ПОКОИ</reg>
+	<src>ПОКОИ</src>
+</w>
+						  </l>
+						<l n='17'>
+<w xml:id='DGlush.617'>
+	<orig>бѫде҇ⷮ</orig>
+	<reg>БУДЕ(т)</reg>
+	<src>БGДЕ(т)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.618'>.</c>
+<w xml:id='DGlush.619'>
+	<orig>имѧ</orig>
+	<reg>ИМЯ</reg>
+	<src>ИМR</src>
+</w>
+<w xml:id='DGlush.620'>
+	<orig>же</orig>
+	<reg>ЖЕ</reg>
+	<src>ЖЕ</src>
+</w>
+<w xml:id='DGlush.621'>
+	<orig>неч҇ⷭтивыⷯ</orig>
+	<reg>НЕЧ(с)ТИВЫ(Х)</reg>
+	<src>НЕЧ(с)ТИВЫ(Х)</src>
+</w>
+<w xml:id='DGlush.622'>
+	<orig>ѹгасне҇ⷮ</orig>
+	<reg>УГАСНЕ(т)</reg>
+	<src>UГАСНЕ(т)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.623'>.</c>
+<w xml:id='DGlush.624'>
+	<orig>пра<lb/>веⷣници</orig>
+	<reg>ПРАВЕ(Д)НИЦИ</reg>
+	<src>ПРА&amp;ВЕ(Д)НИЦИ</src>
+</w>
+						  </l>
+						<l n='18'>
+<w xml:id='DGlush.625'>
+	<orig>въ</orig>
+	<reg>ВЪ</reg>
+	<src>ВЪ</src>
+</w>
+<w xml:id='DGlush.626'>
+	<orig>вѣкы</orig>
+	<reg>В+КЫ</reg>
+	<src>В+КЫ</src>
+</w>
+<w xml:id='DGlush.627'>
+	<orig>живѫ҇ⷮ</orig>
+	<reg>ЖИВУ(т)</reg>
+	<src>ЖИВG(т)</src>
+</w>
+<w xml:id='DGlush.628'>
+	<orig>ѿ</orig>
+	<reg>О(Т)</reg>
+	<src>W(Т)</src>
+</w>
+<w xml:id='DGlush.629'>
+	<orig>га҃</orig>
+	<reg>ГА#</reg>
+	<src>ГА#</src>
+</w>
+<w xml:id='DGlush.630'>
+	<orig>мзⷣа</orig>
+	<reg>МЗ(Д)А</reg>
+	<src>МЗ(Д)А</src>
+</w>
+<w xml:id='DGlush.631'>
+	<orig>ихъ</orig>
+	<reg>ИХЪ</reg>
+	<src>ИХЪ</src>
+</w>
+<w xml:id='DGlush.632'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+						  </l>
+						<l n='19'>
+<w xml:id='DGlush.633'>
+	<orig>попеченїе</orig>
+	<reg>ПОПЕЧЕНИЕ</reg>
+	<src>ПОПЕЧЕНIЕ</src>
+</w>
+<w xml:id='DGlush.634'>
+	<orig>ѿ</orig>
+	<reg>О(Т)</reg>
+	<src>W(Т)</src>
+</w>
+<w xml:id='DGlush.635'>
+	<orig>вышнѧго</orig>
+	<reg>ВЫШНЯГО</reg>
+	<src>ВЫШНRГО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.636'>.</c>
+<w xml:id='DGlush.637'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.638'>
+	<orig>бѫⷣ&i8-overline;</orig>
+	<reg>БУ(ДИ)</reg>
+	<src>БG(ДИ)</src>
+</w>
+<w xml:id='DGlush.639'>
+	<orig>же</orig>
+	<reg>ЖЕ</reg>
+	<src>ЖЕ</src>
+</w>
+<w xml:id='DGlush.640'>
+	<orig>ваⷨ</orig>
+	<reg>ВА(М)</reg>
+	<src>ВА(М)</src>
+</w>
+<w xml:id='DGlush.641'>
+	<orig>се</orig>
+	<reg>СЕ</reg>
+	<src>СЕ</src>
+</w>
+						  </l>
+						<l n='20'>
+<w xml:id='DGlush.642'>
+	<orig>тѧжко</orig>
+	<reg>ТЯЖКО</reg>
+	<src>ТRЖКО</src>
+</w>
+<w xml:id='DGlush.643'>
+	<orig>послꙋшати</orig>
+	<reg>ПОСЛУШАТИ</reg>
+	<src>ПОСЛDШАТИ</src>
+</w>
+<w xml:id='DGlush.644'>
+	<orig>оц҃ы</orig>
+	<reg>ОЦЫ#</reg>
+	<src>ОЦЫ#</src>
+</w>
+<w xml:id='DGlush.645'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.646'>
+	<orig>бра҇ⷮа</orig>
+	<reg>БРА(т)А</reg>
+	<src>БРА(т)А</src>
+</w>
+<c type='punctuation' xml:id='DGlush.647'>.</c>
+<w xml:id='DGlush.648'>
+	<orig>по<pb/>слѹшаите</orig>
+	<reg>ПОСЛУШАИТЕ</reg>
+	<src>ПОZ -65 СЛUШАИТЕ</src>
+</w>
+						  </l>
+					</div4>
+				</div3>
+			</div2>
+			<div2 type='page' n='65'>
+				<div3 type='back'>
+					<div4 type='col' n='1'>
+						<l n='1'>
+<w xml:id='DGlush.649'>
+	<orig>ѹмныа</orig>
+	<reg>УМНЫА</reg>
+	<src>UМНЫА</src>
+</w>
+<w xml:id='DGlush.650'>
+	<orig>двери</orig>
+	<reg>ДВЕРИ</reg>
+	<src>ДВЕРИ</src>
+</w>
+<w xml:id='DGlush.651'>
+	<orig>ѿверзше</orig>
+	<reg>О(Т)ВЕРЗШЕ</reg>
+	<src>W(Т)ВЕРЗШЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.652'>.</c>
+<w xml:id='DGlush.653'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+						  </l>
+						<l n='2'>
+<w xml:id='DGlush.654'>
+	<orig>слꙋха</orig>
+	<reg>СЛУХА</reg>
+	<src>СЛDХА</src>
+</w>
+<w xml:id='DGlush.655'>
+	<orig>дш҃евнаа</orig>
+	<reg>ДШЕВНАА#</reg>
+	<src>ДШЕВНАА#</src>
+</w>
+<w xml:id='DGlush.656'>
+	<orig>ѿкрывше</orig>
+	<reg>О(Т)КРЫВШЕ</reg>
+	<src>W(Т)КРЫВШЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.657'>.</c>
+<w xml:id='DGlush.658'>
+	<orig>тѣмже</orig>
+	<reg>Т+МЖЕ</reg>
+	<src>Т+МЖЕ</src>
+</w>
+<w xml:id='DGlush.659'>
+	<orig>по<lb/>двигнѣмсѧ</orig>
+	<reg>ПОДВИГН+МСЯ</reg>
+	<src>ПО&amp;ДВИГН+МСR</src>
+</w>
+						  </l>
+						<l n='3'>
+<w xml:id='DGlush.660'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.661'>
+	<orig>еще</orig>
+	<reg>ЕЩЕ</reg>
+	<src>ЕЩЕ</src>
+</w>
+<w xml:id='DGlush.662'>
+	<orig>навершити</orig>
+	<reg>НАВЕРШИТИ</reg>
+	<src>НАВЕРШИТИ</src>
+</w>
+<w xml:id='DGlush.663'>
+	<orig>добрѣ</orig>
+	<reg>ДОБР+</reg>
+	<src>ДОБР+</src>
+</w>
+						  </l>
+						<l n='4'>
+<w xml:id='DGlush.664'>
+	<orig>житїе</orig>
+	<reg>ЖИТИЕ</reg>
+	<src>ЖИТIЕ</src>
+</w>
+<w xml:id='DGlush.665'>
+	<orig>оц҃а</orig>
+	<reg>ОЦА#</reg>
+	<src>ОЦА#</src>
+</w>
+<w xml:id='DGlush.666'>
+	<orig>нш҃его</orig>
+	<reg>НШЕГО#</reg>
+	<src>НШЕГО#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.667'>.</c>
+<w xml:id='DGlush.668'>
+	<orig>пр҇ⷭно</orig>
+	<reg>ПР(с)НО</reg>
+	<src>ПР(с)НО</src>
+</w>
+<w xml:id='DGlush.669'>
+	<orig>бо</orig>
+	<reg>БО</reg>
+	<src>БО</src>
+</w>
+<w xml:id='DGlush.670'>
+	<orig>на</orig>
+	<reg>НА</reg>
+	<src>НА</src>
+</w>
+<w xml:id='DGlush.671'>
+	<orig>сконча<lb/>нїе</orig>
+	<reg>СКОНЧАНИЕ</reg>
+	<src>СКОНЧА&amp;НIЕ</src>
+</w>
+						  </l>
+						<l n='5'>
+<w xml:id='DGlush.672'>
+	<orig>вѣнци</orig>
+	<reg>В+НЦИ</reg>
+	<src>В+НЦИ</src>
+</w>
+<w xml:id='DGlush.673'>
+	<orig>подаютсѧ</orig>
+	<reg>ПОДАЮТСЯ</reg>
+	<src>ПОДАЮТСR</src>
+</w>
+<w xml:id='DGlush.674'>
+	<orig>трꙋдѧщимсѧ</orig>
+	<reg>ТРУДЯЩИМСЯ</reg>
+	<src>ТРDДRЩИМСR</src>
+</w>
+<c type='punctuation' xml:id='DGlush.675'>.</c>
+						  </l>
+						<l n='6'>
+<w xml:id='DGlush.676'>
+	<orig>егда</orig>
+	<reg>ЕГДА</reg>
+	<src>ЕГДА</src>
+</w>
+<w xml:id='DGlush.677'>
+	<orig>бо</orig>
+	<reg>БО</reg>
+	<src>БО</src>
+</w>
+<w xml:id='DGlush.678'>
+	<orig>кто</orig>
+	<reg>КТО</reg>
+	<src>КТО</src>
+</w>
+<w xml:id='DGlush.679'>
+	<orig>начне҇ⷮ</orig>
+	<reg>НАЧНЕ(т)</reg>
+	<src>НАЧНЕ(т)</src>
+</w>
+<w xml:id='DGlush.680'>
+	<orig>каково</orig>
+	<reg>КАКОВО</reg>
+	<src>КАКОВО</src>
+</w>
+<w xml:id='DGlush.681'>
+	<orig>любо</orig>
+	<reg>ЛЮБО</reg>
+	<src>ЛЮБО</src>
+</w>
+<w xml:id='DGlush.682'>
+	<orig>дѣло</orig>
+	<reg>Д+ЛО</reg>
+	<src>Д+ЛО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.683'>,</c>
+<w xml:id='DGlush.684'>
+	<orig>ти</orig>
+	<reg>ТИ</reg>
+	<src>ТИ</src>
+</w>
+						  </l>
+						<l n='7'>
+<w xml:id='DGlush.685'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.686'>
+	<orig>скончае҇ⷮ</orig>
+	<reg>СКОНЧАЕ(т)</reg>
+	<src>СКОНЧАЕ(т)</src>
+</w>
+<w xml:id='DGlush.687'>
+	<orig>егѡ</orig>
+	<reg>ЕГО</reg>
+	<src>ЕГW</src>
+</w>
+<c type='punctuation' xml:id='DGlush.688'>.</c>
+<w xml:id='DGlush.689'>
+	<orig>то</orig>
+	<reg>ТО</reg>
+	<src>ТО</src>
+</w>
+<w xml:id='DGlush.690'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.691'>
+	<orig>токмо</orig>
+	<reg>ТОКМО</reg>
+	<src>ТОКМО</src>
+</w>
+<w xml:id='DGlush.692'>
+	<orig>мзⷣы</orig>
+	<reg>МЗ(Д)Ы</reg>
+	<src>МЗ(Д)Ы</src>
+</w>
+<w xml:id='DGlush.693'>
+	<orig>ли<lb/>шитсѧ</orig>
+	<reg>ЛИШИТСЯ</reg>
+	<src>ЛИ&amp;ШИТСR</src>
+</w>
+						  </l>
+						<l n='8'>
+<c type='punctuation' xml:id='DGlush.694'>,</c>
+<w xml:id='DGlush.695'>
+	<orig>но</orig>
+	<reg>НО</reg>
+	<src>НО</src>
+</w>
+<w xml:id='DGlush.696'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.697'>
+	<orig>хѹлꙋ</orig>
+	<reg>ХУЛУ</reg>
+	<src>ХUЛD</src>
+</w>
+<w xml:id='DGlush.698'>
+	<orig>прїиметь</orig>
+	<reg>ПРИИМЕТЬ</reg>
+	<src>ПРIИМЕТЬ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.699'>.</c>
+<w xml:id='DGlush.700'>
+	<orig>еже</orig>
+	<reg>ЕЖЕ</reg>
+	<src>ЕЖЕ</src>
+</w>
+<w xml:id='DGlush.701'>
+	<orig>до<lb/>стоино</orig>
+	<reg>ДОСТОИНО</reg>
+	<src>ДО&amp;СТОИНО</src>
+</w>
+						  </l>
+						<l n='9'>
+<w xml:id='DGlush.702'>
+	<orig>добрѣ</orig>
+	<reg>ДОБР+</reg>
+	<src>ДОБР+</src>
+</w>
+<w xml:id='DGlush.703'>
+	<orig>скончѧти</orig>
+	<reg>СКОНЧЯТИ</reg>
+	<src>СКОНЧRТИ</src>
+</w>
+<w xml:id='DGlush.704'>
+	<orig>обѣщанїе</orig>
+	<reg>ОБ+ЩАНИЕ</reg>
+	<src>ОБ+ЩАНIЕ</src>
+</w>
+<w xml:id='DGlush.705'>
+	<orig>свое</orig>
+	<reg>СВОЕ</reg>
+	<src>СВОЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.706'>.</c>
+						  </l>
+						<l n='10'>
+<w xml:id='DGlush.707'>
+	<orig>въпїюще</orig>
+	<reg>ВЪПИЮЩЕ</reg>
+	<src>ВЪПIЮЩЕ</src>
+</w>
+<w xml:id='DGlush.708'>
+	<orig>к</orig>
+	<reg>К</reg>
+	<src>К</src>
+</w>
+<w xml:id='DGlush.709'>
+	<orig>немѹ</orig>
+	<reg>НЕМУ</reg>
+	<src>НЕМU</src>
+</w>
+<c type='punctuation' xml:id='DGlush.710'>;</c>
+<w xml:id='DGlush.711'>
+	<orig>свѣтоноснѣ</orig>
+	<reg>СВ+ТОНОСН+</reg>
+	<src>СВ+ТОНОСН+</src>
+</w>
+<w xml:id='DGlush.712'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.713'>
+	<orig>бж҃е<lb/>ственѣ</orig>
+	<reg>БЖЕСТВЕН+#</reg>
+	<src>БЖЕ&amp;СТВЕН+#</src>
+</w>
+						  </l>
+						<l n='11'>
+<w xml:id='DGlush.714'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.715'>
+	<orig>прпⷣбнѣ</orig>
+	<reg>ПРП(Д)БН+</reg>
+	<src>ПРП(Д)БН+</src>
+</w>
+<w xml:id='DGlush.716'>
+	<orig>има҇ⷮ</orig>
+	<reg>ИМА(т)</reg>
+	<src>ИМА(т)</src>
+</w>
+<w xml:id='DGlush.717'>
+	<orig>тебѧ</orig>
+	<reg>ТЕБЯ</reg>
+	<src>ТЕБR</src>
+</w>
+<w xml:id='DGlush.718'>
+	<orig>миръ</orig>
+	<reg>МИРЪ</reg>
+	<src>МИРЪ</src>
+</w>
+<w xml:id='DGlush.719'>
+	<orig>за<lb/>стѹпника</orig>
+	<reg>ЗАСТУПНИКА</reg>
+	<src>ЗА&amp;СТUПНИКА</src>
+</w>
+						  </l>
+						<l n='12'>
+<w xml:id='DGlush.720'>
+	<orig>велика</orig>
+	<reg>ВЕЛИКА</reg>
+	<src>ВЕЛИКА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.721'>,</c>
+<w xml:id='DGlush.722'>
+	<orig>ꙗкѡ</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКW</src>
+</w>
+<w xml:id='DGlush.723'>
+	<orig>поборника</orig>
+	<reg>ПОБОРНИКА</reg>
+	<src>ПОБОРНИКА</src>
+</w>
+<w xml:id='DGlush.724'>
+	<orig>ско<lb/>раго</orig>
+	<reg>СКОРАГО</reg>
+	<src>СКО&amp;РАГО</src>
+</w>
+						  </l>
+						<l n='13'>
+<w xml:id='DGlush.725'>
+	<orig>страшными</orig>
+	<reg>СТРАШНЫМИ</reg>
+	<src>СТРАШНЫМИ</src>
+</w>
+<w xml:id='DGlush.726'>
+	<orig>твоими</orig>
+	<reg>ТВОИМИ</reg>
+	<src>ТВОИМИ</src>
+</w>
+<w xml:id='DGlush.727'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.728'>
+	<orig>свѣтлы<lb/>ми</orig>
+	<reg>СВ+ТЛЫМИ</reg>
+	<src>СВ+ТЛЫ&amp;МИ</src>
+</w>
+						  </l>
+						<l n='14'>
+<w xml:id='DGlush.729'>
+	<orig>чюдесы</orig>
+	<reg>ЧЮДЕСЫ</reg>
+	<src>ЧЮДЕСЫ</src>
+</w>
+<w xml:id='DGlush.730'>
+	<orig>побѣжаютсѧ</orig>
+	<reg>ПОБ+ЖАЮТСЯ</reg>
+	<src>ПОБ+ЖАЮТСR</src>
+</w>
+<w xml:id='DGlush.731'>
+	<orig>вражїа</orig>
+	<reg>ВРАЖИА</reg>
+	<src>ВРАЖIА</src>
+</w>
+<w xml:id='DGlush.732'>
+	<orig>по҇ⷧкы</orig>
+	<reg>ПО(л)КЫ</reg>
+	<src>ПО(л)КЫ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.733'>,</c>
+						  </l>
+						<l n='15'>
+<w xml:id='DGlush.734'>
+	<orig>видѧщи</orig>
+	<reg>ВИДЯЩИ</reg>
+	<src>ВИДRЩИ</src>
+</w>
+<w xml:id='DGlush.735'>
+	<orig>твое</orig>
+	<reg>ТВОЕ</reg>
+	<src>ТВОЕ</src>
+</w>
+<w xml:id='DGlush.736'>
+	<orig>видѣнїе</orig>
+	<reg>ВИД+НИЕ</reg>
+	<src>ВИД+НIЕ</src>
+</w>
+<w xml:id='DGlush.737'>
+	<orig>пресвѣтлое</orig>
+	<reg>ПРЕСВ+ТЛОЕ</reg>
+	<src>ПРЕСВ+ТЛОЕ</src>
+</w>
+<w xml:id='DGlush.738'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+						  </l>
+						<l n='16'>
+<w xml:id='DGlush.739'>
+	<orig>мы</orig>
+	<reg>МЫ</reg>
+	<src>МЫ</src>
+</w>
+<w xml:id='DGlush.740'>
+	<orig>въпїемъ</orig>
+	<reg>ВЪПИЕМЪ</reg>
+	<src>ВЪПIЕМЪ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.741'>.</c>
+<w xml:id='DGlush.742'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<name>
+<w xml:id='DGlush.743'>
+	<orig>дионисїе</orig>
+	<reg>*ДИОНИСИЕ</reg>
+	<src>*ДИОНИСIЕ</src>
+</w>
+</name>
+<w xml:id='DGlush.744'>
+	<orig>прпⷣбне</orig>
+	<reg>ПРП(Д)БНЕ</reg>
+	<src>ПРП(Д)БНЕ</src>
+</w>
+						  </l>
+						<l n='17'>
+<w xml:id='DGlush.745'>
+	<orig>ч҇ⷭтное</orig>
+	<reg>Ч(с)ТНОЕ</reg>
+	<src>Ч(с)ТНОЕ</src>
+</w>
+<w xml:id='DGlush.746'>
+	<orig>съкровище</orig>
+	<reg>СЪКРОВИЩЕ</reg>
+	<src>СЪКРОВИЩЕ</src>
+</w>
+<w xml:id='DGlush.747'>
+	<orig>бл҃годати</orig>
+	<reg>БЛГОДАТИ#</reg>
+	<src>БЛГОДАТИ#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.748'>.</c>
+<w xml:id='DGlush.749'>
+	<orig>красота</orig>
+	<reg>КРАСОТА</reg>
+	<src>КРАСОТА</src>
+</w>
+						  </l>
+						<l n='18'>
+<w xml:id='DGlush.750'>
+	<orig>пресвѣтлаа</orig>
+	<reg>ПРЕСВ+ТЛАА</reg>
+	<src>ПРЕСВ+ТЛАА</src>
+</w>
+<w xml:id='DGlush.751'>
+	<orig>бл҃гоч҇ⷭтивыⷨ</orig>
+	<reg>БЛГОЧ(с)ТИВЫ(М)#</reg>
+	<src>БЛГОЧ(с)ТИВЫ(М)#</src>
+</w>
+<w xml:id='DGlush.752'>
+	<orig>постникѡⷨ</orig>
+	<reg>ПОСТНИКО(М)</reg>
+	<src>ПОСТНИКW(М)</src>
+</w>
+						  </l>
+						<l n='19'>
+<w xml:id='DGlush.753'>
+	<orig>слаⷣкое</orig>
+	<reg>СЛА(Д)КОЕ</reg>
+	<src>СЛА(Д)КОЕ</src>
+</w>
+<w xml:id='DGlush.754'>
+	<orig>гл҃анїе</orig>
+	<reg>ГЛАНИЕ#</reg>
+	<src>ГЛАНIЕ#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.755'>.</c>
+<w xml:id='DGlush.756'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<w xml:id='DGlush.757'>
+	<orig>защитни҇ⷱ</orig>
+	<reg>ЗАЩИТНИ(ч)</reg>
+	<src>ЗАЩИТНИ(ч)</src>
+</w>
+<w xml:id='DGlush.758'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.759'>
+	<orig>тве<lb/>рдость</orig>
+	<reg>ТВЕРДОСТЬ</reg>
+	<src>ТВЕ&amp;РДОСТЬ</src>
+</w>
+						  </l>
+						<l n='20'>
+<w xml:id='DGlush.760'>
+	<orig>кн҃ѕемъ</orig>
+	<reg>КНЗЕМЪ#</reg>
+	<src>КНSЕМЪ#</src>
+</w>
+<w xml:id='DGlush.761'>
+	<orig>православныⷨ</orig>
+	<reg>ПРАВОСЛАВНЫ(М)</reg>
+	<src>ПРАВОСЛАВНЫ(М)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.762'>.</c>
+<w xml:id='DGlush.763'>
+	<orig>твоиⷨ</orig>
+	<reg>ТВОИ(М)</reg>
+	<src>ТВОИ(М)</src>
+</w>
+						  </l>
+					</div4>
+				</div3>
+			</div2>
+			<div2 type='page' n='66'>
+				<div3 type='front'>
+					<div4 type='col' n='1'>
+						<l n='1'>
+<w xml:id='DGlush.764'>
+	<orig>бо</orig>
+	<reg>БО</reg>
+	<src>БО</src>
+</w>
+<w xml:id='DGlush.765'>
+	<orig>застꙋпленїемъ</orig>
+	<reg>ЗАСТУПЛЕНИЕМЪ</reg>
+	<src>ЗАСТDПЛЕНIЕМЪ</src>
+</w>
+<w xml:id='DGlush.766'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.767'>
+	<orig>моленїемъ</orig>
+	<reg>МОЛЕНИЕМЪ</reg>
+	<src>МОЛЕНIЕМЪ</src>
+</w>
+<w xml:id='DGlush.768'>
+	<orig>к</orig>
+	<reg>К</reg>
+	<src>К</src>
+</w>
+<w xml:id='DGlush.769'>
+	<orig>бг҃ѫ</orig>
+	<reg>БГУ#</reg>
+	<src>БГG#</src>
+</w>
+						  </l>
+						<l n='2'>
+<w xml:id='DGlush.770'>
+	<orig>побѣжаютсѧ</orig>
+	<reg>ПОБ+ЖАЮТСЯ</reg>
+	<src>ПОБ+ЖАЮТСR</src>
+</w>
+<w xml:id='DGlush.771'>
+	<orig>всѧ</orig>
+	<reg>ВСЯ</reg>
+	<src>ВСR</src>
+</w>
+<w xml:id='DGlush.772'>
+	<orig>врагы</orig>
+	<reg>ВРАГЫ</reg>
+	<src>ВРАГЫ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.773'>.</c>
+<w xml:id='DGlush.774'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<name>
+<w xml:id='DGlush.775'>
+	<orig>дїони҇ⷭе</orig>
+	<reg>*ДИОНИ(с)Е</reg>
+	<src>*ДIОНИ(с)Е</src>
+</w>
+</name>
+						  </l>
+						<l n='3'>
+<w xml:id='DGlush.776'>
+	<orig>прпⷣбне</orig>
+	<reg>ПРП(Д)БНЕ</reg>
+	<src>ПРП(Д)БНЕ</src>
+</w>
+<w xml:id='DGlush.777'>
+	<orig>ѹчителю</orig>
+	<reg>УЧИТЕЛЮ</reg>
+	<src>UЧИТЕЛЮ</src>
+</w>
+<w xml:id='DGlush.778'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.779'>
+	<orig>наставниче</orig>
+	<reg>НАСТАВНИЧЕ</reg>
+	<src>НАСТАВНИЧЕ</src>
+</w>
+<w xml:id='DGlush.780'>
+	<orig>при<lb/>скорбнаго</orig>
+	<reg>ПРИСКОРБНАГО</reg>
+	<src>ПРИ&amp;СКОРБНАГО</src>
+</w>
+						  </l>
+						<l n='4'>
+<w xml:id='DGlush.781'>
+	<orig>пѫти</orig>
+	<reg>ПУТИ</reg>
+	<src>ПGТИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.782'>.</c>
+<w xml:id='DGlush.783'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<w xml:id='DGlush.784'>
+	<orig>правдою</orig>
+	<reg>ПРАВДОЮ</reg>
+	<src>ПРАВДОЮ</src>
+</w>
+<w xml:id='DGlush.785'>
+	<orig>ѹкра<lb/>шеннѣ</orig>
+	<reg>УКРАШЕНН+</reg>
+	<src>UКРА&amp;ШЕНН+</src>
+</w>
+						  </l>
+						<l n='5'>
+<w xml:id='DGlush.786'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.787'>
+	<orig>смиренїе</orig>
+	<reg>СМИРЕНИЕ</reg>
+	<src>СМИРЕНIЕ</src>
+</w>
+<w xml:id='DGlush.788'>
+	<orig>твое</orig>
+	<reg>ТВОЕ</reg>
+	<src>ТВОЕ</src>
+</w>
+<w xml:id='DGlush.789'>
+	<orig>ѡ҇ⷱ</orig>
+	<reg>О(ч)</reg>
+	<src>W(ч)</src>
+</w>
+<w xml:id='DGlush.790'>
+	<orig>ѹдивлѧе҇ⷮ</orig>
+	<reg>УДИВЛЯЕ(т)</reg>
+	<src>UДИВЛRЕ(т)</src>
+</w>
+						  </l>
+						<l n='6'>
+<w xml:id='DGlush.791'>
+	<orig>ми</orig>
+	<reg>МИ</reg>
+	<src>МИ</src>
+</w>
+<w xml:id='DGlush.792'>
+	<orig>ѹмъ</orig>
+	<reg>УМЪ</reg>
+	<src>UМЪ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.793'>.</c>
+<w xml:id='DGlush.794'>
+	<orig>срⷣце</orig>
+	<reg>СР(Д)ЦЕ</reg>
+	<src>СР(Д)ЦЕ</src>
+</w>
+<w xml:id='DGlush.795'>
+	<orig>ѹжасае҇ⷮ</orig>
+	<reg>УЖАСАЕ(т)</reg>
+	<src>UЖАСАЕ(т)</src>
+</w>
+<w xml:id='DGlush.796'>
+	<orig>ми</orig>
+	<reg>МИ</reg>
+	<src>МИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.797'>.</c>
+<w xml:id='DGlush.798'>
+	<orig>странничь<lb/>ство</orig>
+	<reg>СТРАННИЧЬСТВО</reg>
+	<src>СТРАННИЧЬ&amp;СТВО</src>
+</w>
+						  </l>
+						<l n='7'>
+<w xml:id='DGlush.799'>
+	<orig>ѹбѡ</orig>
+	<reg>УБО</reg>
+	<src>UБW</src>
+</w>
+<w xml:id='DGlush.800'>
+	<orig>ѹмилѧе҇ⷮ</orig>
+	<reg>УМИЛЯЕ(т)</reg>
+	<src>UМИЛRЕ(т)</src>
+</w>
+<w xml:id='DGlush.801'>
+	<orig>ми</orig>
+	<reg>МИ</reg>
+	<src>МИ</src>
+</w>
+<w xml:id='DGlush.802'>
+	<orig>дш҃ѫ</orig>
+	<reg>ДШУ#</reg>
+	<src>ДШG#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.803'>.</c>
+<w xml:id='DGlush.804'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<name>
+<w xml:id='DGlush.805'>
+	<orig>дї<lb/>онисїе</orig>
+	<reg>*ДИОНИСИЕ</reg>
+	<src>*ДI&amp;ОНИСIЕ</src>
+</w>
+</name>
+						  </l>
+						<l n='8'>
+<w xml:id='DGlush.806'>
+	<orig>дѣлателю</orig>
+	<reg>Д+ЛАТЕЛЮ</reg>
+	<src>Д+ЛАТЕЛЮ</src>
+</w>
+<w xml:id='DGlush.807'>
+	<orig>истинны</orig>
+	<reg>ИСТИННЫ</reg>
+	<src>ИСТИННЫ</src>
+</w>
+<w xml:id='DGlush.808'>
+	<orig>заповѣдеⷨ</orig>
+	<reg>ЗАПОВ+ДЕ(М)</reg>
+	<src>ЗАПОВ+ДЕ(М)</src>
+</w>
+						  </l>
+						<l n='9'>
+<name>
+<w xml:id='DGlush.809'>
+	<orig>х҇ⷭвымъ</orig>
+	<reg>*Х(с)ВЫМЪ</reg>
+	<src>*Х(с)ВЫМЪ</src>
+</w>
+</name>
+<c type='punctuation' xml:id='DGlush.810'>.</c>
+<w xml:id='DGlush.811'>
+	<orig>сѣмѧ</orig>
+	<reg>С+МЯ</reg>
+	<src>С+МR</src>
+</w>
+<w xml:id='DGlush.812'>
+	<orig>бл҃гоч҇ⷭтїа</orig>
+	<reg>БЛГОЧ(с)ТИА#</reg>
+	<src>БЛГОЧ(с)ТIА#</src>
+</w>
+<w xml:id='DGlush.813'>
+	<orig>словѡⷨ</orig>
+	<reg>СЛОВО(М)</reg>
+	<src>СЛОВW(М)</src>
+</w>
+<w xml:id='DGlush.814'>
+	<orig>посѣѧ<lb/>вша</orig>
+	<reg>ПОС+ЯВША</reg>
+	<src>ПОС+R&amp;ВША</src>
+</w>
+						  </l>
+						<l n='10'>
+<c type='punctuation' xml:id='DGlush.815'>.</c>
+<w xml:id='DGlush.816'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.817'>
+	<orig>принеслъ</orig>
+	<reg>ПРИНЕСЛЪ</reg>
+	<src>ПРИНЕСЛЪ</src>
+</w>
+<w xml:id='DGlush.818'>
+	<orig>еси</orig>
+	<reg>ЕСИ</reg>
+	<src>ЕСИ</src>
+</w>
+<w xml:id='DGlush.819'>
+	<orig>плоды</orig>
+	<reg>ПЛОДЫ</reg>
+	<src>ПЛОДЫ</src>
+</w>
+<w xml:id='DGlush.820'>
+	<orig>сп҃сенныа</orig>
+	<reg>СПСЕННЫА#</reg>
+	<src>СПСЕННЫА#</src>
+</w>
+<w xml:id='DGlush.821'>
+	<orig>къ</orig>
+	<reg>КЪ</reg>
+	<src>КЪ</src>
+</w>
+						  </l>
+						<l n='11'>
+<w xml:id='DGlush.822'>
+	<orig>бѹ҃</orig>
+	<reg>БУ#</reg>
+	<src>БU#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.823'>.</c>
+<w xml:id='DGlush.824'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<name>
+<w xml:id='DGlush.825'>
+	<orig>дїонисїе</orig>
+	<reg>*ДИОНИСИЕ</reg>
+	<src>*ДIОНИСIЕ</src>
+</w>
+</name>
+<w xml:id='DGlush.826'>
+	<orig>прпⷣбне</orig>
+	<reg>ПРП(Д)БНЕ</reg>
+	<src>ПРП(Д)БНЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.827'>,</c>
+<w xml:id='DGlush.828'>
+	<orig>кр҇ⷭтъ</orig>
+	<reg>КР(с)ТЪ</reg>
+	<src>КР(с)ТЪ</src>
+</w>
+<w xml:id='DGlush.829'>
+	<orig>на</orig>
+	<reg>НА</reg>
+	<src>НА</src>
+</w>
+						  </l>
+						<l n='12'>
+<w xml:id='DGlush.830'>
+	<orig>рамо</orig>
+	<reg>РАМО</reg>
+	<src>РАМО</src>
+</w>
+<w xml:id='DGlush.831'>
+	<orig>вземъ</orig>
+	<reg>ВЗЕМЪ</reg>
+	<src>ВЗЕМЪ</src>
+</w>
+<w xml:id='DGlush.832'>
+	<orig>пѹстыню</orig>
+	<reg>ПУСТЫНЮ</reg>
+	<src>ПUСТЫНЮ</src>
+</w>
+<w xml:id='DGlush.833'>
+	<orig>достиже</orig>
+	<reg>ДОСТИЖЕ</reg>
+	<src>ДОСТИЖЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.834'>.</c>
+<w xml:id='DGlush.835'>
+	<orig>жи<lb/>тїемъ</orig>
+	<reg>ЖИТИЕМЪ</reg>
+	<src>ЖИ&amp;ТIЕМЪ</src>
+</w>
+						  </l>
+						<l n='13'>
+<w xml:id='DGlush.836'>
+	<orig>постничества</orig>
+	<reg>ПОСТНИЧЕСТВА</reg>
+	<src>ПОСТНИЧЕСТВА</src>
+</w>
+<w xml:id='DGlush.837'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.838'>
+	<orig>неи</orig>
+	<reg>НЕИ</reg>
+	<src>НЕИ</src>
+</w>
+<w xml:id='DGlush.839'>
+	<orig>пожи҇ⷮ</orig>
+	<reg>ПОЖИ(т)</reg>
+	<src>ПОЖИ(т)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.840'>.</c>
+<w xml:id='DGlush.841'>
+	<orig>раⷣу<lb/>исѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)У&amp;ИСR</src>
+</w>
+						  </l>
+						<l n='14'>
+<w xml:id='DGlush.842'>
+	<orig>иноческыⷨ</orig>
+	<reg>ИНОЧЕСКЫ(М)</reg>
+	<src>ИНОЧЕСКЫ(М)</src>
+</w>
+<w xml:id='DGlush.843'>
+	<orig>чинѡⷨ</orig>
+	<reg>ЧИНО(М)</reg>
+	<src>ЧИНW(М)</src>
+</w>
+<w xml:id='DGlush.844'>
+	<orig>монастырѧ</orig>
+	<reg>МОНАСТЫРЯ</reg>
+	<src>МОНАСТЫРR</src>
+</w>
+<w xml:id='DGlush.845'>
+	<orig>испо<lb/>лнилъ</orig>
+	<reg>ИСПОЛНИЛЪ</reg>
+	<src>ИСПО&amp;ЛНИЛЪ</src>
+</w>
+						  </l>
+						<l n='15'>
+<w xml:id='DGlush.846'>
+	<orig>еси</orig>
+	<reg>ЕСИ</reg>
+	<src>ЕСИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.847'>,</c>
+<w xml:id='DGlush.848'>
+	<orig>ꙗже</orig>
+	<reg>ЯЖЕ</reg>
+	<src>ЯЖЕ</src>
+</w>
+<w xml:id='DGlush.849'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.850'>
+	<orig>до҃ннѣ</orig>
+	<reg>ДОНН+#</reg>
+	<src>ДОНН+#</src>
+</w>
+<w xml:id='DGlush.851'>
+	<orig>ст҃ыми</orig>
+	<reg>СТЫМИ#</reg>
+	<src>СТЫМИ#</src>
+</w>
+<w xml:id='DGlush.852'>
+	<orig>ти</orig>
+	<reg>ТИ</reg>
+	<src>ТИ</src>
+</w>
+						  </l>
+						<l n='16'>
+<w xml:id='DGlush.853'>
+	<orig>мл҃твами</orig>
+	<reg>МЛТВАМИ#</reg>
+	<src>МЛТВАМИ#</src>
+</w>
+<w xml:id='DGlush.854'>
+	<orig>съхранѧеми</orig>
+	<reg>СЪХРАНЯЕМИ</reg>
+	<src>СЪХРАНRЕМИ</src>
+</w>
+<w xml:id='DGlush.855'>
+	<orig>сѹ҇ⷮ</orig>
+	<reg>СУ(т)</reg>
+	<src>СU(т)</src>
+</w>
+<w xml:id='DGlush.856'>
+	<orig>ѿ</orig>
+	<reg>О(Т)</reg>
+	<src>W(Т)</src>
+</w>
+<w xml:id='DGlush.857'>
+	<orig>сꙋпоста<lb/>та</orig>
+	<reg>СУПОСТАТА</reg>
+	<src>СDПОСТА&amp;ТА</src>
+</w>
+						  </l>
+						<l n='17'>
+<w xml:id='DGlush.858'>
+	<orig>врага</orig>
+	<reg>ВРАГА</reg>
+	<src>ВРАГА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.859'>.</c>
+<w xml:id='DGlush.860'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<w xml:id='DGlush.861'>
+	<orig>дѣлателю</orig>
+	<reg>Д+ЛАТЕЛЮ</reg>
+	<src>Д+ЛАТЕЛЮ</src>
+</w>
+<w xml:id='DGlush.862'>
+	<orig>разꙋмь<lb/>ныи</orig>
+	<reg>РАЗУМЬНЫИ</reg>
+	<src>РАЗDМЬ&amp;НЫИ</src>
+</w>
+						  </l>
+						<l n='18'>
+<w xml:id='DGlush.863'>
+	<orig>въистинѹ</orig>
+	<reg>ВЪИСТИНУ</reg>
+	<src>ВЪИСТИНU</src>
+</w>
+<c type='punctuation' xml:id='DGlush.864'>.</c>
+<w xml:id='DGlush.865'>
+	<orig>на</orig>
+	<reg>НА</reg>
+	<src>НА</src>
+</w>
+<w xml:id='DGlush.866'>
+	<orig>земли</orig>
+	<reg>ЗЕМЛИ</reg>
+	<src>ЗЕМЛИ</src>
+</w>
+<w xml:id='DGlush.867'>
+	<orig>бо</orig>
+	<reg>БО</reg>
+	<src>БО</src>
+</w>
+<w xml:id='DGlush.868'>
+	<orig>неща<lb/>дно</orig>
+	<reg>НЕЩАДНО</reg>
+	<src>НЕЩА&amp;ДНО</src>
+</w>
+						  </l>
+						<l n='19'>
+<w xml:id='DGlush.869'>
+	<orig>сѣꙗше</orig>
+	<reg>С+ЯШЕ</reg>
+	<src>С+ЯШЕ</src>
+</w>
+<w xml:id='DGlush.870'>
+	<orig>мл҇ⷭть</orig>
+	<reg>МЛ(с)ТЬ</reg>
+	<src>МЛ(с)ТЬ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.871'>.</c>
+<w xml:id='DGlush.872'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.873'>
+	<orig>слезами</orig>
+	<reg>СЛЕЗАМИ</reg>
+	<src>СЛЕЗАМИ</src>
+</w>
+<w xml:id='DGlush.874'>
+	<orig>дш҃евь<lb/>нꙋю</orig>
+	<reg>ДШЕВЬНУЮ#</reg>
+	<src>ДШЕВЬ&amp;НDЮ#</src>
+</w>
+						  </l>
+						<l n='20'>
+<w xml:id='DGlush.875'>
+	<orig>нивѫ</orig>
+	<reg>НИВУ</reg>
+	<src>НИВG</src>
+</w>
+<w xml:id='DGlush.876'>
+	<orig>напоилъ</orig>
+	<reg>НАПОИЛЪ</reg>
+	<src>НАПОИЛЪ</src>
+</w>
+<w xml:id='DGlush.877'>
+	<orig>еси</orig>
+	<reg>ЕСИ</reg>
+	<src>ЕСИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.878'>.</c>
+<w xml:id='DGlush.879'>
+	<orig>раⷣⷪстїю</orig>
+	<reg>РА(ДО)СТИЮ</reg>
+	<src>РА(ДО)СТIЮ</src>
+</w>
+<w xml:id='DGlush.880'>
+	<orig>на</orig>
+	<reg>НА</reg>
+	<src>НА</src>
+</w>
+<w xml:id='DGlush.881'>
+	<orig>не҃<pb/>бси</orig>
+	<reg>НЕБСИ#</reg>
+	<src>НЕZ -66 БСИ#</src>
+</w>
+						  </l>
+					</div4>
+				</div3>
+			</div2>
+			<div2 type='page' n='66'>
+				<div3 type='back'>
+					<div4 type='col' n='1'>
+						<l n='1'>
+<w xml:id='DGlush.882'>
+	<orig>рꙋкоѧти</orig>
+	<reg>РУКОЯТИ</reg>
+	<src>РDКОRТИ</src>
+</w>
+<w xml:id='DGlush.883'>
+	<orig>прїалъ</orig>
+	<reg>ПРИАЛЪ</reg>
+	<src>ПРIАЛЪ</src>
+</w>
+<w xml:id='DGlush.884'>
+	<orig>еси</orig>
+	<reg>ЕСИ</reg>
+	<src>ЕСИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.885'>.</c>
+<w xml:id='DGlush.886'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<name>
+<w xml:id='DGlush.887'>
+	<orig>дїони<lb/>сїе</orig>
+	<reg>*ДИОНИСИЕ</reg>
+	<src>*ДIОНИ&amp;СIЕ</src>
+</w>
+</name>
+						  </l>
+						<l n='2'>
+<w xml:id='DGlush.888'>
+	<orig>алчющимъ</orig>
+	<reg>АЛЧЮЩИМЪ</reg>
+	<src>АЛЧЮЩИМЪ</src>
+</w>
+<w xml:id='DGlush.889'>
+	<orig>питателю</orig>
+	<reg>ПИТАТЕЛЮ</reg>
+	<src>ПИТАТЕЛЮ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.890'>,</c>
+<w xml:id='DGlush.891'>
+	<orig>сѹщимъ</orig>
+	<reg>СУЩИМЪ</reg>
+	<src>СUЩИМЪ</src>
+</w>
+						  </l>
+						<l n='3'>
+<w xml:id='DGlush.892'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.893'>
+	<orig>наготѣ</orig>
+	<reg>НАГОТ+</reg>
+	<src>НАГОТ+</src>
+</w>
+<w xml:id='DGlush.894'>
+	<orig>покровителю</orig>
+	<reg>ПОКРОВИТЕЛЮ</reg>
+	<src>ПОКРОВИТЕЛЮ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.895'>,</c>
+<w xml:id='DGlush.896'>
+	<orig>обидимыⷨ</orig>
+	<reg>ОБИДИМЫ(М)</reg>
+	<src>ОБИДИМЫ(М)</src>
+</w>
+						  </l>
+						<l n='4'>
+<w xml:id='DGlush.897'>
+	<orig>пособни҇ⷱ</orig>
+	<reg>ПОСОБНИ(ч)</reg>
+	<src>ПОСОБНИ(ч)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.898'>.</c>
+<w xml:id='DGlush.899'>
+	<orig>вдовицаⷨ</orig>
+	<reg>ВДОВИЦА(М)</reg>
+	<src>ВДОВИЦА(М)</src>
+</w>
+<w xml:id='DGlush.900'>
+	<orig>застѫпниче</orig>
+	<reg>ЗАСТУПНИЧЕ</reg>
+	<src>ЗАСТGПНИЧЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.901'>.</c>
+<w xml:id='DGlush.902'>
+	<orig>пе<lb/>чѧлнымъ</orig>
+	<reg>ПЕЧЯЛНЫМЪ</reg>
+	<src>ПЕ&amp;ЧRЛНЫМЪ</src>
+</w>
+						  </l>
+						<l n='5'>
+<w xml:id='DGlush.903'>
+	<orig>ѹтѣшенїе</orig>
+	<reg>УТ+ШЕНИЕ</reg>
+	<src>UТ+ШЕНIЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.904'>.</c>
+<w xml:id='DGlush.905'>
+	<orig>беспомощныⷨ</orig>
+	<reg>БЕСПОМОЩНЫ(М)</reg>
+	<src>БЕСПОМОЩНЫ(М)</src>
+</w>
+						  </l>
+						<l n='6'>
+<w xml:id='DGlush.906'>
+	<orig>помощни҇ⷱ</orig>
+	<reg>ПОМОЩНИ(ч)</reg>
+	<src>ПОМОЩНИ(ч)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.907'>.</c>
+<w xml:id='DGlush.908'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.909'>
+	<orig>рабомъ</orig>
+	<reg>РАБОМЪ</reg>
+	<src>РАБОМЪ</src>
+</w>
+<w xml:id='DGlush.910'>
+	<orig>свободѣтелю</orig>
+	<reg>СВОБОД+ТЕЛЮ</reg>
+	<src>СВОБОД+ТЕЛЮ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.911'>.</c>
+						  </l>
+						<l n='7'>
+<w xml:id='DGlush.912'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<name>
+<w xml:id='DGlush.913'>
+	<orig>дїонисїе</orig>
+	<reg>*ДИОНИСИЕ</reg>
+	<src>*ДIОНИСIЕ</src>
+</w>
+</name>
+<w xml:id='DGlush.914'>
+	<orig>твоими</orig>
+	<reg>ТВОИМИ</reg>
+	<src>ТВОИМИ</src>
+</w>
+<w xml:id='DGlush.915'>
+	<orig>ѹченми</orig>
+	<reg>УЧЕНМИ</reg>
+	<src>UЧЕНМИ</src>
+</w>
+<w xml:id='DGlush.916'>
+	<orig>съ҃<lb/>псенныⷯ</orig>
+	<reg>СЪПСЕННЫ(Х)#</reg>
+	<src>СЪ&amp;ПСЕННЫ(Х)#</src>
+</w>
+						  </l>
+						<l n='8'>
+<w xml:id='DGlush.917'>
+	<orig>части</orig>
+	<reg>ЧАСТИ</reg>
+	<src>ЧАСТИ</src>
+</w>
+<w xml:id='DGlush.918'>
+	<orig>наслѣдници</orig>
+	<reg>НАСЛ+ДНИЦИ</reg>
+	<src>НАСЛ+ДНИЦИ</src>
+</w>
+<w xml:id='DGlush.919'>
+	<orig>написахо<lb/>мсѧ</orig>
+	<reg>НАПИСАХОМСЯ</reg>
+	<src>НАПИСАХО&amp;МСR</src>
+</w>
+						  </l>
+						<l n='9'>
+<c type='punctuation' xml:id='DGlush.920'>.</c>
+<w xml:id='DGlush.921'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.922'>
+	<orig>самое</orig>
+	<reg>САМОЕ</reg>
+	<src>САМОЕ</src>
+</w>
+<w xml:id='DGlush.923'>
+	<orig>цр҇ⷭтво</orig>
+	<reg>ЦР(с)ТВО</reg>
+	<src>ЦР(с)ТВО</src>
+</w>
+<w xml:id='DGlush.924'>
+	<orig>нб҇ⷭное</orig>
+	<reg>НБ(с)НОЕ</reg>
+	<src>НБ(с)НОЕ</src>
+</w>
+<w xml:id='DGlush.925'>
+	<orig>покаанїеⷨ</orig>
+	<reg>ПОКААНИЕ(М)</reg>
+	<src>ПОКААНIЕ(М)</src>
+</w>
+						  </l>
+						<l n='10'>
+<w xml:id='DGlush.926'>
+	<orig>ѹлꙋчити</orig>
+	<reg>УЛУЧИТИ</reg>
+	<src>UЛDЧИТИ</src>
+</w>
+<w xml:id='DGlush.927'>
+	<orig>споⷣблѧемсѧ</orig>
+	<reg>СПО(Д)БЛЯЕМСЯ</reg>
+	<src>СПО(Д)БЛRЕМСR</src>
+</w>
+<c type='punctuation' xml:id='DGlush.928'>.</c>
+<w xml:id='DGlush.929'>
+	<orig>ꙗко</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКО</src>
+</w>
+<w xml:id='DGlush.930'>
+	<orig>многа</orig>
+	<reg>МНОГА</reg>
+	<src>МНОГА</src>
+</w>
+						  </l>
+						<l n='11'>
+<w xml:id='DGlush.931'>
+	<orig>мзⷣа</orig>
+	<reg>МЗ(Д)А</reg>
+	<src>МЗ(Д)А</src>
+</w>
+<w xml:id='DGlush.932'>
+	<orig>за</orig>
+	<reg>ЗА</reg>
+	<src>ЗА</src>
+</w>
+<w xml:id='DGlush.933'>
+	<orig>на҇ⷭ</orig>
+	<reg>НА(с)</reg>
+	<src>НА(с)</src>
+</w>
+<w xml:id='DGlush.934'>
+	<orig>ѿ</orig>
+	<reg>О(Т)</reg>
+	<src>W(Т)</src>
+</w>
+<w xml:id='DGlush.935'>
+	<orig>рекшаго</orig>
+	<reg>РЕКШАГО</reg>
+	<src>РЕКШАГО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.936'>.</c>
+<w xml:id='DGlush.937'>
+	<orig>иⷤ</orig>
+	<reg>И(Ж)</reg>
+	<src>И(Ж)</src>
+</w>
+<w xml:id='DGlush.938'>
+	<orig>аще</orig>
+	<reg>АЩЕ</reg>
+	<src>АЩЕ</src>
+</w>
+<w xml:id='DGlush.939'>
+	<orig>сътвори҇ⷮ</orig>
+	<reg>СЪТВОРИ(т)</reg>
+	<src>СЪТВОРИ(т)</src>
+</w>
+<w xml:id='DGlush.940'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+						  </l>
+						<l n='12'>
+<w xml:id='DGlush.941'>
+	<orig>наѹчить</orig>
+	<reg>НАУЧИТЬ</reg>
+	<src>НАUЧИТЬ</src>
+</w>
+<w xml:id='DGlush.942'>
+	<orig>се</orig>
+	<reg>СЕ</reg>
+	<src>СЕ</src>
+</w>
+<w xml:id='DGlush.943'>
+	<orig>великь</orig>
+	<reg>ВЕЛИКЬ</reg>
+	<src>ВЕЛИКЬ</src>
+</w>
+<w xml:id='DGlush.944'>
+	<orig>есть</orig>
+	<reg>ЕСТЬ</reg>
+	<src>ЕСТЬ</src>
+</w>
+<w xml:id='DGlush.945'>
+	<orig>въ</orig>
+	<reg>ВЪ</reg>
+	<src>ВЪ</src>
+</w>
+<w xml:id='DGlush.946'>
+	<orig>цр҇ⷭтви</orig>
+	<reg>ЦР(с)ТВИ</reg>
+	<src>ЦР(с)ТВИ</src>
+</w>
+						  </l>
+						<l n='13'>
+<w xml:id='DGlush.947'>
+	<orig>нб҇ⷭнѣмъ</orig>
+	<reg>НБ(с)Н+МЪ</reg>
+	<src>НБ(с)Н+МЪ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.948'>.</c>
+<w xml:id='DGlush.949'>
+	<orig>ты</orig>
+	<reg>ТЫ</reg>
+	<src>ТЫ</src>
+</w>
+<w xml:id='DGlush.950'>
+	<orig>бо</orig>
+	<reg>БО</reg>
+	<src>БО</src>
+</w>
+<w xml:id='DGlush.951'>
+	<orig>первїе</orig>
+	<reg>ПЕРВИЕ</reg>
+	<src>ПЕРВIЕ</src>
+</w>
+<w xml:id='DGlush.952'>
+	<orig>сътвори</orig>
+	<reg>СЪТВОРИ</reg>
+	<src>СЪТВОРИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.953'>.</c>
+<w xml:id='DGlush.954'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+						  </l>
+						<l n='14'>
+<w xml:id='DGlush.955'>
+	<orig>иныⷯ</orig>
+	<reg>ИНЫ(Х)</reg>
+	<src>ИНЫ(Х)</src>
+</w>
+<w xml:id='DGlush.956'>
+	<orig>словѡⷨ</orig>
+	<reg>СЛОВО(М)</reg>
+	<src>СЛОВW(М)</src>
+</w>
+<w xml:id='DGlush.957'>
+	<orig>наѹчи</orig>
+	<reg>НАУЧИ</reg>
+	<src>НАUЧИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.958'>.</c>
+<w xml:id='DGlush.959'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.960'>
+	<orig>образъ</orig>
+	<reg>ОБРАЗЪ</reg>
+	<src>ОБРАЗЪ</src>
+</w>
+<w xml:id='DGlush.961'>
+	<orig>показа҇ⷧ</orig>
+	<reg>ПОКАЗА(л)</reg>
+	<src>ПОКАЗА(л)</src>
+</w>
+						  </l>
+						<l n='15'>
+<w xml:id='DGlush.962'>
+	<orig>еси</orig>
+	<reg>ЕСИ</reg>
+	<src>ЕСИ</src>
+</w>
+<w xml:id='DGlush.963'>
+	<orig>намъ</orig>
+	<reg>НАМЪ</reg>
+	<src>НАМЪ</src>
+</w>
+<w xml:id='DGlush.964'>
+	<orig>земнаа</orig>
+	<reg>ЗЕМНАА</reg>
+	<src>ЗЕМНАА</src>
+</w>
+<w xml:id='DGlush.965'>
+	<orig>преобидѣти</orig>
+	<reg>ПРЕОБИД+ТИ</reg>
+	<src>ПРЕОБИД+ТИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.966'>.</c>
+<w xml:id='DGlush.967'>
+	<orig>въи<lb/>стинѹ</orig>
+	<reg>ВЪИСТИНУ</reg>
+	<src>ВЪИ&amp;СТИНU</src>
+</w>
+						  </l>
+						<l n='16'>
+<w xml:id='DGlush.968'>
+	<orig>велїа</orig>
+	<reg>ВЕЛИА</reg>
+	<src>ВЕЛIА</src>
+</w>
+<w xml:id='DGlush.969'>
+	<orig>дѣла</orig>
+	<reg>Д+ЛА</reg>
+	<src>Д+ЛА</src>
+</w>
+<w xml:id='DGlush.970'>
+	<orig>сътворилъ</orig>
+	<reg>СЪТВОРИЛЪ</reg>
+	<src>СЪТВОРИЛЪ</src>
+</w>
+<w xml:id='DGlush.971'>
+	<orig>еси</orig>
+	<reg>ЕСИ</reg>
+	<src>ЕСИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.972'>.</c>
+<w xml:id='DGlush.973'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+						  </l>
+						<l n='17'>
+<w xml:id='DGlush.974'>
+	<orig>чтѡ</orig>
+	<reg>ЧТО</reg>
+	<src>ЧТW</src>
+</w>
+<w xml:id='DGlush.975'>
+	<orig>сїа</orig>
+	<reg>СИА</reg>
+	<src>СIА</src>
+</w>
+<w xml:id='DGlush.976'>
+	<orig>похвалы</orig>
+	<reg>ПОХВАЛЫ</reg>
+	<src>ПОХВАЛЫ</src>
+</w>
+<w xml:id='DGlush.977'>
+	<orig>ч҇ⷭтнѣиша</orig>
+	<reg>Ч(с)ТН+ИША</reg>
+	<src>Ч(с)ТН+ИША</src>
+</w>
+<w xml:id='DGlush.978'>
+	<orig>еже</orig>
+	<reg>ЕЖЕ</reg>
+	<src>ЕЖЕ</src>
+</w>
+<w xml:id='DGlush.979'>
+	<orig>ѿ</orig>
+	<reg>О(Т)</reg>
+	<src>W(Т)</src>
+</w>
+<w xml:id='DGlush.980'>
+	<orig>бг҃а</orig>
+	<reg>БГА#</reg>
+	<src>БГА#</src>
+</w>
+						  </l>
+						<l n='18'>
+<w xml:id='DGlush.981'>
+	<orig>хвалимꙋ</orig>
+	<reg>ХВАЛИМУ</reg>
+	<src>ХВАЛИМD</src>
+</w>
+<w xml:id='DGlush.982'>
+	<orig>быти</orig>
+	<reg>БЫТИ</reg>
+	<src>БЫТИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.983'>.</c>
+<w xml:id='DGlush.984'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.985'>
+	<orig>въ</orig>
+	<reg>ВЪ</reg>
+	<src>ВЪ</src>
+</w>
+<w xml:id='DGlush.986'>
+	<orig>цр҇ⷭтвїи</orig>
+	<reg>ЦР(с)ТВИИ</reg>
+	<src>ЦР(с)ТВIИ</src>
+</w>
+<w xml:id='DGlush.987'>
+	<orig>его</orig>
+	<reg>ЕГО</reg>
+	<src>ЕГО</src>
+</w>
+<w xml:id='DGlush.988'>
+	<orig>ве<lb/>лїю</orig>
+	<reg>ВЕЛИЮ</reg>
+	<src>ВЕ&amp;ЛIЮ</src>
+</w>
+						  </l>
+						<l n='19'>
+<w xml:id='DGlush.989'>
+	<orig>нарещисѧ</orig>
+	<reg>НАРЕЩИСЯ</reg>
+	<src>НАРЕЩИСR</src>
+</w>
+<c type='punctuation' xml:id='DGlush.990'>.</c>
+<w xml:id='DGlush.991'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<w xml:id='DGlush.992'>
+	<orig>наслажⷣенїе</orig>
+	<reg>НАСЛАЖ(Д)ЕНИЕ</reg>
+	<src>НАСЛАЖ(Д)ЕНIЕ</src>
+</w>
+<w xml:id='DGlush.993'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+						  </l>
+						<l n='20'>
+<w xml:id='DGlush.994'>
+	<orig>правовѣрныⷨ</orig>
+	<reg>ПРАВОВ+РНЫ(М)</reg>
+	<src>ПРАВОВ+РНЫ(М)</src>
+</w>
+<w xml:id='DGlush.995'>
+	<orig>раⷣⷪванїе</orig>
+	<reg>РА(ДО)ВАНИЕ</reg>
+	<src>РА(ДО)ВАНIЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.996'>.</c>
+<w xml:id='DGlush.997'>
+	<orig>тобою</orig>
+	<reg>ТОБОЮ</reg>
+	<src>ТОБОЮ</src>
+</w>
+<w xml:id='DGlush.998'>
+	<orig>бо</orig>
+	<reg>БО</reg>
+	<src>БО</src>
+</w>
+<w xml:id='DGlush.999'>
+	<orig>вѣрни</orig>
+	<reg>В+РНИ</reg>
+	<src>В+РНИ</src>
+</w>
+						  </l>
+					</div4>
+				</div3>
+			</div2>
+			<div2 type='page' n='67'>
+				<div3 type='front'>
+					<div4 type='col' n='1'>
+						<l n='1'>
+<w xml:id='DGlush.1000'>
+	<orig>побѣжаю҇ⷮ</orig>
+	<reg>ПОБ+ЖАЮ(т)</reg>
+	<src>ПОБ+ЖАЮ(т)</src>
+</w>
+<w xml:id='DGlush.1001'>
+	<orig>вражїа</orig>
+	<reg>ВРАЖИА</reg>
+	<src>ВРАЖIА</src>
+</w>
+<w xml:id='DGlush.1002'>
+	<orig>шатанїа</orig>
+	<reg>ШАТАНИА</reg>
+	<src>ШАТАНIА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1003'>.</c>
+<w xml:id='DGlush.1004'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<w xml:id='DGlush.1005'>
+	<orig>ꙗ҇ⷦ</orig>
+	<reg>Я(к)</reg>
+	<src>Я(к)</src>
+</w>
+						  </l>
+						<l n='2'>
+<w xml:id='DGlush.1006'>
+	<orig>точиши</orig>
+	<reg>ТОЧИШИ</reg>
+	<src>ТОЧИШИ</src>
+</w>
+<w xml:id='DGlush.1007'>
+	<orig>потокы</orig>
+	<reg>ПОТОКЫ</reg>
+	<src>ПОТОКЫ</src>
+</w>
+<w xml:id='DGlush.1008'>
+	<orig>приходѧщиⷨ</orig>
+	<reg>ПРИХОДЯЩИ(М)</reg>
+	<src>ПРИХОДRЩИ(М)</src>
+</w>
+<w xml:id='DGlush.1009'>
+	<orig>недꙋ<lb/>гѫющиⷨ</orig>
+	<reg>НЕДУГУЮЩИ(М)</reg>
+	<src>НЕДD&amp;ГGЮЩИ(М)</src>
+</w>
+						  </l>
+						<l n='3'>
+<c type='punctuation' xml:id='DGlush.1010'>.</c>
+<w xml:id='DGlush.1011'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1012'>
+	<orig>врачь</orig>
+	<reg>ВРАЧЬ</reg>
+	<src>ВРАЧЬ</src>
+</w>
+<w xml:id='DGlush.1013'>
+	<orig>ꙗвисѧ</orig>
+	<reg>ЯВИСЯ</reg>
+	<src>ЯВИСR</src>
+</w>
+<w xml:id='DGlush.1014'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1015'>
+	<orig>попалѧеши</orig>
+	<reg>ПОПАЛЯЕШИ</reg>
+	<src>ПОПАЛRЕШИ</src>
+</w>
+						  </l>
+						<l n='4'>
+<w xml:id='DGlush.1016'>
+	<orig>дѣмоньскыа</orig>
+	<reg>Д+МОНЬСКЫА</reg>
+	<src>Д+МОНЬСКЫА</src>
+</w>
+<w xml:id='DGlush.1017'>
+	<orig>полкы</orig>
+	<reg>ПОЛКЫ</reg>
+	<src>ПОЛКЫ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1018'>.</c>
+<w xml:id='DGlush.1019'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1020'>
+	<orig>теплыи</orig>
+	<reg>ТЕПЛЫИ</reg>
+	<src>ТЕПЛЫИ</src>
+</w>
+<w xml:id='DGlush.1021'>
+	<orig>болѧ<lb/>щиⷨ</orig>
+	<reg>БОЛЯЩИ(М)</reg>
+	<src>БОЛR&amp;ЩИ(М)</src>
+</w>
+						  </l>
+						<l n='5'>
+<w xml:id='DGlush.1022'>
+	<orig>помощни҇ⷱ</orig>
+	<reg>ПОМОЩНИ(ч)</reg>
+	<src>ПОМОЩНИ(ч)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1023'>.</c>
+<w xml:id='DGlush.1024'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<name>
+<w xml:id='DGlush.1025'>
+	<orig>дїонисїе</orig>
+	<reg>*ДИОНИСИЕ</reg>
+	<src>*ДIОНИСIЕ</src>
+</w>
+</name>
+<c type='punctuation' xml:id='DGlush.1026'>,</c>
+<w xml:id='DGlush.1027'>
+	<orig>хромы<lb/>мъ</orig>
+	<reg>ХРОМЫМЪ</reg>
+	<src>ХРОМЫ&amp;МЪ</src>
+</w>
+						  </l>
+						<l n='6'>
+<w xml:id='DGlush.1028'>
+	<orig>хожⷣенїе</orig>
+	<reg>ХОЖ(Д)ЕНИЕ</reg>
+	<src>ХОЖ(Д)ЕНIЕ</src>
+</w>
+<w xml:id='DGlush.1029'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1030'>
+	<orig>крѣпость</orig>
+	<reg>КР+ПОСТЬ</reg>
+	<src>КР+ПОСТЬ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1031'>.</c>
+<w xml:id='DGlush.1032'>
+	<orig>слѣпымъ</orig>
+	<reg>СЛ+ПЫМЪ</reg>
+	<src>СЛ+ПЫМЪ</src>
+</w>
+<w xml:id='DGlush.1033'>
+	<orig>въ<lb/>жⷣенїе</orig>
+	<reg>ВЪЖ(Д)ЕНИЕ</reg>
+	<src>ВЪ&amp;Ж(Д)ЕНIЕ</src>
+</w>
+						  </l>
+						<l n='7'>
+<c type='punctuation' xml:id='DGlush.1034'>,</c>
+<w xml:id='DGlush.1035'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1036'>
+	<orig>свѣтлость</orig>
+	<reg>СВ+ТЛОСТЬ</reg>
+	<src>СВ+ТЛОСТЬ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1037'>.</c>
+<w xml:id='DGlush.1038'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1039'>
+	<orig>многыⷨ</orig>
+	<reg>МНОГЫ(М)</reg>
+	<src>МНОГЫ(М)</src>
+</w>
+<w xml:id='DGlush.1040'>
+	<orig>недꙋ<lb/>гѡⷨ</orig>
+	<reg>НЕДУГО(М)</reg>
+	<src>НЕДD&amp;ГW(М)</src>
+</w>
+						  </l>
+						<l n='8'>
+<w xml:id='DGlush.1041'>
+	<orig>исцѣлителю</orig>
+	<reg>ИСЦ+ЛИТЕЛЮ</reg>
+	<src>ИСЦ+ЛИТЕЛЮ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1042'>.</c>
+<w xml:id='DGlush.1043'>
+	<orig>скорбѧщиⷨ</orig>
+	<reg>СКОРБЯЩИ(М)</reg>
+	<src>СКОРБRЩИ(М)</src>
+</w>
+<w xml:id='DGlush.1044'>
+	<orig>слаⷣкое</orig>
+	<reg>СЛА(Д)КОЕ</reg>
+	<src>СЛА(Д)КОЕ</src>
+</w>
+<w xml:id='DGlush.1045'>
+	<orig>по<lb/>хваленїе</orig>
+	<reg>ПОХВАЛЕНИЕ</reg>
+	<src>ПО&amp;ХВАЛЕНIЕ</src>
+</w>
+						  </l>
+						<l n='9'>
+<c type='punctuation' xml:id='DGlush.1046'>.</c>
+<w xml:id='DGlush.1047'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<w xml:id='DGlush.1048'>
+	<orig>плавающиⷨ</orig>
+	<reg>ПЛАВАЮЩИ(М)</reg>
+	<src>ПЛАВАЮЩИ(М)</src>
+</w>
+<w xml:id='DGlush.1049'>
+	<orig>наставни҇ⷱ</orig>
+	<reg>НАСТАВНИ(ч)</reg>
+	<src>НАСТАВНИ(ч)</src>
+</w>
+						  </l>
+						<l n='10'>
+<w xml:id='DGlush.1050'>
+	<orig>теплыи</orig>
+	<reg>ТЕПЛЫИ</reg>
+	<src>ТЕПЛЫИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1051'>.</c>
+<w xml:id='DGlush.1052'>
+	<orig>раⷣуисѧ</orig>
+	<reg>РА(Д)УИСЯ</reg>
+	<src>РА(Д)УИСR</src>
+</w>
+<name>
+<w xml:id='DGlush.1053'>
+	<orig>дїонисїе</orig>
+	<reg>*ДИОНИСИЕ</reg>
+	<src>*ДIОНИСIЕ</src>
+</w>
+</name>
+<w xml:id='DGlush.1054'>
+	<orig>прпⷣбне</orig>
+	<reg>ПРП(Д)БНЕ</reg>
+	<src>ПРП(Д)БНЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1055'>,</c>
+						  </l>
+						<l n='11'>
+<w xml:id='DGlush.1056'>
+	<orig>ты</orig>
+	<reg>ТЫ</reg>
+	<src>ТЫ</src>
+</w>
+<w xml:id='DGlush.1057'>
+	<orig>бо</orig>
+	<reg>БО</reg>
+	<src>БО</src>
+</w>
+<w xml:id='DGlush.1058'>
+	<orig>ꙗко</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКО</src>
+</w>
+<w xml:id='DGlush.1059'>
+	<orig>поⷣⷪбно</orig>
+	<reg>ПО(ДО)БНО</reg>
+	<src>ПО(ДО)БНО</src>
+</w>
+<w xml:id='DGlush.1060'>
+	<orig>нб҃о</orig>
+	<reg>НБО#</reg>
+	<src>НБО#</src>
+</w>
+<w xml:id='DGlush.1061'>
+	<orig>дш҃евно</orig>
+	<reg>ДШЕВНО#</reg>
+	<src>ДШЕВНО#</src>
+</w>
+<w xml:id='DGlush.1062'>
+	<orig>ꙗвисѧ</orig>
+	<reg>ЯВИСЯ</reg>
+	<src>ЯВИСR</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1063'>.</c>
+						  </l>
+						<l n='12'>
+<w xml:id='DGlush.1064'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.1065'>
+	<orig>ѕвѣзⷣами</orig>
+	<reg>ЗВ+З(Д)АМИ</reg>
+	<src>SВ+З(Д)АМИ</src>
+</w>
+<w xml:id='DGlush.1066'>
+	<orig>ѹкрашенно</orig>
+	<reg>УКРАШЕННО</reg>
+	<src>UКРАШЕННО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1067'>.</c>
+<w xml:id='DGlush.1068'>
+	<orig>но</orig>
+	<reg>НО</reg>
+	<src>НО</src>
+</w>
+<w xml:id='DGlush.1069'>
+	<orig>добро<lb/>дѣтелми</orig>
+	<reg>ДОБРОД+ТЕЛМИ</reg>
+	<src>ДОБРО&amp;Д+ТЕЛМИ</src>
+</w>
+						  </l>
+						<l n='13'>
+<w xml:id='DGlush.1070'>
+	<orig>паче</orig>
+	<reg>ПАЧЕ</reg>
+	<src>ПАЧЕ</src>
+</w>
+<w xml:id='DGlush.1071'>
+	<orig>сиⷯ</orig>
+	<reg>СИ(Х)</reg>
+	<src>СИ(Х)</src>
+</w>
+<w xml:id='DGlush.1072'>
+	<orig>ѹкрашенїемъ</orig>
+	<reg>УКРАШЕНИЕМЪ</reg>
+	<src>UКРАШЕНIЕМЪ</src>
+</w>
+<w xml:id='DGlush.1073'>
+	<orig>сїѧю<lb/>щи</orig>
+	<reg>СИЯЮЩИ</reg>
+	<src>СIRЮ&amp;ЩИ</src>
+</w>
+						  </l>
+						<l n='14'>
+<w xml:id='DGlush.1074'>
+	<orig>ты</orig>
+	<reg>ТЫ</reg>
+	<src>ТЫ</src>
+</w>
+<w xml:id='DGlush.1075'>
+	<orig>бо</orig>
+	<reg>БО</reg>
+	<src>БО</src>
+</w>
+<w xml:id='DGlush.1076'>
+	<orig>бл҃гоч҇ⷭтїемъ</orig>
+	<reg>БЛГОЧ(с)ТИЕМЪ#</reg>
+	<src>БЛГОЧ(с)ТIЕМЪ#</src>
+</w>
+<w xml:id='DGlush.1077'>
+	<orig>напоилъ</orig>
+	<reg>НАПОИЛЪ</reg>
+	<src>НАПОИЛЪ</src>
+</w>
+<w xml:id='DGlush.1078'>
+	<orig>еси</orig>
+	<reg>ЕСИ</reg>
+	<src>ЕСИ</src>
+</w>
+						  </l>
+						<l n='15'>
+<w xml:id='DGlush.1079'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.1080'>
+	<orig>ѿ</orig>
+	<reg>О(Т)</reg>
+	<src>W(Т)</src>
+</w>
+<w xml:id='DGlush.1081'>
+	<orig>жи҇ⷧ</orig>
+	<reg>ЖИ(л)</reg>
+	<src>ЖИ(л)</src>
+</w>
+<w xml:id='DGlush.1082'>
+	<orig>земныⷯ</orig>
+	<reg>ЗЕМНЫ(Х)</reg>
+	<src>ЗЕМНЫ(Х)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1083'>.</c>
+<w xml:id='DGlush.1084'>
+	<orig>но</orig>
+	<reg>НО</reg>
+	<src>НО</src>
+</w>
+<w xml:id='DGlush.1085'>
+	<orig>ѿ</orig>
+	<reg>О(Т)</reg>
+	<src>W(Т)</src>
+</w>
+<w xml:id='DGlush.1086'>
+	<orig>срⷣца</orig>
+	<reg>СР(Д)ЦА</reg>
+	<src>СР(Д)ЦА</src>
+</w>
+<w xml:id='DGlush.1087'>
+	<orig>своего</orig>
+	<reg>СВОЕГО</reg>
+	<src>СВОЕГО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1088'>.</c>
+						  </l>
+						<l n='16'>
+<w xml:id='DGlush.1089'>
+	<orig>слово</orig>
+	<reg>СЛОВО</reg>
+	<src>СЛОВО</src>
+</w>
+<name>
+<w xml:id='DGlush.1090'>
+	<orig>ха҃</orig>
+	<reg>*ХА#</reg>
+	<src>*ХА#</src>
+</w>
+</name>
+<w xml:id='DGlush.1091'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.1092'>
+	<orig>себѣ</orig>
+	<reg>СЕБ+</reg>
+	<src>СЕБ+</src>
+</w>
+<w xml:id='DGlush.1093'>
+	<orig>имꙋще</orig>
+	<reg>ИМУЩЕ</reg>
+	<src>ИМDЩЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1094'>.</c>
+<w xml:id='DGlush.1095'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1096'>
+	<orig>жажⷣѫ</orig>
+	<reg>ЖАЖ(Д)У</reg>
+	<src>ЖАЖ(Д)G</src>
+</w>
+<w xml:id='DGlush.1097'>
+	<orig>грѣховь<lb/>нѹю</orig>
+	<reg>ГР+ХОВЬНУЮ</reg>
+	<src>ГР+ХОВЬ&amp;НUЮ</src>
+</w>
+						  </l>
+						<l n='17'>
+<w xml:id='DGlush.1098'>
+	<orig>ѹстави҇ⷧ</orig>
+	<reg>УСТАВИ(л)</reg>
+	<src>UСТАВИ(л)</src>
+</w>
+<w xml:id='DGlush.1099'>
+	<orig>еси</orig>
+	<reg>ЕСИ</reg>
+	<src>ЕСИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1100'>.</c>
+<w xml:id='DGlush.1101'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1102'>
+	<orig>бл҃голюбезно</orig>
+	<reg>БЛГОЛЮБЕЗНО#</reg>
+	<src>БЛГОЛЮБЕЗНО#</src>
+</w>
+<w xml:id='DGlush.1103'>
+	<orig>по<lb/>слꙋживъ</orig>
+	<reg>ПОСЛУЖИВЪ</reg>
+	<src>ПО&amp;СЛDЖИВЪ</src>
+</w>
+						  </l>
+						<l n='18'>
+<w xml:id='DGlush.1104'>
+	<orig>гв҃и</orig>
+	<reg>ГВИ#</reg>
+	<src>ГВИ#</src>
+</w>
+<w xml:id='DGlush.1105'>
+	<orig>горѧ</orig>
+	<reg>ГОРЯ</reg>
+	<src>ГОРR</src>
+</w>
+<w xml:id='DGlush.1106'>
+	<orig>дх҃омъ</orig>
+	<reg>ДХОМЪ#</reg>
+	<src>ДХОМЪ#</src>
+</w>
+<w xml:id='DGlush.1107'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1108'>
+	<orig>распалаꙗ҇ⷭ</orig>
+	<reg>РАСПАЛАЯ(с)</reg>
+	<src>РАСПАЛАЯ(с)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1109'>,</c>
+						  </l>
+						<l n='19'>
+<w xml:id='DGlush.1110'>
+	<orig>бл҃гоч҇ⷭтїеⷨ</orig>
+	<reg>БЛГОЧ(с)ТИЕ(М)#</reg>
+	<src>БЛГОЧ(с)ТIЕ(М)#</src>
+</w>
+<w xml:id='DGlush.1111'>
+	<orig>ѿ</orig>
+	<reg>О(Т)</reg>
+	<src>W(Т)</src>
+</w>
+<w xml:id='DGlush.1112'>
+	<orig>добрыⷯ</orig>
+	<reg>ДОБРЫ(Х)</reg>
+	<src>ДОБРЫ(Х)</src>
+</w>
+<w xml:id='DGlush.1113'>
+	<orig>дѣлъ</orig>
+	<reg>Д+ЛЪ</reg>
+	<src>Д+ЛЪ</src>
+</w>
+<w xml:id='DGlush.1114'>
+	<orig>нарицаетсѧ</orig>
+	<reg>НАРИЦАЕТСЯ</reg>
+	<src>НАРИЦАЕТСR</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1115'>.</c>
+						  </l>
+						<l n='20'>
+<w xml:id='DGlush.1116'>
+	<orig>имиже</orig>
+	<reg>ИМИЖЕ</reg>
+	<src>ИМИЖЕ</src>
+</w>
+<w xml:id='DGlush.1117'>
+	<orig>бъ҃</orig>
+	<reg>БЪ#</reg>
+	<src>БЪ#</src>
+</w>
+<w xml:id='DGlush.1118'>
+	<orig>прославлѧетсѧ</orig>
+	<reg>ПРОСЛАВЛЯЕТСЯ</reg>
+	<src>ПРОСЛАВЛRЕТСR</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1119'>.</c>
+<w xml:id='DGlush.1120'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.1121'>
+	<orig>ѹдиви<pb/>м</orig>
+	<reg>УДИВИМ</reg>
+	<src>UДИВИZ -67 М</src>
+</w>
+						  </l>
+					</div4>
+				</div3>
+			</div2>
+			<div2 type='page' n='67'>
+				<div3 type='back'>
+					<div4 type='col' n='1'>
+						<l n='1'>
+<w xml:id='DGlush.1122'>
+	<orig>ли</orig>
+	<reg>ЛИ</reg>
+	<src>ЛИ</src>
+</w>
+<w xml:id='DGlush.1123'>
+	<orig>сѧ</orig>
+	<reg>СЯ</reg>
+	<src>СR</src>
+</w>
+<w xml:id='DGlush.1124'>
+	<orig>нб҇ⷭномꙋ</orig>
+	<reg>НБ(с)НОМУ</reg>
+	<src>НБ(с)НОМD</src>
+</w>
+<w xml:id='DGlush.1125'>
+	<orig>чл҃кѹ</orig>
+	<reg>ЧЛКУ#</reg>
+	<src>ЧЛКU#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1126'>,</c>
+<w xml:id='DGlush.1127'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1128'>
+	<orig>земномꙋ</orig>
+	<reg>ЗЕМНОМУ</reg>
+	<src>ЗЕМНОМD</src>
+</w>
+<w xml:id='DGlush.1129'>
+	<orig>аг҃глѹ</orig>
+	<reg>АГГЛУ#</reg>
+	<src>АГГЛU#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1130'>.</c>
+						  </l>
+						<l n='2'>
+<w xml:id='DGlush.1131'>
+	<orig>преⷣ</orig>
+	<reg>ПРЕ(Д)</reg>
+	<src>ПРЕ(Д)</src>
+</w>
+<w xml:id='DGlush.1132'>
+	<orig>чл҃кы</orig>
+	<reg>ЧЛКЫ#</reg>
+	<src>ЧЛКЫ#</src>
+</w>
+<w xml:id='DGlush.1133'>
+	<orig>на</orig>
+	<reg>НА</reg>
+	<src>НА</src>
+</w>
+<w xml:id='DGlush.1134'>
+	<orig>земли</orig>
+	<reg>ЗЕМЛИ</reg>
+	<src>ЗЕМЛИ</src>
+</w>
+<w xml:id='DGlush.1135'>
+	<orig>ѹдиви҇ⷧ</orig>
+	<reg>УДИВИ(л)</reg>
+	<src>UДИВИ(л)</src>
+</w>
+<w xml:id='DGlush.1136'>
+	<orig>е҇ⷭ</orig>
+	<reg>Е(с)</reg>
+	<src>Е(с)</src>
+</w>
+<w xml:id='DGlush.1137'>
+	<orig>бъ҃</orig>
+	<reg>БЪ#</reg>
+	<src>БЪ#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1138'>.</c>
+<w xml:id='DGlush.1139'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.1140'>
+	<orig>ѹбла<lb/>жим</orig>
+	<reg>УБЛАЖИМ</reg>
+	<src>UБЛА&amp;ЖИМ</src>
+</w>
+						  </l>
+						<l n='3'>
+<w xml:id='DGlush.1141'>
+	<orig>ли</orig>
+	<reg>ЛИ</reg>
+	<src>ЛИ</src>
+</w>
+<w xml:id='DGlush.1142'>
+	<orig>съ</orig>
+	<reg>СЪ</reg>
+	<src>СЪ</src>
+</w>
+<name>
+<w xml:id='DGlush.1143'>
+	<orig>дв҃доⷨ</orig>
+	<reg>*ДВДО(М)#</reg>
+	<src>*ДВДО(М)#</src>
+</w>
+</name>
+<w xml:id='DGlush.1144'>
+	<orig>гл҃юще</orig>
+	<reg>ГЛЮЩЕ#</reg>
+	<src>ГЛЮЩЕ#</src>
+</w>
+<w xml:id='DGlush.1145'>
+	<orig>бл҃женъ</orig>
+	<reg>БЛЖЕНЪ#</reg>
+	<src>БЛЖЕНЪ#</src>
+</w>
+<w xml:id='DGlush.1146'>
+	<orig>мѹжь</orig>
+	<reg>МУЖЬ</reg>
+	<src>МUЖЬ</src>
+</w>
+<w xml:id='DGlush.1147'>
+	<orig>бо<lb/>аисѧ</orig>
+	<reg>БОАИСЯ</reg>
+	<src>БО&amp;АИСR</src>
+</w>
+						  </l>
+						<l n='4'>
+<w xml:id='DGlush.1148'>
+	<orig>га҃</orig>
+	<reg>ГА#</reg>
+	<src>ГА#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1149'>.</c>
+<w xml:id='DGlush.1150'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.1151'>
+	<orig>похвалим</orig>
+	<reg>ПОХВАЛИМ</reg>
+	<src>ПОХВАЛИМ</src>
+</w>
+<w xml:id='DGlush.1152'>
+	<orig>ли</orig>
+	<reg>ЛИ</reg>
+	<src>ЛИ</src>
+</w>
+<w xml:id='DGlush.1153'>
+	<orig>его</orig>
+	<reg>ЕГО</reg>
+	<src>ЕГО</src>
+</w>
+<w xml:id='DGlush.1154'>
+	<orig>гл҃юще</orig>
+	<reg>ГЛЮЩЕ#</reg>
+	<src>ГЛЮЩЕ#</src>
+</w>
+<w xml:id='DGlush.1155'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.1156'>
+	<orig>па<lb/>мѧ҇ⷮ</orig>
+	<reg>ПАМЯ(т)</reg>
+	<src>ПА&amp;МR(т)</src>
+</w>
+						  </l>
+						<l n='5'>
+<w xml:id='DGlush.1157'>
+	<orig>вѣчнѹю</orig>
+	<reg>В+ЧНУЮ</reg>
+	<src>В+ЧНUЮ</src>
+</w>
+<w xml:id='DGlush.1158'>
+	<orig>бѫде҇ⷮ</orig>
+	<reg>БУДЕ(т)</reg>
+	<src>БGДЕ(т)</src>
+</w>
+<w xml:id='DGlush.1159'>
+	<orig>праведни҇ⷦ</orig>
+	<reg>ПРАВЕДНИ(к)</reg>
+	<src>ПРАВЕДНИ(к)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1160'>.</c>
+<w xml:id='DGlush.1161'>
+	<orig>но</orig>
+	<reg>НО</reg>
+	<src>НО</src>
+</w>
+<w xml:id='DGlush.1162'>
+	<orig>припа<lb/>демъ</orig>
+	<reg>ПРИПАДЕМЪ</reg>
+	<src>ПРИПА&amp;ДЕМЪ</src>
+</w>
+						  </l>
+						<l n='6'>
+<w xml:id='DGlush.1163'>
+	<orig>к</orig>
+	<reg>К</reg>
+	<src>К</src>
+</w>
+<w xml:id='DGlush.1164'>
+	<orig>немꙋ</orig>
+	<reg>НЕМУ</reg>
+	<src>НЕМD</src>
+</w>
+<w xml:id='DGlush.1165'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1166'>
+	<orig>мл҃имъ</orig>
+	<reg>МЛИМЪ#</reg>
+	<src>МЛИМЪ#</src>
+</w>
+<w xml:id='DGlush.1167'>
+	<orig>того</orig>
+	<reg>ТОГО</reg>
+	<src>ТОГО</src>
+</w>
+<w xml:id='DGlush.1168'>
+	<orig>еже</orig>
+	<reg>ЕЖЕ</reg>
+	<src>ЕЖЕ</src>
+</w>
+<w xml:id='DGlush.1169'>
+	<orig>о</orig>
+	<reg>О</reg>
+	<src>О</src>
+</w>
+<w xml:id='DGlush.1170'>
+	<orig>на҇ⷭ</orig>
+	<reg>НА(с)</reg>
+	<src>НА(с)</src>
+</w>
+<w xml:id='DGlush.1171'>
+	<orig>мо<lb/>лити</orig>
+	<reg>МОЛИТИ</reg>
+	<src>МО&amp;ЛИТИ</src>
+</w>
+						  </l>
+						<l n='7'>
+<c type='punctuation' xml:id='DGlush.1172'>.</c>
+<w xml:id='DGlush.1173'>
+	<orig>трѫди</orig>
+	<reg>ТРУДИ</reg>
+	<src>ТРGДИ</src>
+</w>
+<w xml:id='DGlush.1174'>
+	<orig>ⷤ</orig>
+	<reg>(Ж)</reg>
+	<src>(Ж)</src>
+</w>
+<w xml:id='DGlush.1175'>
+	<orig>его</orig>
+	<reg>ЕГО</reg>
+	<src>ЕГО</src>
+</w>
+<w xml:id='DGlush.1176'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1177'>
+	<orig>болѣзни</orig>
+	<reg>БОЛ+ЗНИ</reg>
+	<src>БОЛ+ЗНИ</src>
+</w>
+<w xml:id='DGlush.1178'>
+	<orig>кто</orig>
+	<reg>КТО</reg>
+	<src>КТО</src>
+</w>
+<w xml:id='DGlush.1179'>
+	<orig>ска<lb/>зати</orig>
+	<reg>СКАЗАТИ</reg>
+	<src>СКА&amp;ЗАТИ</src>
+</w>
+						  </l>
+						<l n='8'>
+<w xml:id='DGlush.1180'>
+	<orig>възможе҇ⷮ</orig>
+	<reg>ВЪЗМОЖЕ(т)</reg>
+	<src>ВЪЗМОЖЕ(т)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1181'>.</c>
+<w xml:id='DGlush.1182'>
+	<orig>ап҇ⷭлкыи</orig>
+	<reg>АП(с)ЛКЫИ</reg>
+	<src>АП(с)ЛКЫИ</src>
+</w>
+<w xml:id='DGlush.1183'>
+	<orig>поⷣⷪбно</orig>
+	<reg>ПО(ДО)БНО</reg>
+	<src>ПО(ДО)БНО</src>
+</w>
+<w xml:id='DGlush.1184'>
+	<orig>речеⷨ</orig>
+	<reg>РЕЧЕ(М)</reg>
+	<src>РЕЧЕ(М)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1185'>.</c>
+						  </l>
+						<l n='9'>
+<w xml:id='DGlush.1186'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.1187'>
+	<orig>забытливъ</orig>
+	<reg>ЗАБЫТЛИВЪ</reg>
+	<src>ЗАБЫТЛИВЪ</src>
+</w>
+<w xml:id='DGlush.1188'>
+	<orig>бъ҃</orig>
+	<reg>БЪ#</reg>
+	<src>БЪ#</src>
+</w>
+<w xml:id='DGlush.1189'>
+	<orig>мзⷣѫ</orig>
+	<reg>МЗ(Д)У</reg>
+	<src>МЗ(Д)G</src>
+</w>
+<w xml:id='DGlush.1190'>
+	<orig>рабомъ</orig>
+	<reg>РАБОМЪ</reg>
+	<src>РАБОМЪ</src>
+</w>
+<w xml:id='DGlush.1191'>
+	<orig>своиⷨ</orig>
+	<reg>СВОИ(М)</reg>
+	<src>СВОИ(М)</src>
+</w>
+<w xml:id='DGlush.1192'>
+	<orig>да<lb/>ти</orig>
+	<reg>ДАТИ</reg>
+	<src>ДА&amp;ТИ</src>
+</w>
+						  </l>
+						<l n='10'>
+<c type='punctuation' xml:id='DGlush.1193'>.</c>
+<w xml:id='DGlush.1194'>
+	<orig>азъ</orig>
+	<reg>АЗЪ</reg>
+	<src>АЗЪ</src>
+</w>
+<w xml:id='DGlush.1195'>
+	<orig>о</orig>
+	<reg>О</reg>
+	<src>О</src>
+</w>
+<w xml:id='DGlush.1196'>
+	<orig>сиⷯ</orig>
+	<reg>СИ(Х)</reg>
+	<src>СИ(Х)</src>
+</w>
+<w xml:id='DGlush.1197'>
+	<orig>гл҃ати</orig>
+	<reg>ГЛАТИ#</reg>
+	<src>ГЛАТИ#</src>
+</w>
+<w xml:id='DGlush.1198'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.1199'>
+	<orig>свѣмъ</orig>
+	<reg>СВ+МЪ</reg>
+	<src>СВ+МЪ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1200'>.</c>
+<w xml:id='DGlush.1201'>
+	<orig>но</orig>
+	<reg>НО</reg>
+	<src>НО</src>
+</w>
+<w xml:id='DGlush.1202'>
+	<orig>испы<lb/>тѹаи</orig>
+	<reg>ИСПЫТУАИ</reg>
+	<src>ИСПЫ&amp;ТUАИ</src>
+</w>
+						  </l>
+						<l n='11'>
+<w xml:id='DGlush.1203'>
+	<orig>срⷣца</orig>
+	<reg>СР(Д)ЦА</reg>
+	<src>СР(Д)ЦА</src>
+</w>
+<w xml:id='DGlush.1204'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1205'>
+	<orig>ютробы</orig>
+	<reg>ЮТРОБЫ</reg>
+	<src>ЮТРОБЫ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1206'>,</c>
+<w xml:id='DGlush.1207'>
+	<orig>то</orig>
+	<reg>ТО</reg>
+	<src>ТО</src>
+</w>
+<w xml:id='DGlush.1208'>
+	<orig>единъ</orig>
+	<reg>ЕДИНЪ</reg>
+	<src>ЕДИНЪ</src>
+</w>
+<w xml:id='DGlush.1209'>
+	<orig>вѣ<lb/>сть</orig>
+	<reg>В+СТЬ</reg>
+	<src>В+&amp;СТЬ</src>
+</w>
+						  </l>
+						<l n='12'>
+<c type='punctuation' xml:id='DGlush.1210'>.</c>
+<w xml:id='DGlush.1211'>
+	<orig>ї</orig>
+	<reg>И</reg>
+	<src>I</src>
+</w>
+<w xml:id='DGlush.1212'>
+	<orig>еже</orig>
+	<reg>ЕЖЕ</reg>
+	<src>ЕЖЕ</src>
+</w>
+<w xml:id='DGlush.1213'>
+	<orig>аще</orig>
+	<reg>АЩЕ</reg>
+	<src>АЩЕ</src>
+</w>
+<w xml:id='DGlush.1214'>
+	<orig>кто</orig>
+	<reg>КТО</reg>
+	<src>КТО</src>
+</w>
+<w xml:id='DGlush.1215'>
+	<orig>что</orig>
+	<reg>ЧТО</reg>
+	<src>ЧТО</src>
+</w>
+<w xml:id='DGlush.1216'>
+	<orig>сътвори҇ⷮ</orig>
+	<reg>СЪТВОРИ(т)</reg>
+	<src>СЪТВОРИ(т)</src>
+</w>
+<w xml:id='DGlush.1217'>
+	<orig>бл҃го</orig>
+	<reg>БЛГО#</reg>
+	<src>БЛГО#</src>
+</w>
+						  </l>
+						<l n='13'>
+<w xml:id='DGlush.1218'>
+	<orig>его</orig>
+	<reg>ЕГО</reg>
+	<src>ЕГО</src>
+</w>
+<w xml:id='DGlush.1219'>
+	<orig>раⷣ&i8-overline;</orig>
+	<reg>РА(ДИ)</reg>
+	<src>РА(ДИ)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1220'>.</c>
+<w xml:id='DGlush.1221'>
+	<orig>не</orig>
+	<reg>НЕ</reg>
+	<src>НЕ</src>
+</w>
+<w xml:id='DGlush.1222'>
+	<orig>ѹтаитсѧ</orig>
+	<reg>УТАИТСЯ</reg>
+	<src>UТАИТСR</src>
+</w>
+<w xml:id='DGlush.1223'>
+	<orig>всевидѧщемꙋ</orig>
+	<reg>ВСЕВИДЯЩЕМУ</reg>
+	<src>ВСЕВИДRЩЕМD</src>
+</w>
+						  </l>
+						<l n='14'>
+<w xml:id='DGlush.1224'>
+	<orig>окѹ</orig>
+	<reg>ОКУ</reg>
+	<src>ОКU</src>
+</w>
+<w xml:id='DGlush.1225'>
+	<orig>ѿдатель</orig>
+	<reg>О(Т)ДАТЕЛЬ</reg>
+	<src>W(Т)ДАТЕЛЬ</src>
+</w>
+<w xml:id='DGlush.1226'>
+	<orig>бѡ</orig>
+	<reg>БО</reg>
+	<src>БW</src>
+</w>
+<w xml:id='DGlush.1227'>
+	<orig>бл҃гѡⷨ</orig>
+	<reg>БЛГО(М)#</reg>
+	<src>БЛГW(М)#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1228'>.</c>
+<w xml:id='DGlush.1229'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1230'>
+	<orig>разѹмѣеⷨ</orig>
+	<reg>РАЗУМ+Е(М)</reg>
+	<src>РАЗUМ+Е(М)</src>
+</w>
+						  </l>
+						<l n='15'>
+<w xml:id='DGlush.1231'>
+	<orig>ꙗко</orig>
+	<reg>ЯКО</reg>
+	<src>ЯКО</src>
+</w>
+<w xml:id='DGlush.1232'>
+	<orig>дш҃а</orig>
+	<reg>ДША#</reg>
+	<src>ДША#</src>
+</w>
+<w xml:id='DGlush.1233'>
+	<orig>ищꙋщи</orig>
+	<reg>ИЩУЩИ</reg>
+	<src>ИЩDЩИ</src>
+</w>
+<w xml:id='DGlush.1234'>
+	<orig>га҃</orig>
+	<reg>ГА#</reg>
+	<src>ГА#</src>
+</w>
+<w xml:id='DGlush.1235'>
+	<orig>ѡбрѧщеⷮ</orig>
+	<reg>ОБРЯЩЕ(Т)</reg>
+	<src>WБРRЩЕ(Т)</src>
+</w>
+<w xml:id='DGlush.1236'>
+	<orig>его</orig>
+	<reg>ЕГО</reg>
+	<src>ЕГО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1237'>.</c>
+<w xml:id='DGlush.1238'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+						  </l>
+						<l n='16'>
+<w xml:id='DGlush.1239'>
+	<orig>что</orig>
+	<reg>ЧТО</reg>
+	<src>ЧТО</src>
+</w>
+<w xml:id='DGlush.1240'>
+	<orig>много</orig>
+	<reg>МНОГО</reg>
+	<src>МНОГО</src>
+</w>
+<w xml:id='DGlush.1241'>
+	<orig>гл҃юще</orig>
+	<reg>ГЛЮЩЕ#</reg>
+	<src>ГЛЮЩЕ#</src>
+</w>
+<w xml:id='DGlush.1242'>
+	<orig>въ</orig>
+	<reg>ВЪ</reg>
+	<src>ВЪ</src>
+</w>
+<w xml:id='DGlush.1243'>
+	<orig>всемь</orig>
+	<reg>ВСЕМЬ</reg>
+	<src>ВСЕМЬ</src>
+</w>
+<w xml:id='DGlush.1244'>
+	<orig>ѹгоденъ</orig>
+	<reg>УГОДЕНЪ</reg>
+	<src>UГОДЕНЪ</src>
+</w>
+						  </l>
+						<l n='17'>
+<w xml:id='DGlush.1245'>
+	<orig>бв҃и</orig>
+	<reg>БВИ#</reg>
+	<src>БВИ#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1246'>.</c>
+<w xml:id='DGlush.1247'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1248'>
+	<orig>дх҃овнаго</orig>
+	<reg>ДХОВНАГО#</reg>
+	<src>ДХОВНАГО#</src>
+</w>
+<w xml:id='DGlush.1249'>
+	<orig>желанїа</orig>
+	<reg>ЖЕЛАНИА</reg>
+	<src>ЖЕЛАНIА</src>
+</w>
+<w xml:id='DGlush.1250'>
+	<orig>исполнь</orig>
+	<reg>ИСПОЛНЬ</reg>
+	<src>ИСПОЛНЬ</src>
+</w>
+<w xml:id='DGlush.1251'>
+	<orig>бы<lb/>въ</orig>
+	<reg>БЫВЪ</reg>
+	<src>БЫ&amp;ВЪ</src>
+</w>
+						  </l>
+						<l n='18'>
+<c type='punctuation' xml:id='DGlush.1252'>.</c>
+<w xml:id='DGlush.1253'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1254'>
+	<orig>смиренїемъ</orig>
+	<reg>СМИРЕНИЕМЪ</reg>
+	<src>СМИРЕНIЕМЪ</src>
+</w>
+<w xml:id='DGlush.1255'>
+	<orig>съвръшенъ</orig>
+	<reg>СЪВРЪШЕНЪ</reg>
+	<src>СЪВРЪШЕНЪ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1256'>.</c>
+<w xml:id='DGlush.1257'>
+	<orig>нище<lb/>любїа</orig>
+	<reg>НИЩЕЛЮБИА</reg>
+	<src>НИЩЕ&amp;ЛЮБIА</src>
+</w>
+						  </l>
+						<l n='19'>
+<w xml:id='DGlush.1258'>
+	<orig>щедро҇ⷮство</orig>
+	<reg>ЩЕДРО(т)СТВО</reg>
+	<src>ЩЕДРО(т)СТВО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1259'>.</c>
+<w xml:id='DGlush.1260'>
+	<orig>пощенїе</orig>
+	<reg>ПОЩЕНИЕ</reg>
+	<src>ПОЩЕНIЕ</src>
+</w>
+<w xml:id='DGlush.1261'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1262'>
+	<orig>слезы</orig>
+	<reg>СЛЕЗЫ</reg>
+	<src>СЛЕЗЫ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1263'>,</c>
+						  </l>
+						<l n='20'>
+<w xml:id='DGlush.1264'>
+	<orig>тѣснота</orig>
+	<reg>Т+СНОТА</reg>
+	<src>Т+СНОТА</src>
+</w>
+<w xml:id='DGlush.1265'>
+	<orig>скорбь</orig>
+	<reg>СКОРБЬ</reg>
+	<src>СКОРБЬ</src>
+</w>
+<w xml:id='DGlush.1266'>
+	<orig>любве</orig>
+	<reg>ЛЮБВЕ</reg>
+	<src>ЛЮБВЕ</src>
+</w>
+<w xml:id='DGlush.1267'>
+	<orig>раⷣ&i8-overline;</orig>
+	<reg>РА(ДИ)</reg>
+	<src>РА(ДИ)</src>
+</w>
+<w xml:id='DGlush.1268'>
+	<orig>бж҃їа</orig>
+	<reg>БЖИА#</reg>
+	<src>БЖIА#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1269'>.</c>
+<w xml:id='DGlush.1270'>
+	<orig>въ</orig>
+	<reg>ВЪ</reg>
+	<src>ВЪ</src>
+</w>
+<w xml:id='DGlush.1271'>
+	<orig>та<pb/>иныⷯ</orig>
+	<reg>ТАИНЫ(Х)</reg>
+	<src>ТАZ 68 ИНЫ(Х)</src>
+</w>
+						  </l>
+					</div4>
+				</div3>
+			</div2>
+			<div2 type='page' n='68'>
+				<div3 type='front'>
+					<div4 type='col' n='1'>
+						<l n='1'>
+<w xml:id='DGlush.1272'>
+	<orig>възⷣыханїи</orig>
+	<reg>ВЪЗ(Д)ЫХАНИИ</reg>
+	<src>ВЪЗ(Д)ЫХАНIИ</src>
+</w>
+<w xml:id='DGlush.1273'>
+	<orig>срⷣца</orig>
+	<reg>СР(Д)ЦА</reg>
+	<src>СР(Д)ЦА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1274'>.</c>
+<w xml:id='DGlush.1275'>
+	<orig>кыми</orig>
+	<reg>КЫМИ</reg>
+	<src>КЫМИ</src>
+</w>
+<w xml:id='DGlush.1276'>
+	<orig>почесть<lb/>ми</orig>
+	<reg>ПОЧЕСТЬМИ</reg>
+	<src>ПОЧЕСТЬ&amp;МИ</src>
+</w>
+						  </l>
+						<l n='2'>
+<w xml:id='DGlush.1277'>
+	<orig>почтемъ</orig>
+	<reg>ПОЧТЕМЪ</reg>
+	<src>ПОЧТЕМЪ</src>
+</w>
+<w xml:id='DGlush.1278'>
+	<orig>того</orig>
+	<reg>ТОГО</reg>
+	<src>ТОГО</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1279'>,</c>
+<w xml:id='DGlush.1280'>
+	<orig>иже</orig>
+	<reg>ИЖЕ</reg>
+	<src>ИЖЕ</src>
+</w>
+<w xml:id='DGlush.1281'>
+	<orig>мнозѣхъ</orig>
+	<reg>МНОЗ+ХЪ</reg>
+	<src>МНОЗ+ХЪ</src>
+</w>
+<w xml:id='DGlush.1282'>
+	<orig>слѣ<lb/>пыⷯ</orig>
+	<reg>СЛ+ПЫ(Х)</reg>
+	<src>СЛ+&amp;ПЫ(Х)</src>
+</w>
+						  </l>
+						<l n='3'>
+<w xml:id='DGlush.1283'>
+	<orig>просвѣти</orig>
+	<reg>ПРОСВ+ТИ</reg>
+	<src>ПРОСВ+ТИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1284'>.</c>
+<w xml:id='DGlush.1285'>
+	<orig>глꙋхыⷯ</orig>
+	<reg>ГЛУХЫ(Х)</reg>
+	<src>ГЛDХЫ(Х)</src>
+</w>
+<w xml:id='DGlush.1286'>
+	<orig>слышати</orig>
+	<reg>СЛЫШАТИ</reg>
+	<src>СЛЫШАТИ</src>
+</w>
+<w xml:id='DGlush.1287'>
+	<orig>сътво<lb/>ри</orig>
+	<reg>СЪТВОРИ</reg>
+	<src>СЪТВО&amp;РИ</src>
+</w>
+						  </l>
+						<l n='4'>
+<c type='punctuation' xml:id='DGlush.1288'>.</c>
+<w xml:id='DGlush.1289'>
+	<orig>хромыⷯ</orig>
+	<reg>ХРОМЫ(Х)</reg>
+	<src>ХРОМЫ(Х)</src>
+</w>
+<w xml:id='DGlush.1290'>
+	<orig>ходити</orig>
+	<reg>ХОДИТИ</reg>
+	<src>ХОДИТИ</src>
+</w>
+<w xml:id='DGlush.1291'>
+	<orig>ѹкрѣпи</orig>
+	<reg>УКР+ПИ</reg>
+	<src>UКР+ПИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1292'>.</c>
+<w xml:id='DGlush.1293'>
+	<orig>скорчю<lb/>щаа</orig>
+	<reg>СКОРЧЮЩАА</reg>
+	<src>СКОРЧЮ&amp;ЩАА</src>
+</w>
+						  </l>
+						<l n='5'>
+<w xml:id='DGlush.1294'>
+	<orig>рꙋкы</orig>
+	<reg>РУКЫ</reg>
+	<src>РDКЫ</src>
+</w>
+<w xml:id='DGlush.1295'>
+	<orig>исправи</orig>
+	<reg>ИСПРАВИ</reg>
+	<src>ИСПРАВИ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1296'>,</c>
+<w xml:id='DGlush.1297'>
+	<orig>иⷤ</orig>
+	<reg>И(Ж)</reg>
+	<src>И(Ж)</src>
+</w>
+<w xml:id='DGlush.1298'>
+	<orig>къ</orig>
+	<reg>КЪ</reg>
+	<src>КЪ</src>
+</w>
+<w xml:id='DGlush.1299'>
+	<orig>ѹч҃нкѡⷨ</orig>
+	<reg>УЧНКО(М)#</reg>
+	<src>UЧНКW(М)#</src>
+</w>
+<w xml:id='DGlush.1300'>
+	<orig>гѹ҃</orig>
+	<reg>ГУ#</reg>
+	<src>ГU#</src>
+</w>
+						  </l>
+						<l n='6'>
+<w xml:id='DGlush.1301'>
+	<orig>рекшѹ</orig>
+	<reg>РЕКШУ</reg>
+	<src>РЕКШU</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1302'>,</c>
+<w xml:id='DGlush.1303'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1304'>
+	<orig>нн҃ѣ</orig>
+	<reg>НН+#</reg>
+	<src>НН+#</src>
+</w>
+<w xml:id='DGlush.1305'>
+	<orig>къ</orig>
+	<reg>КЪ</reg>
+	<src>КЪ</src>
+</w>
+<w xml:id='DGlush.1306'>
+	<orig>всѣⷨ</orig>
+	<reg>ВС+(М)</reg>
+	<src>ВС+(М)</src>
+</w>
+<w xml:id='DGlush.1307'>
+	<orig>гл҃юща</orig>
+	<reg>ГЛЮЩА#</reg>
+	<src>ГЛЮЩА#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1308'>.</c>
+<w xml:id='DGlush.1309'>
+	<orig>вѣрѫа<lb/>и</orig>
+	<reg>В+РУАИ</reg>
+	<src>В+РGА&amp;И</src>
+</w>
+						  </l>
+						<l n='7'>
+<w xml:id='DGlush.1310'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.1311'>
+	<orig>мѧ</orig>
+	<reg>МЯ</reg>
+	<src>МR</src>
+</w>
+<w xml:id='DGlush.1312'>
+	<orig>дѣла</orig>
+	<reg>Д+ЛА</reg>
+	<src>Д+ЛА</src>
+</w>
+<w xml:id='DGlush.1313'>
+	<orig>ꙗже</orig>
+	<reg>ЯЖЕ</reg>
+	<src>ЯЖЕ</src>
+</w>
+<w xml:id='DGlush.1314'>
+	<orig>азъ</orig>
+	<reg>АЗЪ</reg>
+	<src>АЗЪ</src>
+</w>
+<w xml:id='DGlush.1315'>
+	<orig>творю</orig>
+	<reg>ТВОРЮ</reg>
+	<src>ТВОРЮ</src>
+</w>
+<w xml:id='DGlush.1316'>
+	<orig>тои</orig>
+	<reg>ТОИ</reg>
+	<src>ТОИ</src>
+</w>
+<w xml:id='DGlush.1317'>
+	<orig>съ<lb/>твори҇ⷮ</orig>
+	<reg>СЪТВОРИ(т)</reg>
+	<src>СЪ&amp;ТВОРИ(т)</src>
+</w>
+						  </l>
+						<l n='8'>
+<c type='punctuation' xml:id='DGlush.1318'>.</c>
+<w xml:id='DGlush.1319'>
+	<orig>всѧ</orig>
+	<reg>ВСЯ</reg>
+	<src>ВСR</src>
+</w>
+<w xml:id='DGlush.1320'>
+	<orig>ꙗже</orig>
+	<reg>ЯЖЕ</reg>
+	<src>ЯЖЕ</src>
+</w>
+<w xml:id='DGlush.1321'>
+	<orig>въ</orig>
+	<reg>ВЪ</reg>
+	<src>ВЪ</src>
+</w>
+<w xml:id='DGlush.1322'>
+	<orig>мл҃твѣ</orig>
+	<reg>МЛТВ+#</reg>
+	<src>МЛТВ+#</src>
+</w>
+<w xml:id='DGlush.1323'>
+	<orig>просите</orig>
+	<reg>ПРОСИТЕ</reg>
+	<src>ПРОСИТЕ</src>
+</w>
+						  </l>
+						<l n='9'>
+<w xml:id='DGlush.1324'>
+	<orig>вѣрѫюще</orig>
+	<reg>В+РУЮЩЕ</reg>
+	<src>В+РGЮЩЕ</src>
+</w>
+<w xml:id='DGlush.1325'>
+	<orig>прїимете</orig>
+	<reg>ПРИИМЕТЕ</reg>
+	<src>ПРIИМЕТЕ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1326'>.</c>
+<w xml:id='DGlush.1327'>
+	<orig>се</orig>
+	<reg>СЕ</reg>
+	<src>СЕ</src>
+</w>
+<w xml:id='DGlush.1328'>
+	<orig>даⷯ</orig>
+	<reg>ДА(Х)</reg>
+	<src>ДА(Х)</src>
+</w>
+<w xml:id='DGlush.1329'>
+	<orig>ре҇ⷱ</orig>
+	<reg>РЕ(ч)</reg>
+	<src>РЕ(ч)</src>
+</w>
+<w xml:id='DGlush.1330'>
+	<orig>вамъ</orig>
+	<reg>ВАМЪ</reg>
+	<src>ВАМЪ</src>
+</w>
+<w xml:id='DGlush.1331'>
+	<orig>вла<lb/>сть</orig>
+	<reg>ВЛАСТЬ</reg>
+	<src>ВЛА&amp;СТЬ</src>
+</w>
+						  </l>
+						<l n='10'>
+<w xml:id='DGlush.1332'>
+	<orig>настѹпати</orig>
+	<reg>НАСТУПАТИ</reg>
+	<src>НАСТUПАТИ</src>
+</w>
+<w xml:id='DGlush.1333'>
+	<orig>на</orig>
+	<reg>НА</reg>
+	<src>НА</src>
+</w>
+<w xml:id='DGlush.1334'>
+	<orig>змїа</orig>
+	<reg>ЗМИА</reg>
+	<src>ЗМIА</src>
+</w>
+<w xml:id='DGlush.1335'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1336'>
+	<orig>скорпїа</orig>
+	<reg>СКОРПИА</reg>
+	<src>СКОРПIА</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1337'>.</c>
+						  </l>
+						<l n='11'>
+<w xml:id='DGlush.1338'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1339'>
+	<orig>на</orig>
+	<reg>НА</reg>
+	<src>НА</src>
+</w>
+<w xml:id='DGlush.1340'>
+	<orig>всю</orig>
+	<reg>ВСЮ</reg>
+	<src>ВСЮ</src>
+</w>
+<w xml:id='DGlush.1341'>
+	<orig>силѹ</orig>
+	<reg>СИЛУ</reg>
+	<src>СИЛU</src>
+</w>
+<w xml:id='DGlush.1342'>
+	<orig>вражїю</orig>
+	<reg>ВРАЖИЮ</reg>
+	<src>ВРАЖIЮ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1343'>.</c>
+<w xml:id='DGlush.1344'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1345'>
+	<orig>пакы</orig>
+	<reg>ПАКЫ</reg>
+	<src>ПАКЫ</src>
+</w>
+<w xml:id='DGlush.1346'>
+	<orig>знаменїа</orig>
+	<reg>ЗНАМЕНИА</reg>
+	<src>ЗНАМЕНIА</src>
+</w>
+						  </l>
+						<l n='12'>
+<w xml:id='DGlush.1347'>
+	<orig>вѣровавшиⷨ</orig>
+	<reg>В+РОВАВШИ(М)</reg>
+	<src>В+РОВАВШИ(М)</src>
+</w>
+<w xml:id='DGlush.1348'>
+	<orig>сїа</orig>
+	<reg>СИА</reg>
+	<src>СIА</src>
+</w>
+<w xml:id='DGlush.1349'>
+	<orig>послѣдѹю҇ⷮ</orig>
+	<reg>ПОСЛ+ДУЮ(т)</reg>
+	<src>ПОСЛ+ДUЮ(т)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1350'>.</c>
+<w xml:id='DGlush.1351'>
+	<orig>именемъ</orig>
+	<reg>ИМЕНЕМЪ</reg>
+	<src>ИМЕНЕМЪ</src>
+</w>
+						  </l>
+						<l n='13'>
+<w xml:id='DGlush.1352'>
+	<orig>моимъ</orig>
+	<reg>МОИМЪ</reg>
+	<src>МОИМЪ</src>
+</w>
+<w xml:id='DGlush.1353'>
+	<orig>бѣсы</orig>
+	<reg>Б+СЫ</reg>
+	<src>Б+СЫ</src>
+</w>
+<w xml:id='DGlush.1354'>
+	<orig>ижⷣенѹ҇ⷮ</orig>
+	<reg>ИЖ(Д)ЕНУ(т)</reg>
+	<src>ИЖ(Д)ЕНU(т)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1355'>.</c>
+<w xml:id='DGlush.1356'>
+	<orig>на</orig>
+	<reg>НА</reg>
+	<src>НА</src>
+</w>
+<w xml:id='DGlush.1357'>
+	<orig>недꙋжныⷯ</orig>
+	<reg>НЕДУЖНЫ(Х)</reg>
+	<src>НЕДDЖНЫ(Х)</src>
+</w>
+						  </l>
+						<l n='14'>
+<w xml:id='DGlush.1358'>
+	<orig>рꙋцѣ</orig>
+	<reg>РУЦ+</reg>
+	<src>РDЦ+</src>
+</w>
+<w xml:id='DGlush.1359'>
+	<orig>въѕложать</orig>
+	<reg>ВЪЗЛОЖАТЬ</reg>
+	<src>ВЪSЛОЖАТЬ</src>
+</w>
+<w xml:id='DGlush.1360'>
+	<orig>зⷣрави</orig>
+	<reg>З(Д)РАВИ</reg>
+	<src>З(Д)РАВИ</src>
+</w>
+<w xml:id='DGlush.1361'>
+	<orig>бѹдѫть</orig>
+	<reg>БУДУТЬ</reg>
+	<src>БUДGТЬ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1362'>.</c>
+						  </l>
+						<l n='15'>
+<w xml:id='DGlush.1363'>
+	<orig>празⷣникъ</orig>
+	<reg>ПРАЗ(Д)НИКЪ</reg>
+	<src>ПРАЗ(Д)НИКЪ</src>
+</w>
+<w xml:id='DGlush.1364'>
+	<orig>же</orig>
+	<reg>ЖЕ</reg>
+	<src>ЖЕ</src>
+</w>
+<w xml:id='DGlush.1365'>
+	<orig>сїи</orig>
+	<reg>СИИ</reg>
+	<src>СIИ</src>
+</w>
+<w xml:id='DGlush.1366'>
+	<orig>бра҇ⷮе</orig>
+	<reg>БРА(т)Е</reg>
+	<src>БРА(т)Е</src>
+</w>
+<w xml:id='DGlush.1367'>
+	<orig>съ</orig>
+	<reg>СЪ</reg>
+	<src>СЪ</src>
+</w>
+<w xml:id='DGlush.1368'>
+	<orig>дх҃овныⷨ</orig>
+	<reg>ДХОВНЫ(М)#</reg>
+	<src>ДХОВНЫ(М)#</src>
+</w>
+<w xml:id='DGlush.1369'>
+	<orig>дѣлѡⷨ</orig>
+	<reg>Д+ЛО(М)</reg>
+	<src>Д+ЛW(М)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1370'>,</c>
+						  </l>
+						<l n='16'>
+<w xml:id='DGlush.1371'>
+	<orig>длъжни</orig>
+	<reg>ДЛЪЖНИ</reg>
+	<src>ДЛЪЖНИ</src>
+</w>
+<w xml:id='DGlush.1372'>
+	<orig>сѫ҇ⷮ</orig>
+	<reg>СУ(т)</reg>
+	<src>СG(т)</src>
+</w>
+<w xml:id='DGlush.1373'>
+	<orig>дѣлѡⷨ</orig>
+	<reg>Д+ЛО(М)</reg>
+	<src>Д+ЛW(М)</src>
+</w>
+<w xml:id='DGlush.1374'>
+	<orig>касатисѧ</orig>
+	<reg>КАСАТИСЯ</reg>
+	<src>КАСАТИСR</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1375'>.</c>
+<w xml:id='DGlush.1376'>
+	<orig>съкрѫ<lb/>шенїемь</orig>
+	<reg>СЪКРУШЕНИЕМЬ</reg>
+	<src>СЪКРG&amp;ШЕНIЕМЬ</src>
+</w>
+						  </l>
+						<l n='17'>
+<w xml:id='DGlush.1377'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1378'>
+	<orig>ѹмиленїемь</orig>
+	<reg>УМИЛЕНИЕМЬ</reg>
+	<src>UМИЛЕНIЕМЬ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1379'>.</c>
+<w xml:id='DGlush.1380'>
+	<orig>о</orig>
+	<reg>О</reg>
+	<src>О</src>
+</w>
+<w xml:id='DGlush.1381'>
+	<orig>своемъ</orig>
+	<reg>СВОЕМЪ</reg>
+	<src>СВОЕМЪ</src>
+</w>
+						  </l>
+						<l n='18'>
+<w xml:id='DGlush.1382'>
+	<orig>сп҃сенїи</orig>
+	<reg>СПСЕНИИ#</reg>
+	<src>СПСЕНIИ#</src>
+</w>
+<w xml:id='DGlush.1383'>
+	<orig>печемсѧ</orig>
+	<reg>ПЕЧЕМСЯ</reg>
+	<src>ПЕЧЕМСR</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1384'>.</c>
+<w xml:id='DGlush.1385'>
+	<orig>о</orig>
+	<reg>О</reg>
+	<src>О</src>
+</w>
+<w xml:id='DGlush.1386'>
+	<orig>правдѣ</orig>
+	<reg>ПРАВД+</reg>
+	<src>ПРАВД+</src>
+</w>
+<w xml:id='DGlush.1387'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1388'>
+	<orig>исти<lb/>нѣ</orig>
+	<reg>ИСТИН+</reg>
+	<src>ИСТИ&amp;Н+</src>
+</w>
+						  </l>
+						<l n='19'>
+<w xml:id='DGlush.1389'>
+	<orig>раⷣуще҇ⷭ</orig>
+	<reg>РА(Д)УЩЕ(с)</reg>
+	<src>РА(Д)УЩЕ(с)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1390'>,</c>
+<w xml:id='DGlush.1391'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1392'>
+	<orig>о</orig>
+	<reg>О</reg>
+	<src>О</src>
+</w>
+<w xml:id='DGlush.1393'>
+	<orig>всѣⷯ</orig>
+	<reg>ВС+(Х)</reg>
+	<src>ВС+(Х)</src>
+</w>
+<w xml:id='DGlush.1394'>
+	<orig>бл҃годарѧще</orig>
+	<reg>БЛГОДАРЯЩЕ#</reg>
+	<src>БЛГОДАРRЩЕ#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1395'>.</c>
+<w xml:id='DGlush.1396'>
+	<orig>даже</orig>
+	<reg>ДАЖЕ</reg>
+	<src>ДАЖЕ</src>
+</w>
+						  </l>
+						<l n='20'>
+<w xml:id='DGlush.1397'>
+	<orig>бл҃гоѹгодно</orig>
+	<reg>БЛГОУГОДНО#</reg>
+	<src>БЛГОUГОДНО#</src>
+</w>
+<w xml:id='DGlush.1398'>
+	<orig>поработавше</orig>
+	<reg>ПОРАБОТАВШЕ</reg>
+	<src>ПОРАБОТАВШЕ</src>
+</w>
+<w xml:id='DGlush.1399'>
+	<orig>бѫ҃</orig>
+	<reg>БУ#</reg>
+	<src>БG#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1400'>.</c>
+<w xml:id='DGlush.1401'>
+	<orig>на<pb/>слѣⷣници</orig>
+	<reg>НАСЛ+(Д)НИЦИ</reg>
+	<src>НАZ -68 СЛ+(Д)НИЦИ</src>
+</w>
+						  </l>
+					</div4>
+				</div3>
+			</div2>
+			<div2 type='page' n='68'>
+				<div3 type='back'>
+					<div4 type='col' n='1'>
+						<l n='1'>
+<w xml:id='DGlush.1402'>
+	<orig>бѹдеⷨ</orig>
+	<reg>БУДЕ(М)</reg>
+	<src>БUДЕ(М)</src>
+</w>
+<w xml:id='DGlush.1403'>
+	<orig>вѣчныⷨ</orig>
+	<reg>В+ЧНЫ(М)</reg>
+	<src>В+ЧНЫ(М)</src>
+</w>
+<w xml:id='DGlush.1404'>
+	<orig>благымъ</orig>
+	<reg>БЛАГЫМЪ</reg>
+	<src>БЛАГЫМЪ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1405'>.</c>
+<w xml:id='DGlush.1406'>
+	<orig>мл҃тва</orig>
+	<reg>МЛТВА#</reg>
+	<src>МЛТВА#</src>
+</w>
+						  </l>
+						<l n='2'>
+<w xml:id='DGlush.1407'>
+	<orig>прпⷣбнагѡ</orig>
+	<reg>ПРП(Д)БНАГО</reg>
+	<src>ПРП(Д)БНАГW</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1408'>,</c>
+<w xml:id='DGlush.1409'>
+	<orig>обрѧщемъ</orig>
+	<reg>ОБРЯЩЕМЪ</reg>
+	<src>ОБРRЩЕМЪ</src>
+</w>
+<w xml:id='DGlush.1410'>
+	<orig>бесме<lb/>ртїе</orig>
+	<reg>БЕСМЕРТИЕ</reg>
+	<src>БЕСМЕ&amp;РТIЕ</src>
+</w>
+						  </l>
+						<l n='3'>
+<w xml:id='DGlush.1411'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1412'>
+	<orig>пищꙋ</orig>
+	<reg>ПИЩУ</reg>
+	<src>ПИЩD</src>
+</w>
+<w xml:id='DGlush.1413'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1414'>
+	<orig>наслажⷣе<lb/>нїе</orig>
+	<reg>НАСЛАЖ(Д)ЕНИЕ</reg>
+	<src>НАСЛАЖ(Д)Е&amp;НIЕ</src>
+</w>
+						  </l>
+						<l n='4'>
+<c type='punctuation' xml:id='DGlush.1415'>.</c>
+<w xml:id='DGlush.1416'>
+	<orig>о</orig>
+	<reg>О</reg>
+	<src>О</src>
+</w>
+<name>
+<w xml:id='DGlush.1417'>
+	<orig>х҇ⷭѣ</orig>
+	<reg>*Х(с)+</reg>
+	<src>*Х(с)+</src>
+</w>
+</name>
+<name>
+<w xml:id='DGlush.1418'>
+	<orig>їс҃ѣ</orig>
+	<reg>*ИС+#</reg>
+	<src>*IС+#</src>
+</w>
+</name>
+<w xml:id='DGlush.1419'>
+	<orig>о</orig>
+	<reg>О</reg>
+	<src>О</src>
+</w>
+<w xml:id='DGlush.1420'>
+	<orig>г҇ⷭди</orig>
+	<reg>Г(с)ДИ</reg>
+	<src>Г(с)ДИ</src>
+</w>
+						  </l>
+						<l n='5'>
+<w xml:id='DGlush.1421'>
+	<orig>нш҃емъ</orig>
+	<reg>НШЕМЪ#</reg>
+	<src>НШЕМЪ#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1422'>,</c>
+<w xml:id='DGlush.1423'>
+	<orig>емѫⷤ</orig>
+	<reg>ЕМУ(Ж)</reg>
+	<src>ЕМG(Ж)</src>
+</w>
+						  </l>
+						<l n='6'>
+<w xml:id='DGlush.1424'>
+	<orig>сл҃ва</orig>
+	<reg>СЛВА#</reg>
+	<src>СЛВА#</src>
+</w>
+<w xml:id='DGlush.1425'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1426'>
+	<orig>дръ<lb/>жава</orig>
+	<reg>ДРЪЖАВА</reg>
+	<src>ДРЪ&amp;ЖАВА</src>
+</w>
+						  </l>
+						<l n='7'>
+						  </l>
+						<l n='8'>
+<w xml:id='DGlush.1427'>
+	<orig>ї</orig>
+	<reg>И</reg>
+	<src>I</src>
+</w>
+<w xml:id='DGlush.1428'>
+	<orig>нн҃ѣ</orig>
+	<reg>НН+#</reg>
+	<src>НН+#</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1429'>,</c>
+						  </l>
+						<l n='9'>
+<w xml:id='DGlush.1430'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1431'>
+	<orig>пр҇ⷭно</orig>
+	<reg>ПР(с)НО</reg>
+	<src>ПР(с)НО</src>
+</w>
+<w xml:id='DGlush.1432'>
+	<orig>и</orig>
+	<reg>И</reg>
+	<src>И</src>
+</w>
+<w xml:id='DGlush.1433'>
+	<orig>в</orig>
+	<reg>В</reg>
+	<src>В</src>
+</w>
+<w xml:id='DGlush.1434'>
+	<orig>вѣкы</orig>
+	<reg>В+КЫ</reg>
+	<src>В+КЫ</src>
+</w>
+<w xml:id='DGlush.1435'>
+	<orig>вѣкѡⷨ</orig>
+	<reg>В+КО(М)</reg>
+	<src>В+КW(М)</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1436'>,</c>
+<w xml:id='DGlush.1437'>
+	<orig>аминь</orig>
+	<reg>АМИНЬ</reg>
+	<src>АМИНЬ</src>
+</w>
+<c type='punctuation' xml:id='DGlush.1438'>;</c>
+<w xml:id='DGlush.1439'>
+	<orig>@</orig>
+	<reg>@</reg>
+	<src>@</src>
+</w>
+						  </l>
+					</div4>
+				</div3>
+			</div2>
+		</div1>
+		</text>
+</TEI>
