@@ -1,4 +1,4 @@
-### St. Petersburg corpus of hagiographic texts
+### St. Petersburg Corpus of Hagiographic Texts
 
 Old Church Slavic corpus
 
